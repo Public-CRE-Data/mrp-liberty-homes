@@ -1,0 +1,6 @@
+assumption	value	notes
+NOI margin (share of rent kept after costs)	0.6	covers vacancy, taxes, insurance, management, repairs
+rent growth per year	0.03	
+home price growth per year after year 1	0.03	year 1 uses the Zillow 12-month zip forecast
+selling costs at exit	0.03	share of sale price
+initial lease-up (days with no rent)	0	fixed costs still paid: lose full rent for these days

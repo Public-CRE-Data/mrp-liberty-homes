@@ -58,4 +58,15 @@ Details are in the `starts_*` columns.
 - **Tri Pointe:** [globenewswire.com](https://www.globenewswire.com/news-release/2026/08/13/3344965/0/en/tri-pointe-homes-inc-reports-2026-second-quarter-results.html) (company press release (newswire)); [investors.tripointehomes.com](https://investors.tripointehomes.com/newsroom/press-release-details/2026/Tri-Pointe-Homes-Inc--Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx) (company press release (company website))
 - **Beazer Homes:** [stocktitan.net](https://www.stocktitan.net/news/BZH/beazer-homes-reports-third-quarter-fiscal-2026-9q5vkwjc17j6.html) (company press release (republished by third party)); [ir.beazer.com](https://ir.beazer.com/news-releases/news-release-details/beazer-homes-reports-fourth-quarter-and-full-fiscal-2025-results) (company press release (company website))
 
+## Check our work in Excel
+
+The files are tab-separated text: columns split automatically when pasted, and every cell starting with `=` becomes a live formula. Nothing needs downloading. Needs Excel 2010 or later (365 recommended). Pasted dates and zip codes may change format; that's fine, because it happens on every sheet.
+
+1. Open a **new, blank Excel workbook** and create 1 sheet named exactly **`table`**. The formulas refer to these names.
+2. On GitHub open [`check_table.tsv`](check_table.tsv), click **Raw**, press **Ctrl+A** then **Ctrl+C**, click cell **A1** on the **`table`** sheet and press **Ctrl+V**.
+3. Wait a few seconds for Excel to finish calculating.
+4. **Check:** every cell in the **check** column should be **0**. A 0 means Excel's formula reproduces our number exactly.
+
+The last row totals the builders reporting both years (deliveries **−5.3%**) and the guidance midpoints vs. FY2025 (**−3.1%**). The unit counts are as reported by each company; only percentages and totals are calculated.
+
 [← Back to the main page](../README.md)

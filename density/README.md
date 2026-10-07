@@ -6,7 +6,7 @@ Are MRP Liberty's homes in denser or more outlying areas than other single-famil
 
 | Portfolio | Properties | Median density (people per sq mi) | Median percentile in metro | % in least dense quarter |
 |---|---|---|---|---|
-| MRP Liberty | 941 | 368 | **22** | 54% |
+| MRP Liberty | 1,008 | 364 | **23** | 52% |
 | Lennar community | 1,376 | 584 | **24** | 51% |
 | Invitation Homes | 3,461 | 1,887 | **42** | 29% |
 | AMH | 3,361 | 1,154 | **33** | 36% |
@@ -22,10 +22,10 @@ Are MRP Liberty's homes in denser or more outlying areas than other single-famil
 | Myrtle Beach-Conway-North Myrtle Beach, SC-NC | 78 | 47 |  |  |
 | Raleigh-Cary, NC | 25 | 34 | 35 | 31 |
 | Austin-Round Rock-Georgetown, TX | 30 | 27 | 12 | 36 |
+| Sherman-Denison, TX | 46 | 46 |  |  |
 | Daphne-Fairhope-Foley, AL | 41 | 41 |  |  |
 | Little Rock-North Little Rock-Conway, AR | 9 | 34 |  |  |
 | Columbia, SC | 18 | 19 |  |  |
-| Fayetteville-Springdale-Rogers, AR | 13 | 36 |  |  |
 | Warner Robins, GA | 15 | 25 |  |  |
 
 - **Texas:** MRP's ranking is almost identical to Lennar's communities in Houston, Dallas–Fort Worth and San Antonio. MRP's homes reflect where Lennar builds, not a worse-than-typical slice.

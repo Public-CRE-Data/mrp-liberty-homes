@@ -1,40 +1,57 @@
 # MRP Liberty homes: Lennar homes bought by Millrose's MRP Liberty LLC
 
-Home-level data on the finished Lennar homes that **MRP Liberty LLC** (a subsidiary of Millrose Properties, Inc.) bought from Lennar entities in Aug–Oct 2026, with purchase prices, last asking prices, time on market, comparable sales and asking rents.
+Data on the finished Lennar homes that **MRP Liberty LLC** (a subsidiary of Millrose Properties, Inc.) bought in Aug–Oct 2026: purchase prices, last asking prices, time on market, comparable sales, asking rents, Zillow price outlook, location density and investment returns. Every headline number can be **rebuilt in Excel by copy and paste**, with live formulas and check columns.
 
-Snapshot: **2026-10-04** (Zillow data added 2026-10-05, Zillow base month Aug 2026). 1,034 homes in 15 states.
+Snapshot: **2026-10-07**. Zillow data: base month Aug 2026.
 
-## What's here
+## What we found
 
-| Folder / file | What it is | Details |
+We identified **1,041 properties** deeded to MRP Liberty LLC in public county records (Aug–Oct 2026), almost all bought from Lennar entities. **983** are advertised for rent as single-family homes by its property manager, Evergreen Live.
+
+| Evidence | Properties | How solid |
 |---|---|---|
-| `mrp_liberty_homes.csv` | One row per home (1,034): address, deed and price, last list price, days on market, comps, asking rent, Zillow forecast | Column notes below |
-| `summary_by_state.csv` | State totals and medians, plus an `ALL` row | |
-| `mrp_vs_slate_same_house_type.csv` | MRP vs. Slate (another institutional buyer of Lennar homes), same community and house type | |
-| [`zillow/`](zillow/) | Zillow home values (indexed) and price forecasts for MRP's zip codes vs. the US | [zillow/README.md](zillow/README.md) |
-| [`density/`](density/) | Zip-code population density of MRP's homes vs. Lennar's communities, Invitation Homes and AMH, with copy-paste Excel files | [density/README.md](density/README.md) |
-| [`homebuilders/`](homebuilders/) | 2026 vs. 2025 deliveries and starts for 14 public homebuilders | [homebuilders/README.md](homebuilders/README.md) |
+| Deeded to MRP Liberty LLC in county records | **1,041** | 1,026 with an MRP Liberty deed seen; 15 with MRP Liberty as owner of record (deed not seen) |
+| ...bought from a Lennar entity | 1,024 | 2 bought from other sellers |
+| ...deed matched to the exact address | 693 | Strongest tier ("A") |
+| Advertised for rent as single-family homes (Evergreen Live) | **983** | Strong evidence of finished homes, not land |
+| No rental listing, but a home-level price ($173,000+) | 18 | Very likely homes |
+| No rental listing and no price | 40 | Probably homes (same subdivisions, same Lennar seller), not proven |
 
 ## Headline numbers
 
 | Measure | Result |
 |---|---|
-| Homes identified | 1,034 (500 with a recorded purchase price) |
-| MRP price vs. last asking price | median **−2.8%**, mean −1.6% (289 homes) |
-| Days listed for sale before the MRP deed | median **86 days** (229 homes) |
-| MRP price vs. same-community comparable sales | **−1.2%** in aggregate (399 homes) |
-| MRP vs. Slate, same house type | MRP median −1.9% vs. Slate (7 matched homes; small sample) |
-| Homes with an asking rent | 873 |
-| Zillow 12-month home price forecast, MRP zip codes (value-weighted) | **+0.3%** vs. +1.4% for the US (Aug 2026 to Aug 2027) |
-| Population density of MRP zip codes, rank within metro | median **22nd** percentile vs. 24th for Lennar communities, 42nd for Invitation Homes, 33rd for AMH |
+| Properties identified | 1,041 (500 with a recorded purchase price) |
+| Estimated total spent by MRP Liberty | ≈ $280 million (recorded prices plus estimates where prices aren't public; see [zillow/README.md](zillow/README.md) for the method) |
+| MRP price vs. last asking price | median **-2.8%**, mean -1.6% (289 homes) |
+| Days listed for sale before the MRP deed | median **86 days** (233 homes) |
+| MRP price vs. same-community comparable sales | **-0.6%** in aggregate (378 homes) |
+| Advertised for rent | 983 homes, average $1,861/month; average gross yield 8.1% |
+| Zillow 12-month home price forecast, MRP zip codes | **+0.3%** (value-weighted) vs. +1.4% for the US |
+| Unlevered IRR (60% NOI margin, 3% growth, 3% selling costs) | **2.2%** over 1 year, **6.0%** over 3, **6.7%** over 5 |
+| Population density of MRP zip codes, rank within metro | median **23rd** percentile vs. 24th for Lennar communities, 42nd for Invitation Homes, 33rd for AMH |
+
+## What's here
+
+| Folder / file | What it is | Check it in Excel |
+|---|---|---|
+| `mrp_liberty_homes.csv` | One row per property (1,041) with all fields; column notes below | via [headline/](headline/) |
+| `summary_by_state.csv` | State totals and medians, plus an `ALL` row | via [headline/](headline/) |
+| `mrp_vs_slate_same_house_type.csv` | MRP vs. Slate (another institutional buyer of Lennar homes), same community and house type | |
+| [`headline/`](headline/) | Copy-paste rebuild of the headline numbers by state | [headline/README.md](headline/README.md) |
+| [`zillow/`](zillow/) | Zillow home values (indexed) and price forecasts for MRP's zip codes vs. the US | [zillow/README.md](zillow/README.md) |
+| [`irr/`](irr/) | 1–5 year unlevered IRRs per home and for the portfolio, with editable assumptions | [irr/README.md](irr/README.md) |
+| [`density/`](density/) | Zip-code population density vs. Lennar's communities, Invitation Homes and AMH | [density/README.md](density/README.md) |
+| [`homebuilders/`](homebuilders/) | 2026 vs. 2025 deliveries and starts for 14 public homebuilders | [homebuilders/README.md](homebuilders/README.md) |
 
 ## Column notes: `mrp_liberty_homes.csv`
 
+- **deed_record_date / deed_date_note:** the deed's recording date (YYYY-MM-DD); where the county index shows more than one date, the full text is in `deed_date_note`.
 - **mrp_price:** from county deed records (stated consideration, deed stamps or assessor sale price; method in `price_source`). **Texas does not disclose sale prices**, so Texas homes have none.
 - **evidence:** how the home was tied to MRP Liberty. A = deed seen and matched to the address; B = deed seen, address matched within a batch or not yet resolved; C = weaker evidence.
 - **last_list_price / last_list_date:** the last asking price before the home went pending, sold or off market, from MLS price histories (mostly realtor.com price history, plus movoto.com, local MLS broker sites and dated Lennar builder listings). A sale price is never used as a list price, and entries posted at exactly MRP's price after the sale are excluded.
 - **list_price_quality:** `one_source`, `two_sources` (two independent sites agree) or `resolved_by_date` (two sites disagreed; the most recent was used).
-- **first_list_date / days_listed_before_mrp_deed:** first date the home was offered for sale within the 12 months before the deed, ignoring brief pre-construction listings that came down within 7 days. Days are counted to the deed record date.
+- **first_list_date / days_listed_before_mrp_deed:** first date the home was offered for sale within the 12 months before the deed, ignoring brief pre-construction listings that came down within 7 days. Days = `deed_record_date` − `first_list_date`.
 - **mrp_vs_last_list_pct:** MRP price ÷ last list price − 1. Negative means MRP paid below the last asking price.
 - **comp_value / mrp_vs_comp_pct:** value from Lennar sales to individual buyers in the same community (same plan size where available); `comp_basis` gives the method.
 - **asking_rent:** advertised monthly rent on the property manager's public rental listings (Evergreen Live). These are **asking** rents, not signed leases.
@@ -46,7 +63,7 @@ Snapshot: **2026-10-04** (Zillow data added 2026-10-05, Zillow base month Aug 20
 
 ## Caveats
 
-- **Coverage.** Not every MRP purchase may be found. Some deeds recorded in early October 2026 are known only by lot and block (`address` says "lot only").
+- **Coverage.** These are the properties we could find in public deed records. Purchases recorded after early October, and counties whose records need a login or CAPTCHA, aren't included, so the true total is likely somewhat higher. 33 deeds are still known only by lot and block (`address` says "lot only").
 - **List prices are missing for many homes.** Homes sold before reaching the public MLS have no listing history.
 - **Outliers.** About 17 homes show MRP paying more than 10% above the last asking price. Some are probably a different builder's listing at the same address, so the **median** is the more reliable figure.
 - **Small samples in some states.** The Slate comparison rests on 7 matched homes.
