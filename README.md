@@ -6,6 +6,8 @@ Snapshot: **2026-10-04** (Zillow data added 2026-10-05, Zillow base month Aug 20
 
 ## Files
 
+**Zillow home values and forecast for MRP's zip codes:** chart and data in [`zillow/`](zillow/). The indexed history plus forecast is [`zillow/home_value_index_mrp_vs_us.csv`](zillow/home_value_index_mrp_vs_us.csv); the forecast by state and metro is [`zillow/hpa_forecast_summary.csv`](zillow/hpa_forecast_summary.csv).
+
 | File | What it is |
 |---|---|
 | `mrp_liberty_homes.csv` | One row per home (1,034 rows). |
@@ -68,7 +70,7 @@ By state, Zillow's 12-month forecast is weakest for Texas (−0.9%, 30% of value
 | File | What it is |
 |---|---|
 | `zillow/hpa_forecast_summary.csv` | Value-weighted 1-, 3- and 12-month forecasts: all homes, US benchmark, by state, by metro. Also the equal-weighted average, min/max, and share of value with a negative forecast. |
-| `zillow/home_value_index_mrp_vs_us.csv` | Monthly index, Jan 2000 to Aug 2026 (Jan 2020 = 100): MRP-weighted zip codes vs. Zillow's US index, plus the US dollar value and how many MRP zips had data each month. |
+| `zillow/home_value_index_mrp_vs_us.csv` | Monthly index, Jan 2000 to Aug 2026 (Jan 2020 = 100): MRP-weighted zip codes vs. Zillow's US index, plus the US dollar value and how many MRP zips had data each month. The last row is Zillow's forecast for Aug 2027 (`type` column marks actual vs. forecast). |
 | `zillow/home_value_index_mrp_vs_us.png` | The chart above. |
 | `zillow/zip_weights_and_forecasts.csv` | The 506 zip codes used: MRP homes, dollar weight, weight share, latest Zillow home value and Zillow forecasts. |
 | `zillow/zhvi_sfr_monthly_mrp_zips.csv` | Zillow's monthly single-family home value series for those 506 zips, Jan 2000 to Aug 2026 (input to the index). |
