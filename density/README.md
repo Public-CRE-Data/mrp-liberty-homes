@@ -6,7 +6,7 @@ Are MRP Liberty's homes in denser or more outlying areas than other single-famil
 
 | Portfolio | Properties | Median density (people per sq mi) | Median percentile in metro | % in least dense quarter |
 |---|---|---|---|---|
-| MRP Liberty | 1,008 | 364 | **23** | 52% |
+| MRP Liberty | 1,006 | 364 | **23** | 52% |
 | Lennar community | 1,376 | 584 | **24** | 51% |
 | Invitation Homes | 3,461 | 1,887 | **42** | 29% |
 | AMH | 3,361 | 1,154 | **33** | 36% |

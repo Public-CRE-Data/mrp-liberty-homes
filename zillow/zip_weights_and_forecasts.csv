@@ -1,21 +1,21 @@
 zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_latest_usd,zhvi_month,fc_1m_pct,fc_3m_pct,fc_12m_pct
-75407,Princeton,Collin County,TX,"Dallas-Fort Worth-Arlington, TX",50.0,13896731,4.817,282665,2026-08-31,-0.3,-0.4,-0.9
+75407,Princeton,Collin County,TX,"Dallas-Fort Worth-Arlington, TX",50.0,13896731,4.816,282665,2026-08-31,-0.3,-0.4,-0.9
 75092,Sherman,Grayson County,TX,"Sherman-Denison, TX",21.0,6140091,2.128,285946,2026-08-31,-0.3,-0.8,-2.9
 29588,Myrtle Beach,Horry County,SC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",22.0,6045725,2.095,337270,2026-08-31,0.1,0.2,1.0
 77532,Crosby,Harris County,TX,"Houston-The Woodlands-Sugar Land, TX",24.0,5913219,2.049,263179,2026-08-31,-0.1,0.0,-0.1
 34476,Ocala,Marion County,FL,"Ocala, FL",21.13,5623487,1.949,293513,2026-08-31,-0.1,-0.2,-1.9
 28610,Claremont,Catawba County,NC,"Hickory-Lenoir-Morganton, NC",18.0,5581000,1.934,262350,2026-08-31,0.2,1.0,1.2
-36535,Foley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",16.0,4929738,1.709,304078,2026-08-31,0.2,0.9,0.9
+36535,Foley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",16.0,4929738,1.708,304078,2026-08-31,0.2,0.9,0.9
 29054,Gilbert,Lexington County,SC,"Columbia, SC",19.0,4853839,1.682,338870,2026-08-31,0.4,1.1,1.5
 78130,New Braunfels,Comal County,TX,"San Antonio-New Braunfels, TX",20.0,4816176,1.669,304179,2026-08-31,0.0,-0.1,-0.7
 31069,Perry,Houston County,GA,"Warner Robins, GA",16.0,4798039,1.663,277445,2026-08-31,0.3,0.8,3.2
 77515,Angleton,Brazoria County,TX,"Houston-The Woodlands-Sugar Land, TX",16.0,4678164,1.621,245615,2026-08-31,-0.1,0.3,0.0
-78634,Hutto,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",16.0,4597847,1.594,329945,2026-08-31,-0.1,-0.3,-2.0
+78634,Hutto,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",16.0,4597847,1.593,329945,2026-08-31,-0.1,-0.3,-2.0
 28469,Ocean Isle Beach,Brunswick County,NC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",13.0,4523500,1.568,556670,2026-08-31,0.0,-0.1,1.1
-74804,Shawnee,Pottawatomie County,OK,"Shawnee, OK",18.0,4122582,1.429,228887,2026-08-31,0.1,0.3,3.0
 29501,Florence,Florence County,SC,"Florence, SC",15.0,3975160,1.378,245235,2026-08-31,0.1,0.5,1.8
+74804,Shawnee,Pottawatomie County,OK,"Shawnee, OK",16.29,3728480,1.292,228887,2026-08-31,0.1,0.3,3.0
 32908,Palm Bay,Brevard County,FL,"Palm Bay-Melbourne-Titusville, FL",11.0,3646691,1.264,318059,2026-08-31,0.0,0.2,-0.5
-29745,York,York County,SC,"Charlotte-Concord-Gastonia, NC-SC",13.0,3622720,1.256,352627,2026-08-31,-0.3,0.2,0.4
+29745,York,York County,SC,"Charlotte-Concord-Gastonia, NC-SC",13.0,3622720,1.255,352627,2026-08-31,-0.3,0.2,0.4
 30044,Lawrenceville,Gwinnett County,GA,"Atlanta-Sandy Springs-Alpharetta, GA",10.0,3462953,1.2,358350,2026-08-31,0.0,0.4,0.6
 36580,Summerdale,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",10.0,3225537,1.118,290357,2026-08-31,0.3,1.2,1.1
 32615,Alachua,Alachua County,FL,"Gainesville, FL",12.0,3198700,1.109,330064,2026-08-31,-0.3,-0.3,-1.8
@@ -26,8 +26,8 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 75090,Sherman,Grayson County,TX,"Sherman-Denison, TX",10.0,2923853,1.013,206753,2026-08-31,-0.4,-0.7,-3.4
 77328,Cleveland,San Jacinto County,TX,"Houston-The Woodlands-Sugar Land, TX",13.0,2890496,1.002,264373,2026-08-31,-0.2,0.1,0.0
 27571,Rolesville,Wake County,NC,"Raleigh-Cary, NC",8.0,2626500,0.91,496729,2026-08-31,0.1,0.1,-0.2
-34432,Dunnellon,Marion County,FL,"Ocala, FL",8.12,2612673,0.906,301823,2026-08-31,0.1,0.1,-1.6
-27330,Sanford,Lee County,NC,"Sanford, NC",8.0,2612585,0.906,289778,2026-08-31,0.1,0.8,1.0
+34432,Dunnellon,Marion County,FL,"Ocala, FL",8.12,2612673,0.905,301823,2026-08-31,0.1,0.1,-1.6
+27330,Sanford,Lee County,NC,"Sanford, NC",8.0,2612585,0.905,289778,2026-08-31,0.1,0.8,1.0
 78112,Elmendorf,Bexar County,TX,"San Antonio-New Braunfels, TX",16.03,2465420,0.854,227571,2026-08-31,-0.2,-0.1,-0.5
 77484,Waller,Harris County,TX,"Houston-The Woodlands-Sugar Land, TX",8.0,2426907,0.841,353605,2026-08-31,-0.1,-0.1,0.0
 29325,Clinton,Laurens County,SC,"Greenville-Anderson, SC",12.0,2305485,0.799,176794,2026-08-31,-0.5,0.2,0.5
@@ -38,9 +38,9 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 33917,North Fort Myers,Lee County,FL,"Cape Coral-Fort Myers, FL",9.0,2062594,0.715,305218,2026-08-31,0.0,0.1,-1.1
 23223,Richmond,Henrico County,VA,"Richmond, VA",4.0,2040242,0.707,300903,2026-08-31,0.3,0.9,2.1
 29483,Summerville,Dorchester County,SC,"Charleston-North Charleston, SC",8.0,1997273,0.692,362006,2026-08-31,0.0,0.3,1.1
-37323,Cleveland,Bradley County,TN,"Cleveland, TN",6.0,1986624,0.689,301557,2026-08-31,0.0,0.2,0.7
+37323,Cleveland,Bradley County,TN,"Cleveland, TN",6.0,1986624,0.688,301557,2026-08-31,0.0,0.2,0.7
 30620,Bethlehem,Barrow County,GA,"Atlanta-Sandy Springs-Alpharetta, GA",5.0,1971276,0.683,363177,2026-08-31,0.0,0.2,0.8
-32257,Jacksonville,Duval County,FL,"Jacksonville, FL",7.0,1946102,0.675,358619,2026-08-31,0.2,0.7,0.6
+32257,Jacksonville,Duval County,FL,"Jacksonville, FL",7.0,1946102,0.674,358619,2026-08-31,0.2,0.7,0.6
 31093,Warner Robins,Houston County,GA,"Warner Robins, GA",7.0,1931397,0.669,168716,2026-08-31,0.4,1.2,3.7
 32583,Milton,Santa Rosa County,FL,"Pensacola-Ferry Pass-Brent, FL",7.0,1864893,0.646,290999,2026-08-31,0.1,0.4,0.8
 72011,Bauxite,Saline County,AR,"Little Rock-North Little Rock-Conway, AR",9.0,1835567,0.636,251144,2026-08-31,0.4,0.9,2.3
@@ -53,7 +53,7 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 30241,Lagrange,Troup County,GA,"LaGrange, GA-AL",6.0,1690831,0.586,226340,2026-08-31,0.2,0.7,2.7
 32439,Freeport,Walton County,FL,"Crestview-Fort Walton Beach-Destin, FL",5.0,1646742,0.571,390909,2026-08-31,-0.1,-0.1,0.1
 19904,Dover,Kent County,DE,"Dover, DE",5.0,1635756,0.567,349272,2026-08-31,0.5,1.3,2.4
-36551,Loxley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",5.0,1634590,0.567,283589,2026-08-31,0.2,0.9,0.9
+36551,Loxley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",5.0,1634590,0.566,283589,2026-08-31,0.2,0.9,0.9
 35044,Childersburg,Talladega County,AL,"Talladega-Sylacauga, AL",7.14,1595834,0.553,167712,2026-08-31,0.2,1.2,1.5
 37421,Chattanooga,Hamilton County,TN,"Chattanooga, TN-GA",5.0,1594941,0.553,364706,2026-08-31,0.0,0.2,-0.1
 30605,Athens,Clarke County,GA,"Athens-Clarke County, GA",4.0,1592703,0.552,346444,2026-08-31,0.2,0.5,2.0
@@ -62,13 +62,13 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 29388,Woodruff,Spartanburg County,SC,"Spartanburg, SC",6.0,1558694,0.54,290329,2026-08-31,0.1,0.6,0.8
 27591,Wendell,Wake County,NC,"Raleigh-Cary, NC",4.0,1535500,0.532,367378,2026-08-31,-0.1,0.1,-0.2
 34479,Ocala,Marion County,FL,"Ocala, FL",6.13,1494659,0.518,234270,2026-08-31,-0.2,-0.1,-2.1
-55024,Farmington,Dakota County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",4.0,1464295,0.508,406875,2026-08-31,0.2,0.6,0.7
+55024,Farmington,Dakota County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",4.0,1464295,0.507,406875,2026-08-31,0.2,0.6,0.7
 73044,Guthrie,Logan County,OK,"Oklahoma City, OK",6.0,1448721,0.502,260396,2026-08-31,0.0,-0.1,1.8
 34473,Ocala,Marion County,FL,"Ocala, FL",5.13,1446140,0.501,264765,2026-08-31,-0.2,-0.4,-2.1
 73089,Tuttle,Grady County,OK,"Oklahoma City, OK",6.0,1405024,0.487,328224,2026-08-31,0.0,-0.2,1.5
 72065,Hensley,Saline County,AR,"Little Rock-North Little Rock-Conway, AR",7.0,1399483,0.485,247321,2026-08-31,0.3,0.8,2.2
 73034,Edmond,Oklahoma County,OK,"Oklahoma City, OK",5.0,1377000,0.477,422354,2026-08-31,0.3,0.5,1.6
-55387,Waconia,Carver County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",3.0,1374843,0.477,464478,2026-08-31,0.4,0.8,0.9
+55387,Waconia,Carver County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",3.0,1374843,0.476,464478,2026-08-31,0.4,0.8,0.9
 78410,Corpus Christi,Nueces County,TX,"Corpus Christi, TX",5.0,1364682,0.473,240637,2026-08-31,0.1,0.3,0.0
 72713,Bentonville,Benton County,AR,"Fayetteville-Springdale-Rogers, AR",5.0,1356709,0.47,451369,2026-08-31,0.1,0.2,1.3
 31047,Kathleen,Houston County,GA,"Warner Robins, GA",4.0,1304500,0.452,360093,2026-08-31,0.3,0.8,3.0
@@ -211,6 +211,12 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 72113,Maumelle,Pulaski County,AR,"Little Rock-North Little Rock-Conway, AR",1.0,205139,0.071,305554,2026-08-31,0.2,0.5,1.8
 72106,Mayflower,Faulkner County,AR,"Little Rock-North Little Rock-Conway, AR",1.0,204420,0.071,222832,2026-08-31,0.4,1.0,2.5
 78245,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",1.03,183251,0.064,256495,2026-08-31,0.0,0.1,-0.6
+74801,Shawnee,Pottawatomie County,OK,"Shawnee, OK",0.29,70721,0.025,136672,2026-08-31,0.1,0.9,3.2
+74873,Pink,Pottawatomie County,OK,"Shawnee, OK",0.29,70721,0.025,170925,2026-08-31,0.0,0.4,3.0
+74851,McLoud,Pottawatomie County,OK,"Shawnee, OK",0.29,70721,0.025,234613,2026-08-31,0.2,0.6,2.9
+74878,Wanette,Pottawatomie County,OK,"Shawnee, OK",0.29,70721,0.025,218420,2026-08-31,0.3,1.0,3.6
+74852,Macomb,Pottawatomie County,OK,"Shawnee, OK",0.29,70721,0.025,217656,2026-08-31,-0.1,0.5,2.7
+74826,Asher,Pottawatomie County,OK,"Shawnee, OK",0.29,70721,0.025,186076,2026-08-31,0.2,1.0,3.3
 34472,Ocala,Marion County,FL,"Ocala, FL",0.12,32709,0.011,237817,2026-08-31,-0.1,-0.2,-2.1
 34491,Summerfield,Marion County,FL,"Ocala, FL",0.12,32709,0.011,282040,2026-08-31,-0.2,-0.5,-2.0
 34481,Ocala,Marion County,FL,"Ocala, FL",0.12,32709,0.011,277980,2026-08-31,0.0,-0.1,-1.9

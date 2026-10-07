@@ -6,16 +6,17 @@ Snapshot: **2026-10-07**. Zillow data: base month Aug 2026.
 
 ## What we found
 
-We identified **1,041 properties** deeded to MRP Liberty LLC in public county records (Aug–Oct 2026), almost all bought from Lennar entities. **983** are advertised for rent as single-family homes by its property manager, Evergreen Live.
+We identified **1,041 properties** deeded to MRP Liberty LLC in public county records (Aug–Oct 2026), almost all bought from Lennar entities. **981** are advertised for rent as single-family homes by its property manager, Evergreen Live; for **911** of those, MRP ownership and the rental listing are verified at the exact address or parcel.
 
 | Evidence | Properties | How solid |
 |---|---|---|
 | Deeded to MRP Liberty LLC in county records | **1,041** | 1,026 with an MRP Liberty deed seen; 15 with MRP Liberty as owner of record (deed not seen) |
-| ...bought from a Lennar entity | 1,024 | 2 bought from other sellers |
-| ...deed matched to the exact address | 693 | Strongest tier ("A") |
-| Advertised for rent as single-family homes (Evergreen Live) | **983** | Strong evidence of finished homes, not land |
-| No rental listing, but a home-level price ($173,000+) | 18 | Very likely homes |
-| No rental listing and no price | 40 | Probably homes (same subdivisions, same Lennar seller), not proven |
+| ...bought from a Lennar entity | 1,024 | 983 with the deed seen; 41 inferred from Lennar as prior owner in the title chain. 2 bought from other sellers |
+| **Rental listing linked: verified** | **911** | 670 exact deed address (+8 with a hand-checked spelling difference), 175 county parcel matches (block/lot or parcel ID to address), 58 with MRP Liberty as owner of record at the listing's address |
+| Rental listing linked: moderate | 70 | Deed seen, but the address was assigned within a batch of deeds (e.g. 13 in Brunswick County NC) |
+| No rental listing matched | 60 | 18 have a home-level recorded price ($173,000+); the rest are lot-only deeds or not yet listed |
+
+Every property's `link_quality` and `seller_basis` are in [`mrp_liberty_homes.csv`](mrp_liberty_homes.csv), so you can filter to any tier.
 
 ## Headline numbers
 
@@ -26,7 +27,7 @@ We identified **1,041 properties** deeded to MRP Liberty LLC in public county re
 | MRP price vs. last asking price | median **-2.8%**, mean -1.6% (289 homes) |
 | Days listed for sale before the MRP deed | median **86 days** (233 homes) |
 | MRP price vs. same-community comparable sales | **-0.6%** in aggregate (378 homes) |
-| Advertised for rent | 983 homes, average $1,861/month; average gross yield 8.1% |
+| Advertised for rent | 981 homes, average $1,861/month; average gross yield 8.1% |
 | Zillow 12-month home price forecast, MRP zip codes | **+0.3%** (value-weighted) vs. +1.4% for the US |
 | Unlevered IRR (60% NOI margin, 3% growth, 3% selling costs) | **2.2%** over 1 year, **6.0%** over 3, **6.7%** over 5 |
 | Population density of MRP zip codes, rank within metro | median **23rd** percentile vs. 24th for Lennar communities, 42nd for Invitation Homes, 33rd for AMH |
@@ -54,6 +55,8 @@ We identified **1,041 properties** deeded to MRP Liberty LLC in public county re
 - **first_list_date / days_listed_before_mrp_deed:** first date the home was offered for sale within the 12 months before the deed, ignoring brief pre-construction listings that came down within 7 days. Days = `deed_record_date` − `first_list_date`.
 - **mrp_vs_last_list_pct:** MRP price ÷ last list price − 1. Negative means MRP paid below the last asking price.
 - **comp_value / mrp_vs_comp_pct:** value from Lennar sales to individual buyers in the same community (same plan size where available); `comp_basis` gives the method.
+- **link_quality:** how the rental listing was tied to the deed: `verified: exact address`, `verified: county parcel match`, `verified: MRP owner of record at address`, `moderate: address assigned within a batch of deeds`, or `no rental listing matched`. Probable matches are never used.
+- **seller_basis:** `deed seen (Lennar seller)`, `Lennar inferred from prior owner in title chain`, `owner of record only (deed not seen)` or `deed seen (non-Lennar seller)`.
 - **asking_rent:** advertised monthly rent on the property manager's public rental listings (Evergreen Live). These are **asking** rents, not signed leases.
 - **gross_yield_pct:** asking rent × 12 ÷ MRP price.
 - **zillow_fc_1m_pct / zillow_fc_3m_pct / zillow_fc_12m_pct:** Zillow's forecast % change in typical home value for the home's zip code (or its metro if the zip has no forecast) over 1, 3 and 12 months from Aug 31, 2026. `zillow_forecast_source` says which.
