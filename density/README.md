@@ -43,17 +43,27 @@ Are MRP Liberty's homes in denser or more outlying areas than other single-famil
 
 ## Check our work in Excel (copy and paste, about 5 minutes)
 
-The three files in this folder are tab-separated text. When you paste them into Excel, columns split automatically, and every formula (any cell starting with `=`) becomes a live Excel formula. Nothing needs to be downloaded.
+The files in this folder are tab-separated text. When you paste them into Excel, columns split automatically, and every formula (any cell starting with `=`) becomes a live Excel formula. Nothing needs to be downloaded.
 
 1. Open a **new, blank Excel workbook**.
 2. Rename the first sheet **`zips`**, then add two more sheets named **`homes`** and **`summary`**. The names must match exactly, because the formulas refer to them.
 3. On GitHub, open [`1_zips.tsv`](1_zips.tsv) and click **Raw** (top right of the file).
 4. Press **Ctrl+A** (select all), then **Ctrl+C** (copy).
 5. In Excel, click cell **A1** on the **`zips`** sheet and press **Ctrl+V**.
-6. Repeat steps 3–5 for [`2_homes.tsv`](2_homes.tsv) into the **`homes`** sheet, then [`3_summary.tsv`](3_summary.tsv) into the **`summary`** sheet.
-7. Wait a few seconds for Excel to finish calculating. The bottom bar shows "Calculating" while it works.
-8. **Check:** in the `homes` sheet, columns **K** and **L** should all show **0**, and in `summary`, column **K** should show **0** (blank where a portfolio has no properties in that metro). A 0 means Excel's formula gives exactly the same number as our analysis.
-9. **Results:** scroll down the `summary` sheet. **Table 1** (from row 55) and **Table 2** (from row 61) rebuild the tables shown at the top of this section, calculated live from the pasted data.
+6. Paste the homes list into the **`homes`** sheet. It's split into 4 files to stay under 1 MB each. Paste each part at the cell shown, so the rows line up:
+
+   | File | Click this cell on `homes`, then Ctrl+V |
+   |---|---|
+   | [`2_homes_part1.tsv`](2_homes_part1.tsv) | **A1** |
+   | [`2_homes_part2.tsv`](2_homes_part2.tsv) | **A2437** |
+   | [`2_homes_part3.tsv`](2_homes_part3.tsv) | **A4848** |
+   | [`2_homes_part4.tsv`](2_homes_part4.tsv) | **A7254** |
+
+   To jump to a cell, type it (e.g. `A2437`) in the **Name Box** left of the formula bar and press **Enter**. Only part 1 has a header row.
+7. Paste [`3_summary.tsv`](3_summary.tsv) into cell **A1** of the **`summary`** sheet.
+8. Wait a few seconds for Excel to finish calculating. The bottom bar shows "Calculating" while it works.
+9. **Check:** in the `homes` sheet, columns **K** and **L** should all show **0**, and in `summary`, column **K** should show **0** (blank where a portfolio has no properties in that metro). A 0 means Excel's formula gives exactly the same number as our analysis.
+10. **Results:** scroll down the `summary` sheet. **Table 1** (from row 55) and **Table 2** (from row 61) rebuild the tables shown at the top of this section, calculated live from the pasted data.
 
 If Excel turns pasted zip codes into numbers (for example `08001` into `8001`), that's fine: it happens on every sheet, so the lookups still match.
 
