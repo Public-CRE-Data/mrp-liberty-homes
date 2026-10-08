@@ -1,6 +1,6 @@
 hold (years)	CF0 (sum of all homes)	CF1	CF2	CF3	CF4	CF5	portfolio IRR %	ours	check (0 = match)	median home IRR %
-1	=SUM(homes!H$2:H$483)	=SUM(homes!I$2:I$483)					=100*IRR(B2:C2)	2.244	=ROUND(H2-I2,2)	=MEDIAN(homes!J$2:J$483)
-2	=SUM(homes!K$2:K$483)	=SUM(homes!L$2:L$483)	=SUM(homes!M$2:M$483)				=100*IRR(B3:D3)	5.032	=ROUND(H3-I3,2)	=MEDIAN(homes!N$2:N$483)
-3	=SUM(homes!O$2:O$483)	=SUM(homes!P$2:P$483)	=SUM(homes!Q$2:Q$483)	=SUM(homes!R$2:R$483)			=100*IRR(B4:E4)	5.9775	=ROUND(H4-I4,2)	=MEDIAN(homes!S$2:S$483)
-4	=SUM(homes!T$2:T$483)	=SUM(homes!U$2:U$483)	=SUM(homes!V$2:V$483)	=SUM(homes!W$2:W$483)	=SUM(homes!X$2:X$483)		=100*IRR(B5:F5)	6.453	=ROUND(H5-I5,2)	=MEDIAN(homes!Y$2:Y$483)
-5	=SUM(homes!Z$2:Z$483)	=SUM(homes!AA$2:AA$483)	=SUM(homes!AB$2:AB$483)	=SUM(homes!AC$2:AC$483)	=SUM(homes!AD$2:AD$483)	=SUM(homes!AE$2:AE$483)	=100*IRR(B6:G6)	6.7389	=ROUND(H6-I6,2)	=MEDIAN(homes!AF$2:AF$483)
+1	=SUM(homes!H$2:H$507)	=SUM(homes!I$2:I$507)					=100*IRR(B2:C2)	2.3357	=ROUND(H2-I2,2)	=MEDIAN(homes!J$2:J$507)
+2	=SUM(homes!K$2:K$507)	=SUM(homes!L$2:L$507)	=SUM(homes!M$2:M$507)				=100*IRR(B3:D3)	5.0896	=ROUND(H3-I3,2)	=MEDIAN(homes!N$2:N$507)
+3	=SUM(homes!O$2:O$507)	=SUM(homes!P$2:P$507)	=SUM(homes!Q$2:Q$507)	=SUM(homes!R$2:R$507)			=100*IRR(B4:E4)	6.0234	=ROUND(H4-I4,2)	=MEDIAN(homes!S$2:S$507)
+4	=SUM(homes!T$2:T$507)	=SUM(homes!U$2:U$507)	=SUM(homes!V$2:V$507)	=SUM(homes!W$2:W$507)	=SUM(homes!X$2:X$507)		=100*IRR(B5:F5)	6.4929	=ROUND(H5-I5,2)	=MEDIAN(homes!Y$2:Y$507)
+5	=SUM(homes!Z$2:Z$507)	=SUM(homes!AA$2:AA$507)	=SUM(homes!AB$2:AB$507)	=SUM(homes!AC$2:AC$507)	=SUM(homes!AD$2:AD$507)	=SUM(homes!AE$2:AE$507)	=100*IRR(B6:G6)	6.7752	=ROUND(H6-I6,2)	=MEDIAN(homes!AF$2:AF$507)

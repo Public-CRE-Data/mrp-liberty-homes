@@ -1,14 +1,14 @@
 # Unlevered IRR, 1–5 year holds
 
-For each home with a recorded purchase price, an advertised rent and a Zillow zip-code forecast (482 homes), we compute the unlevered IRR of buying at MRP's price, renting, and selling after 1–5 years. The portfolio IRR combines all homes' cash flows.
+For each home with a recorded purchase price, an advertised rent and a Zillow zip-code forecast (506 homes), we compute the unlevered IRR of buying at MRP's price, renting, and selling after 1–5 years. The portfolio IRR combines all homes' cash flows.
 
 | Hold | Portfolio IRR |
 |---|---|
-| 1 | 2.2% |
-| 2 | 5.0% |
+| 1 | 2.3% |
+| 2 | 5.1% |
 | 3 | 6.0% |
 | 4 | 6.5% |
-| 5 | 6.7% |
+| 5 | 6.8% |
 
 ## Assumptions (editable in `1_assumptions.tsv`)
 
