@@ -51,6 +51,7 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 83605,Caldwell,Canyon County,ID,"Boise City, ID",6.0,1706227,0.595,373233,2026-08-31,0.3,0.8,0.3
 55301,Albertville,Wright County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",4.0,1701553,0.594,381780,2026-08-31,0.1,0.4,0.7
 30241,Lagrange,Troup County,GA,"LaGrange, GA-AL",6.0,1690831,0.59,226340,2026-08-31,0.2,0.7,2.7
+74881,Wellston,Lincoln County,OK,"Oklahoma City, OK",8.2,1651050,0.576,192694,2026-08-31,0.0,0.0,1.3
 32439,Freeport,Walton County,FL,"Crestview-Fort Walton Beach-Destin, FL",5.0,1646742,0.575,390909,2026-08-31,-0.1,-0.1,0.1
 36551,Loxley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",5.0,1634590,0.57,283589,2026-08-31,0.2,0.9,0.9
 19904,Dover,Kent County,DE,"Dover, DE",5.0,1619728,0.565,349272,2026-08-31,0.5,1.3,2.4
@@ -162,16 +163,6 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 85326,Buckeye,Maricopa County,AZ,"Phoenix-Mesa-Chandler, AZ",1.0,385264,0.134,368542,2026-08-31,-0.2,-0.1,-0.6
 32219,Jacksonville,Duval County,FL,"Jacksonville, FL",1.0,373337,0.13,291007,2026-08-31,0.0,0.1,0.6
 35096,Lincoln,Talladega County,AL,"Talladega-Sylacauga, AL",2.14,370367,0.129,228786,2026-08-31,-0.2,-0.1,0.9
-74834,Chandler,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,210479,2026-08-31,-0.2,-0.5,1.2
-74881,Wellston,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,192694,2026-08-31,0.0,0.0,1.3
-74864,Prague,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,193300,2026-08-31,-0.3,-0.6,1.3
-74079,Stroud,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,156379,2026-08-31,0.3,0.0,1.6
-74855,Meeker,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,223615,2026-08-31,-0.2,-0.5,1.3
-74824,Agra,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,229365,2026-08-31,-0.3,-0.6,1.1
-74875,Tryon,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,203747,2026-08-31,-0.2,-1.0,1.0
-74869,Sparks,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,199928,2026-08-31,-0.2,-0.9,0.9
-74832,Carney,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,179521,2026-08-31,-0.3,-0.7,1.0
-74026,Davenport,Lincoln County,OK,"Oklahoma City, OK",1.9,359071,0.125,108524,2026-08-31,-0.9,-1.1,-0.1
 29301,Spartanburg,Spartanburg County,SC,"Spartanburg, SC",2.0,356097,0.124,238726,2026-08-31,0.0,0.4,0.8
 55025,Forest Lake,Washington County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",1.0,347241,0.121,441375,2026-08-31,0.4,0.9,1.0
 37167,Smyrna,Rutherford County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",1.0,342438,0.119,402716,2026-08-31,0.1,0.3,0.1
@@ -208,6 +199,15 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 33541,Zephyrhills,Pasco County,FL,"Tampa-St. Petersburg-Clearwater, FL",1.0,235600,0.082,339169,2026-08-31,-0.1,0.1,0.2
 73012,Edmond,Oklahoma County,OK,"Oklahoma City, OK",1.0,233000,0.081,328536,2026-08-31,0.1,0.1,1.3
 78211,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",1.03,221365,0.077,130271,2026-08-31,0.1,1.0,-1.3
+74834,Chandler,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,210479,2026-08-31,-0.2,-0.5,1.2
+74864,Prague,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,193300,2026-08-31,-0.3,-0.6,1.3
+74079,Stroud,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,156379,2026-08-31,0.3,0.0,1.6
+74855,Meeker,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,223615,2026-08-31,-0.2,-0.5,1.3
+74824,Agra,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,229365,2026-08-31,-0.3,-0.6,1.1
+74875,Tryon,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,203747,2026-08-31,-0.2,-1.0,1.0
+74869,Sparks,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,199928,2026-08-31,-0.2,-0.9,0.9
+74832,Carney,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,179521,2026-08-31,-0.3,-0.7,1.0
+74026,Davenport,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.075,108524,2026-08-31,-0.9,-1.1,-0.1
 72113,Maumelle,Pulaski County,AR,"Little Rock-North Little Rock-Conway, AR",1.0,205139,0.072,305554,2026-08-31,0.2,0.5,1.8
 72106,Mayflower,Faulkner County,AR,"Little Rock-North Little Rock-Conway, AR",1.0,204420,0.071,222832,2026-08-31,0.4,1.0,2.5
 78245,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",1.03,183001,0.064,256495,2026-08-31,0.0,0.1,-0.6
