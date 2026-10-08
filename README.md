@@ -2,7 +2,7 @@
 
 Data on the finished Lennar homes that **MRP Liberty LLC** (a subsidiary of Millrose Properties, Inc.) bought in Aug–Oct 2026: purchase prices, last asking prices, time on market, comparable sales, asking rents, Zillow price outlook, location density and investment returns. Every headline number can be **rebuilt in Excel by copy and paste**, with live formulas and check columns.
 
-Snapshot: **2026-10-07** (Oklahoma deed prices, Muskogee County and 7 Lincoln County parcel links added 2026-10-08). Zillow data: base month Aug 2026.
+Snapshot: **2026-10-07** (Oklahoma deed prices, Muskogee County and 7 Lincoln County parcel links added 2026-10-08; list prices re-sourced 2026-10-08). Zillow data: base month Aug 2026.
 
 ## What we found
 
@@ -24,13 +24,28 @@ Every property's `link_quality` and `seller_basis` are in [`mrp_liberty_homes.cs
 |---|---|
 | Properties identified | 1,045 (550 with a recorded purchase price) |
 | Estimated total spent by MRP Liberty | ≈ $285 million (recorded prices plus estimates where prices aren't public, e.g. Texas and Idaho; method in [zillow/README.md](zillow/README.md)) |
-| MRP price vs. last asking price | median **−3.0%**, mean −1.7% (303 homes) |
-| Days listed for sale before the MRP deed | median **86 days** (232 homes) |
+| MRP price vs. last asking price | median **−3.2%**, mean −2.9% (302 homes with a recorded per-home price and a verified address; −3.7% for the 215 with a full listing history) |
+| Days listed for sale before the MRP deed | median **79 days** (338 homes) |
 | MRP price vs. same-community comparable sales | **0.0%** in aggregate (379 homes) |
 | Advertised for rent | 988 homes, average $1,859/month; average gross yield 8.2% |
 | Zillow 12-month home price forecast, MRP zip codes | **+0.3%** (value-weighted) vs. +1.4% for the US |
 | Unlevered IRR (60% NOI margin, 3% growth, 3% selling costs) | **2.3%** over 1 year, **6.0%** over 3, **6.8%** over 5 |
 | Population density of MRP zip codes, rank within metro | median **22nd** percentile vs. 24th for Lennar communities, 42nd for Invitation Homes, 33rd for AMH |
+
+### MRP price vs. last asking price: which homes count
+
+The headline uses the **302 homes** where both prices are solid: a recorded per-home deed price and a verified address. 51 homes with both prices are left out and marked in `discount_sample`: 45 where the MRP price is an estimate (deed stamps, CoStar, or a bulk deed split evenly) and 6 whose address was assigned within a batch of deeds.
+
+| Sample | Homes | Median | Mean |
+|---|---|---|---|
+| All homes with both prices | 353 | −2.9% | −1.8% |
+| **Headline: recorded price + verified address** | **302** | **−3.2%** | **−2.9%** |
+| …last list price from realtor.com price history | 259 | −3.4% | −2.9% |
+| …home has a full listing history (first list date known) | 215 | −3.7% | −3.1% |
+
+By state (headline sample): Arkansas −5.8% (54 homes), Florida −4.3% (74), Oklahoma −3.0% (25), Minnesota −2.8% (14), South Carolina −2.4% (51), North Carolina −1.8% (48), Tennessee −1.7% (21).
+
+Homes that sold after a full public listing show larger discounts than homes that were barely marketed, so the figure depends on which homes are in the sample. Builder-aggregator prices (Jome, NewHomeSource) are not used: they are often undated or stale.
 
 ## What's here
 
@@ -50,10 +65,11 @@ Every property's `link_quality` and `seller_basis` are in [`mrp_liberty_homes.cs
 - **deed_record_date / deed_date_note:** the deed's recording date (YYYY-MM-DD); where the county index shows more than one date, the full text is in `deed_date_note`.
 - **mrp_price:** from county deed records (stated consideration, deed stamps or assessor sale price; method in `price_source`). **Texas does not disclose sale prices**, so Texas homes have none.
 - **evidence:** how the home was tied to MRP Liberty. A = deed seen and matched to the address; B = deed seen, address matched within a batch or not yet resolved; C = weaker evidence.
-- **last_list_price / last_list_date:** the last asking price before the home went pending, sold or off market, from MLS price histories (mostly realtor.com price history, plus movoto.com, local MLS broker sites and dated Lennar builder listings). A sale price is never used as a list price, and entries posted at exactly MRP's price after the sale are excluded.
+- **last_list_price / last_list_date:** the last asking price before the home went pending, sold or off market, from MLS price histories (mostly realtor.com price history, plus movoto.com and local MLS broker sites). A sale price is never used as a list price, and entries posted at exactly MRP's price after the sale are excluded.
 - **list_price_quality:** `one_source`, `two_sources` (two independent sites agree) or `resolved_by_date` (two sites disagreed; the most recent was used).
 - **first_list_date / days_listed_before_mrp_deed:** first date the home was offered for sale within the 12 months before the deed, ignoring brief pre-construction listings that came down within 7 days. Days = `deed_record_date` − `first_list_date`.
 - **mrp_vs_last_list_pct:** MRP price ÷ last list price − 1. Negative means MRP paid below the last asking price.
+- **discount_sample:** `core` if the home counts in the headline MRP-vs-last-list figures; otherwise the reason it is left out.
 - **comp_value / mrp_vs_comp_pct:** value from Lennar sales to individual buyers in the same community (same plan size where available); `comp_basis` gives the method.
 - **link_quality:** how the rental listing was tied to the deed: `verified: exact address`, `verified: county parcel match`, `verified: MRP owner of record at address`, `moderate: address assigned within a batch of deeds`, or `no rental listing matched`. Probable matches are never used.
 - **seller_basis:** `deed seen (Lennar seller)`, `Lennar inferred from prior owner in title chain`, `owner of record only (deed not seen)` or `deed seen (non-Lennar seller)`.

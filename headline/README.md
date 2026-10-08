@@ -20,7 +20,7 @@ The files are tab-separated text: columns split automatically when pasted, and e
 ## How each number is calculated
 
 - **Average deed price:** sum of recorded prices ÷ number of homes with a recorded price.
-- **Median MRP vs. last list:** `AGGREGATE(17,6, values/condition, 2)`, the median over homes in that state with both a recorded price and a last list price.
+- **Median MRP vs. last list:** `AGGREGATE(17,6, values/condition, 2)`, the median over homes in that state with both prices **and** `discount_sample` = `core` (column O): a recorded per-home price and a verified address. Other homes show blank in column L.
 - **Median days listed:** the same median over `deed_record_date − first_list_date`.
 - **MRP vs. comps (aggregate):** sum of MRP prices ÷ sum of comparable values − 1, over homes with both.
 - **Average gross yield:** the average of each home's `rent × 12 ÷ price`, over homes with both.
