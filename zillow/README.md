@@ -8,9 +8,9 @@
 | Zillow forecast, 3 months to Nov 2026 | +0.3% | +0.6% |
 | Home values, change since Jan 2020 | +44.3% | +48.2% |
 | Home values, last 12 months (to Aug 2026) | −1.0% | +1.3% |
-| Share of portfolio value where Zillow forecasts a decline | 37% | |
+| Share of portfolio value where Zillow forecasts a decline | 38% | |
 
-By state, Zillow's 12-month forecast is weakest for Texas (−0.9%, 30% of value) and Florida (−0.8%, 14%), and strongest for Georgia (+2.2%) and Oklahoma (+2.1%). Full breakdown by state and metro: `hpa_forecast_summary.csv`.
+By state, Zillow's 12-month forecast is weakest for Texas (−0.9%, 29% of value) and Florida (−0.8%, 13%), and strongest for Georgia (+2.2%) and Oklahoma (+2.0%). Full breakdown by state and metro: `hpa_forecast_summary.csv`.
 
 ## Files
 
@@ -19,19 +19,19 @@ By state, Zillow's 12-month forecast is weakest for Texas (−0.9%, 30% of value
 | `hpa_forecast_summary.csv` | Value-weighted 1-, 3- and 12-month forecasts: all homes, US benchmark, by state, by metro. Also the equal-weighted average, min/max, and share of value with a negative forecast. |
 | `home_value_index_mrp_vs_us.csv` | Monthly index, Jan 2000 to Aug 2026 (Jan 2020 = 100): MRP-weighted zip codes vs. Zillow's US index, plus the US dollar value and how many MRP zips had data each month. The last row is Zillow's forecast for Aug 2027 (`type` column marks actual vs. forecast). |
 | `home_value_index_mrp_vs_us.png` | The chart above. |
-| `zip_weights_and_forecasts.csv` | The 302 zip codes used: MRP homes, dollar weight, weight share, latest Zillow home value and Zillow forecasts. |
-| `zhvi_sfr_monthly_mrp_zips.csv` | Zillow's monthly single-family home value series for those 302 zips, Jan 2000 to Aug 2026 (input to the index). |
+| `zip_weights_and_forecasts.csv` | The 405 zip codes used: MRP homes, dollar weight, weight share, latest Zillow home value and Zillow forecasts. |
+| `zhvi_sfr_monthly_mrp_zips.csv` | Zillow's monthly single-family home value series for those 405 zips, Jan 2000 to Aug 2026 (input to the index). |
 
 ## How it is calculated
 
 **1. Weights (how much each home counts).** Each home is weighted by its dollar value, so larger holdings count more:
-- the MRP deed price where recorded (550 homes);
+- the MRP deed price where recorded (563 homes);
 - otherwise its last asking price less 1.63%, the average gap between MRP's price and the last asking price (278 homes; mostly Texas, where deed prices are not public);
-- otherwise the average MRP deed price for its state (73 homes), or for all states (144 homes; mostly Texas and Idaho, which don't disclose prices).
+- otherwise the average MRP deed price for its state (88 homes), or for all states (153 homes; mostly Texas and Idaho, which don't disclose prices).
 
-Total weight: $287 million (an estimate of MRP's total spend; about half is recorded prices, half estimated). Each home's value and method are in [`mrp_liberty_homes.csv`](../mrp_liberty_homes.csv) (`weight_value`, `weight_value_basis`).
+Total weight: $301 million (an estimate of MRP's total spend; about half is recorded prices, half estimated). Each home's value and method are in [`mrp_liberty_homes.csv`](../mrp_liberty_homes.csv) (`weight_value`, `weight_value_basis`).
 
-**2. Forecast.** Each home takes the Zillow Home Value Forecast for its zip code (1,006 homes). Where the zip has no forecast, mostly lot-only deeds without a full address, it takes the forecast for the metro covering its county (39 homes). The portfolio forecast is the value-weighted average:
+**2. Forecast.** Each home takes the Zillow Home Value Forecast for its zip code (1,037 homes). Where the zip has no forecast, mostly lot-only deeds without a full address, it takes the forecast for the metro covering its county (45 homes). The portfolio forecast is the value-weighted average:
   `forecast = Σ(weight × zip forecast) ÷ Σ(weight)`.
 Equal-weighting the homes gives almost the same answer (+0.29% vs. +0.30%).
 
@@ -70,7 +70,7 @@ The files are tab-separated text: columns split automatically when pasted, and e
 
 **Home value index (Jan 2000 – Aug 2026):**
 1. Open a **new, blank Excel workbook** and create 2 sheets named exactly **`zips`**, **`index`**. The formulas refer to these names.
-2. On GitHub open [`check_1_zips.tsv`](check_1_zips.tsv), click **Raw**, press **Ctrl+A** then **Ctrl+C**, click cell **A1** on the **`zips`** sheet and press **Ctrl+V**.
+2. The zip list is split into 2 files to stay under 1 MB each. On GitHub open [`check_1_zips_part1.tsv`](check_1_zips_part1.tsv), click **Raw**, press **Ctrl+A** then **Ctrl+C**, click cell **A1** on the **`zips`** sheet and press **Ctrl+V**. Then do the same with [`check_1_zips_part2.tsv`](check_1_zips_part2.tsv), pasting at cell **A326** (type `A326` in the **Name Box** left of the formula bar and press **Enter**). Only part 1 has a header row.
 3. On GitHub open [`check_2_index.tsv`](check_2_index.tsv), click **Raw**, press **Ctrl+A** then **Ctrl+C**, click cell **A1** on the **`index`** sheet and press **Ctrl+V**.
 4. Wait a few seconds for Excel to finish calculating.
 5. **Check:** every cell in the **check** column should be **0**. A 0 means Excel's formula reproduces our number exactly.

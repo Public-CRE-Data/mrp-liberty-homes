@@ -1,21 +1,26 @@
 state	metro	weight_value	zillow 12-month forecast %	zillow 3-month forecast %		STATE	value-weighted 12-month %	value-weighted 3-month %	share of value %	ours: 12-month %	check (0 = match)
-AL	Baldwin	322554	0.9	0.9		ALL	=SUMPRODUCT(1*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(1*$C$2:$C$1046)	=SUMPRODUCT(1*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(1*$C$2:$C$1046)	=100*SUMPRODUCT(1*$C$2:$C$1046)/SUM($C$2:$C$1046)	0.3	=ROUND(H2-K2,2)
-AL	Baldwin	281820	0.9	0.9		TX	=SUMPRODUCT(($A$2:$A$1046=G3)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G3)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G3)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G3)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G3)*$C$2:$C$1046)/SUM($C$2:$C$1046)	-0.89	=ROUND(H3-K3,2)
-AL	Baldwin	322554	0.9	0.9		FL	=SUMPRODUCT(($A$2:$A$1046=G4)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G4)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G4)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G4)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G4)*$C$2:$C$1046)/SUM($C$2:$C$1046)	-0.77	=ROUND(H4-K4,2)
-AL	Baldwin	322554	0.9	0.9		SC	=SUMPRODUCT(($A$2:$A$1046=G5)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G5)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G5)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G5)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G5)*$C$2:$C$1046)/SUM($C$2:$C$1046)	1.0	=ROUND(H5-K5,2)
-AL	Baldwin	287231	0.9	0.9		NC	=SUMPRODUCT(($A$2:$A$1046=G6)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G6)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G6)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G6)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G6)*$C$2:$C$1046)/SUM($C$2:$C$1046)	0.45	=ROUND(H6-K6,2)
-AL	Baldwin	379698	0.9	0.9		AR	=SUMPRODUCT(($A$2:$A$1046=G7)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G7)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G7)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G7)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G7)*$C$2:$C$1046)/SUM($C$2:$C$1046)	1.73	=ROUND(H7-K7,2)
-AL	Baldwin	322554	0.9	0.9		OK	=SUMPRODUCT(($A$2:$A$1046=G8)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G8)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G8)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G8)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G8)*$C$2:$C$1046)/SUM($C$2:$C$1046)	2.05	=ROUND(H8-K8,2)
-AL	Baldwin	322554	0.9	0.9		AL	=SUMPRODUCT(($A$2:$A$1046=G9)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G9)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G9)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G9)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G9)*$C$2:$C$1046)/SUM($C$2:$C$1046)	1.12	=ROUND(H9-K9,2)
-AL	Baldwin	264605	0.9	0.9		GA	=SUMPRODUCT(($A$2:$A$1046=G10)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G10)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G10)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G10)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G10)*$C$2:$C$1046)/SUM($C$2:$C$1046)	2.18	=ROUND(H10-K10,2)
-AL	Baldwin	272475	0.9	0.9		TN	=SUMPRODUCT(($A$2:$A$1046=G11)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G11)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G11)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G11)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G11)*$C$2:$C$1046)/SUM($C$2:$C$1046)	0.23	=ROUND(H11-K11,2)
-AL	Baldwin	322554	0.9	0.9		MN	=SUMPRODUCT(($A$2:$A$1046=G12)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G12)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G12)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G12)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G12)*$C$2:$C$1046)/SUM($C$2:$C$1046)	0.78	=ROUND(H12-K12,2)
-AL	Baldwin	278869	0.9	0.9		DE	=SUMPRODUCT(($A$2:$A$1046=G13)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G13)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G13)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G13)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G13)*$C$2:$C$1046)/SUM($C$2:$C$1046)	2.15	=ROUND(H13-K13,2)
-AL	Baldwin	267557	0.9	0.9		IN	=SUMPRODUCT(($A$2:$A$1046=G14)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G14)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G14)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G14)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G14)*$C$2:$C$1046)/SUM($C$2:$C$1046)	1.37	=ROUND(H14-K14,2)
-AL	Baldwin	322554	0.9	0.9		ID	=SUMPRODUCT(($A$2:$A$1046=G15)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G15)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G15)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G15)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G15)*$C$2:$C$1046)/SUM($C$2:$C$1046)	0.3	=ROUND(H15-K15,2)
-AL	Baldwin	322554	0.9	0.9		CO	=SUMPRODUCT(($A$2:$A$1046=G16)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G16)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G16)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G16)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G16)*$C$2:$C$1046)/SUM($C$2:$C$1046)	0.23	=ROUND(H16-K16,2)
-AL	Baldwin	322554	0.9	0.9		VA	=SUMPRODUCT(($A$2:$A$1046=G17)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G17)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G17)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G17)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G17)*$C$2:$C$1046)/SUM($C$2:$C$1046)	2.01	=ROUND(H17-K17,2)
-AL	Baldwin	322554	0.9	0.9		AZ	=SUMPRODUCT(($A$2:$A$1046=G18)*$C$2:$C$1046*$D$2:$D$1046)/SUMPRODUCT(($A$2:$A$1046=G18)*$C$2:$C$1046)	=SUMPRODUCT(($A$2:$A$1046=G18)*$C$2:$C$1046*$E$2:$E$1046)/SUMPRODUCT(($A$2:$A$1046=G18)*$C$2:$C$1046)	=100*SUMPRODUCT(($A$2:$A$1046=G18)*$C$2:$C$1046)/SUM($C$2:$C$1046)	-0.6	=ROUND(H18-K18,2)
+AL	Baldwin	322554	1.0	0.8		ALL	=SUMPRODUCT(1*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(1*$C$2:$C$1083)	=SUMPRODUCT(1*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(1*$C$2:$C$1083)	=100*SUMPRODUCT(1*$C$2:$C$1083)/SUM($C$2:$C$1083)	0.3	=ROUND(H2-K2,2)
+AL	Baldwin	322554	1.0	0.8		TX	=SUMPRODUCT(($A$2:$A$1083=G3)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G3)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G3)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G3)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G3)*$C$2:$C$1083)/SUM($C$2:$C$1083)	-0.9	=ROUND(H3-K3,2)
+AL	Baldwin	322554	1.0	0.8		FL	=SUMPRODUCT(($A$2:$A$1083=G4)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G4)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G4)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G4)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G4)*$C$2:$C$1083)/SUM($C$2:$C$1083)	-0.77	=ROUND(H4-K4,2)
+AL	Baldwin	322554	1.0	0.8		SC	=SUMPRODUCT(($A$2:$A$1083=G5)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G5)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G5)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G5)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G5)*$C$2:$C$1083)/SUM($C$2:$C$1083)	1.0	=ROUND(H5-K5,2)
+AL	Baldwin	322554	1.0	0.8		NC	=SUMPRODUCT(($A$2:$A$1083=G6)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G6)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G6)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G6)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G6)*$C$2:$C$1083)/SUM($C$2:$C$1083)	0.42	=ROUND(H6-K6,2)
+AL	Baldwin	322554	0.9	0.9		AR	=SUMPRODUCT(($A$2:$A$1083=G7)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G7)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G7)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G7)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G7)*$C$2:$C$1083)/SUM($C$2:$C$1083)	1.71	=ROUND(H7-K7,2)
+AL	Baldwin	281820	0.9	0.9		OK	=SUMPRODUCT(($A$2:$A$1083=G8)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G8)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G8)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G8)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G8)*$C$2:$C$1083)/SUM($C$2:$C$1083)	2.04	=ROUND(H8-K8,2)
+AL	Baldwin	322554	0.9	0.9		AL	=SUMPRODUCT(($A$2:$A$1083=G9)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G9)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G9)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G9)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G9)*$C$2:$C$1083)/SUM($C$2:$C$1083)	1.11	=ROUND(H9-K9,2)
+AL	Baldwin	322554	0.9	0.9		GA	=SUMPRODUCT(($A$2:$A$1083=G10)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G10)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G10)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G10)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G10)*$C$2:$C$1083)/SUM($C$2:$C$1083)	2.18	=ROUND(H10-K10,2)
+AL	Baldwin	287231	0.9	0.9		TN	=SUMPRODUCT(($A$2:$A$1083=G11)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G11)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G11)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G11)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G11)*$C$2:$C$1083)/SUM($C$2:$C$1083)	0.23	=ROUND(H11-K11,2)
+AL	Baldwin	379698	0.9	0.9		MN	=SUMPRODUCT(($A$2:$A$1083=G12)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G12)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G12)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G12)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G12)*$C$2:$C$1083)/SUM($C$2:$C$1083)	0.78	=ROUND(H12-K12,2)
+AL	Baldwin	322554	0.9	0.9		DE	=SUMPRODUCT(($A$2:$A$1083=G13)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G13)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G13)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G13)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G13)*$C$2:$C$1083)/SUM($C$2:$C$1083)	2.15	=ROUND(H13-K13,2)
+AL	Baldwin	322554	0.9	0.9		IN	=SUMPRODUCT(($A$2:$A$1083=G14)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G14)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G14)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G14)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G14)*$C$2:$C$1083)/SUM($C$2:$C$1083)	1.37	=ROUND(H14-K14,2)
+AL	Baldwin	264605	0.9	0.9		CO	=SUMPRODUCT(($A$2:$A$1083=G15)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G15)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G15)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G15)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G15)*$C$2:$C$1083)/SUM($C$2:$C$1083)	0.21	=ROUND(H15-K15,2)
+AL	Baldwin	272475	0.9	0.9		ID	=SUMPRODUCT(($A$2:$A$1083=G16)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G16)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G16)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G16)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G16)*$C$2:$C$1083)/SUM($C$2:$C$1083)	0.3	=ROUND(H16-K16,2)
+AL	Baldwin	322554	0.9	0.9		VA	=SUMPRODUCT(($A$2:$A$1083=G17)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G17)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G17)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G17)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G17)*$C$2:$C$1083)/SUM($C$2:$C$1083)	2.01	=ROUND(H17-K17,2)
+AL	Baldwin	278869	0.9	0.9		AZ	=SUMPRODUCT(($A$2:$A$1083=G18)*$C$2:$C$1083*$D$2:$D$1083)/SUMPRODUCT(($A$2:$A$1083=G18)*$C$2:$C$1083)	=SUMPRODUCT(($A$2:$A$1083=G18)*$C$2:$C$1083*$E$2:$E$1083)/SUMPRODUCT(($A$2:$A$1083=G18)*$C$2:$C$1083)	=100*SUMPRODUCT(($A$2:$A$1083=G18)*$C$2:$C$1083)/SUM($C$2:$C$1083)	-0.6	=ROUND(H18-K18,2)
+AL	Baldwin	267557	0.9	0.9							
+AL	Baldwin	322554	0.9	0.9							
+AL	Baldwin	322554	0.9	0.9							
+AL	Baldwin	322554	0.9	0.9							
+AL	Baldwin	322554	0.9	0.9							
 AL	Baldwin	322554	0.9	0.9							
 AL	Baldwin	322554	0.9	0.9							
 AL	Baldwin	322554	0.9	0.9							
@@ -61,6 +66,7 @@ AL	Talladega	196602	1.6	1.4
 AL	Talladega	211463	1.5	1.2							
 AL	Talladega	176968	0.9	-0.1							
 AL	Talladega	165314	0.9	-0.1							
+AR	Benton	325562	1.3	0.2							
 AR	Benton	347257	1.3	0.2							
 AR	Benton	253693	1.3	0.2							
 AR	Benton	252211	1.3	0.2							
@@ -109,6 +115,8 @@ AR	Saline	198204	2.2	0.8
 AR	Saline	206501	2.2	0.8							
 AR	Saline	194964	2.2	0.8							
 AR	Saline	201347	2.2	0.8							
+AR	Sebastian	234000	1.4	0.4							
+AR	Sebastian	235000	1.4	0.4							
 AR	Sebastian	237263	1.4	0.4							
 AR	Sebastian	238000	1.4	0.4							
 AR	Sebastian	227000	1.4	0.4							
@@ -143,15 +151,16 @@ CO	Adams	430000	0.3	-0.1
 CO	Adams	432000	0.3	-0.1							
 CO	El Paso	482315	0.1	0.6							
 CO	El Paso	484995	0.1	0.6							
-DE	Kent	284371	2.4	1.3							
-DE	Kent	284371	2.4	1.3							
+CO	El Paso	509167	0.1	0.6							
+DE	Kent	288783	2.4	1.3							
+DE	Kent	288783	2.4	1.3							
 DE	Kent	359936	2.4	1.3							
 DE	Kent	343557	2.4	1.3							
 DE	Kent	347492	2.4	1.3							
 DE	Kent	491801	2.1	0.7							
 DE	Kent	452497	2.1	0.7							
-DE	New Castle	284371	1.5	0.8							
-DE	New Castle	284371	1.5	0.8							
+DE	New Castle	288783	1.5	0.8							
+DE	New Castle	288783	1.5	0.8							
 FL	Alachua	295600	-1.8	-0.3							
 FL	Alachua	216200	-1.8	-0.3							
 FL	Alachua	215900	-1.8	-0.3							
@@ -349,22 +358,22 @@ GA	Troup	335661	2.7	0.7
 GA	Troup	271815	2.7	0.7							
 GA	Troup	281601	2.7	0.7							
 GA	Troup	260682	2.7	0.7							
-ID	Canyon	284371	0.3	0.8							
-ID	Canyon	284371	0.3	0.8							
-ID	Canyon	284371	0.3	0.8							
-ID	Canyon	284371	0.3	0.8							
-ID	Canyon	284371	0.3	0.8							
-ID	Canyon	284371	0.3	0.8							
-ID	Canyon	284371	0.3	0.8							
+ID	Canyon	288783	0.3	0.8							
+ID	Canyon	288783	0.3	0.8							
+ID	Canyon	288783	0.3	0.8							
+ID	Canyon	288783	0.3	0.8							
+ID	Canyon	288783	0.3	0.8							
+ID	Canyon	288783	0.3	0.8							
+ID	Canyon	288783	0.3	0.8							
 IN	Hamilton	393475	1.5	1.0							
-IN	Hamilton	284371	1.5	1.0							
-IN	Hamilton	284371	1.5	1.0							
+IN	Hamilton	288783	1.5	1.0							
+IN	Hamilton	288783	1.5	1.0							
 IN	Hamilton	344290	1.5	1.0							
 IN	Hamilton	405275	1.5	1.0							
 IN	Marion	298051	1.2	0.4							
-IN	Marion	284371	1.2	0.4							
+IN	Marion	288783	1.2	0.4							
 IN	Marion	359046	1.2	0.4							
-IN	Marion	284371	1.2	0.4							
+IN	Marion	288783	1.2	0.4							
 MN	Anoka	461991	0.8	0.7							
 MN	Carver	344435	0.9	0.8							
 MN	Carver	515204	0.9	0.8							
@@ -416,10 +425,27 @@ NC	Catawba	321000	1.2	1.0
 NC	Catawba	313500	1.2	1.0							
 NC	Catawba	295000	1.2	1.0							
 NC	Catawba	317000	1.2	1.0							
+NC	Cleveland	348622	-0.2	0.4							
+NC	Cleveland	348622	-0.2	0.4							
+NC	Cleveland	348622	-0.2	0.4							
+NC	Cleveland	348622	-0.2	0.4							
+NC	Durham	612000	-0.2	-0.4							
+NC	Durham	629500	-0.2	-0.4							
+NC	Durham	602500	-0.2	-0.4							
+NC	Durham	592500	-0.2	-0.4							
+NC	Durham	625500	-0.2	-0.4							
+NC	Durham	588500	-0.2	-0.4							
+NC	Durham	595000	-0.2	-0.4							
+NC	Forsyth	348622	1.6	0.8							
+NC	Forsyth	348622	1.6	0.8							
+NC	Forsyth	348622	1.6	0.8							
+NC	Forsyth	348622	1.6	0.8							
+NC	Forsyth	348622	1.6	0.8							
+NC	Forsyth	348622	1.6	0.8							
 NC	Franklin	439000	-0.3	0.0							
-NC	Gaston	326573	0.9	0.7							
-NC	Gaston	326573	0.9	0.7							
-NC	Gaston	326573	0.9	0.7							
+NC	Gaston	348622	0.9	0.7							
+NC	Gaston	348622	0.9	0.7							
+NC	Gaston	348622	0.9	0.7							
 NC	Harnett	245000	0.3	-0.1							
 NC	Harnett	247000	0.3	-0.1							
 NC	Harnett	240000	0.3	-0.1							
@@ -429,6 +455,7 @@ NC	Harnett	230500	0.5	0.1
 NC	Harnett	229000	0.5	0.1							
 NC	Harnett	231500	0.5	0.1							
 NC	Harnett	234000	0.5	0.1							
+NC	Iredell	351500	0.7	0.0							
 NC	Johnston	316500	-0.3	0.0							
 NC	Johnston	313500	-0.3	0.0							
 NC	Johnston	327000	-0.3	0.0							
@@ -438,14 +465,14 @@ NC	Johnston	338000	-0.4	-0.1
 NC	Johnston	345000	-0.4	-0.1							
 NC	Johnston	342500	-0.4	-0.1							
 NC	Johnston	352500	-0.4	-0.1							
-NC	Lee	326573	1.0	0.8							
-NC	Lee	326573	1.0	0.8							
-NC	Lee	326573	1.0	0.8							
-NC	Lee	326573	1.0	0.8							
-NC	Lee	326573	1.0	0.8							
-NC	Lee	326573	1.0	0.8							
-NC	Lee	326573	1.0	0.8							
-NC	Lee	326573	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
+NC	Lee	348622	1.0	0.8							
 NC	Wake	399500	0.3	-0.1							
 NC	Wake	368500	0.3	-0.1							
 NC	Wake	406500	0.3	-0.1							
@@ -519,6 +546,7 @@ OK	Muskogee	203000	2.2	0.5
 OK	Oklahoma	259000	1.6	0.5							
 OK	Oklahoma	272000	1.6	0.5							
 OK	Oklahoma	286000	1.6	0.5							
+OK	Oklahoma	280000	1.6	0.5							
 OK	Oklahoma	266000	1.6	0.5							
 OK	Oklahoma	294000	1.6	0.5							
 OK	Oklahoma	233000	1.3	0.1							
@@ -699,9 +727,9 @@ TN	Sumner	322634	0.2	0.7
 TN	Sumner	325330	0.2	0.7							
 TN	Sumner	313632	0.2	0.7							
 TN	Wilson	540817	0.1	0.4							
-TX	Bell	284371	-1.1	-0.3							
-TX	Bexar	284371	-0.7	0.1							
-TX	Bexar	284371	-0.7	0.1							
+TX	Bell	288783	-1.1	-0.3							
+TX	Bexar	288783	-0.7	0.1							
+TX	Bexar	288783	-0.7	0.1							
 TX	Bexar	209527	-0.8	-0.3							
 TX	Bexar	221332	-0.8	-0.3							
 TX	Bexar	202641	-0.8	-0.3							
@@ -710,7 +738,7 @@ TX	Bexar	266090	-0.8	-0.3
 TX	Bexar	203625	-0.8	-0.3							
 TX	Bexar	218380	-0.8	-0.3							
 TX	Bexar	195755	-0.8	-0.3							
-TX	Bexar	284371	-0.8	-0.3							
+TX	Bexar	288783	-0.8	-0.3							
 TX	Bexar	229201	-0.8	-0.3							
 TX	Bexar	207560	-0.8	-0.3							
 TX	Bexar	220348	-0.8	-0.3							
@@ -754,7 +782,7 @@ TX	Bexar	176081	-0.4	0.2
 TX	Bexar	164277	-0.4	0.2							
 TX	Bexar	156407	-0.4	0.2							
 TX	Bexar	147554	-0.4	0.2							
-TX	Bexar	284371	-0.4	0.2							
+TX	Bexar	288783	-0.4	0.2							
 TX	Bexar	155424	-0.4	0.2							
 TX	Bexar	183951	-0.4	0.2							
 TX	Bexar	190837	-0.4	0.2							
@@ -767,7 +795,7 @@ TX	Bexar	212478	-1.0	0.3
 TX	Bexar	211495	-1.0	0.3							
 TX	Bexar	230578	-0.5	0.1							
 TX	Bexar	199690	-0.7	0.3							
-TX	Bexar	284371	-0.7	0.3							
+TX	Bexar	288783	-0.7	0.3							
 TX	Bexar	267074	-0.5	0.1							
 TX	Bexar	202641	-0.4	0.6							
 TX	Bexar	176081	-0.4	0.6							
@@ -776,7 +804,7 @@ TX	Bexar	187886	-0.4	0.6
 TX	Bexar	201658	-0.4	0.6							
 TX	Bexar	162310	-0.4	0.6							
 TX	Bexar	163293	-0.4	0.6							
-TX	Bexar	284371	-0.8	-0.1							
+TX	Bexar	288783	-0.8	-0.1							
 TX	Bexar	159358	-0.8	-0.1							
 TX	Bexar	184935	-0.8	-0.1							
 TX	Bexar	149521	-0.8	-0.1							
@@ -786,77 +814,83 @@ TX	Bexar	159358	-0.8	-0.1
 TX	Bexar	139684	-0.8	-0.1							
 TX	Bexar	211495	-0.8	-0.1							
 TX	Bexar	238054	-0.7	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
-TX	Brazoria	284371	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
+TX	Brazoria	288783	0.0	0.3							
 TX	Brazos	318709	0.2	0.1							
-TX	Brazos	284371	0.2	0.1							
-TX	Brazos	284371	0.2	0.1							
+TX	Brazos	288783	0.2	0.1							
+TX	Brazos	288783	0.2	0.1							
 TX	Burnet	237071	-2.1	0.1							
 TX	Burnet	257728	-2.1	0.1							
-TX	Collin	284371	-0.9	-0.4							
+TX	Caldwell	288783	-1.6	-0.3							
+TX	Caldwell	288783	-1.6	-0.3							
+TX	Caldwell	288783	-1.6	-0.3							
+TX	Caldwell	288783	-1.6	-0.3							
+TX	Caldwell	288783	-1.6	-0.3							
+TX	Caldwell	288783	-1.8	0.1							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	139684	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	171163	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	154440	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	337408	-0.9	-0.4							
 TX	Collin	332490	-0.9	-0.4							
 TX	Collin	298060	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	295109	-0.9	-0.4							
 TX	Collin	255269	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	187886	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	205592	-0.9	-0.4							
 TX	Collin	192804	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	311832	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Collin	196739	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
-TX	Collin	284371	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
+TX	Collin	288783	-0.9	-0.4							
 TX	Comal	218380	-0.7	-0.1							
 TX	Comal	239038	-0.7	-0.1							
 TX	Comal	246908	-0.7	-0.1							
@@ -875,107 +909,109 @@ TX	Comal	223299	-0.7	-0.1
 TX	Comal	237071	-0.7	-0.1							
 TX	Comal	249859	-0.7	-0.1							
 TX	Comal	221332	-0.7	-0.1							
-TX	Dallas	284371	0.6	0.2							
-TX	Dallas	284371	0.6	0.2							
-TX	Dallas	284371	0.6	0.2							
-TX	Fort Bend	284371	0.2	0.4							
+TX	Dallas	288783	0.6	0.2							
+TX	Dallas	288783	0.6	0.2							
+TX	Dallas	288783	0.6	0.2							
+TX	Fort Bend	288783	0.2	0.4							
 TX	Fort Bend	240997	-0.3	0.0							
 TX	Fort Bend	227226	-0.3	0.0							
 TX	Fort Bend	214437	-0.3	0.0							
 TX	Fort Bend	194764	-0.3	0.0							
 TX	Fort Bend	214437	-0.3	0.0							
 TX	Fort Bend	202632	-0.3	0.0							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-3.4	-0.7							
-TX	Grayson	284371	-2.9	-0.8							
-TX	Grayson	284371	-2.9	-0.9							
-TX	Grayson	284371	-2.9	-0.9							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-3.4	-0.7							
+TX	Grayson	288783	-2.9	-0.8							
+TX	Grayson	288783	-2.9	-0.9							
+TX	Grayson	288783	-2.9	-0.9							
 TX	Guadalupe	244940	-0.7	-0.1							
 TX	Guadalupe	251826	-0.7	-0.1							
-TX	Harris	284371	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	208535	-0.1	0.0							
 TX	Harris	238046	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	205583	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	153447	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	224274	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	168203	-0.1	0.0							
 TX	Harris	190828	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	191812	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	237062	-0.1	0.0							
 TX	Harris	225061	-0.1	0.0							
 TX	Harris	222306	-0.1	0.0							
-TX	Harris	284371	-0.1	0.0							
+TX	Harris	288783	-0.1	0.0							
 TX	Harris	212469	-0.1	0.0							
 TX	Harris	219355	-0.1	0.0							
-TX	Harris	284371	0.0	-0.2							
+TX	Harris	288783	0.0	-0.2							
 TX	Harris	242964	0.0	-0.2							
-TX	Harris	284371	0.2	0.4							
-TX	Harris	284371	0.2	0.4							
+TX	Harris	288783	0.2	0.4							
+TX	Harris	288783	0.2	0.4							
 TX	Harris	158366	0.2	0.4							
-TX	Harris	284371	0.0	-0.1							
-TX	Harris	284371	0.0	-0.1							
-TX	Harris	284371	0.0	-0.1							
-TX	Harris	284371	0.0	-0.1							
-TX	Harris	284371	0.0	-0.1							
+TX	Harris	288783	0.0	-0.1							
+TX	Harris	288783	0.0	-0.1							
+TX	Harris	288783	0.0	-0.1							
+TX	Harris	288783	0.0	-0.1							
+TX	Harris	288783	0.0	-0.1							
 TX	Harris	336416	0.0	-0.1							
 TX	Harris	298051	0.0	-0.1							
 TX	Harris	330513	0.0	-0.1							
-TX	Hays	284371	-1.9	-0.2							
-TX	Hays	284371	-1.5	0.2							
-TX	Hays	284371	-1.5	0.2							
+TX	Hays	288783	-1.9	-0.2							
+TX	Hays	288783	-1.5	0.2							
+TX	Hays	288783	-1.5	0.2							
+TX	Johnson	288783	-0.3	0.2							
+TX	Johnson	288783	-0.3	0.2							
 TX	Johnson	237071	-0.1	0.1							
-TX	Johnson	284371	0.3	0.5							
+TX	Johnson	288783	0.3	0.5							
 TX	Johnson	237071	0.3	0.5							
 TX	Johnson	241989	0.3	0.5							
 TX	Johnson	231169	0.3	0.5							
 TX	Johnson	262155	0.3	0.5							
-TX	Montgomery	284371	0.0	0.1							
+TX	Montgomery	288783	0.0	0.1							
 TX	Montgomery	220339	0.0	0.1							
 TX	Montgomery	198698	0.0	0.1							
 TX	Montgomery	208535	0.0	0.1							
 TX	Montgomery	218372	0.0	0.1							
-TX	Montgomery	284371	0.0	0.1							
+TX	Montgomery	288783	0.0	0.1							
 TX	Montgomery	181975	0.0	0.1							
 TX	Montgomery	198698	0.0	0.1							
 TX	Montgomery	181975	0.0	0.1							
-TX	Montgomery	284371	0.0	0.1							
+TX	Montgomery	288783	0.0	0.1							
 TX	Montgomery	182959	0.0	0.1							
 TX	Montgomery	188664	0.0	0.1							
 TX	Montgomery	233127	0.0	0.1							
@@ -987,8 +1023,8 @@ TX	Montgomery	203617	0.1	0.2
 TX	Montgomery	170171	0.1	0.2							
 TX	Montgomery	181975	0.1	0.2							
 TX	Montgomery	213453	0.1	0.2							
-TX	Montgomery	284371	0.1	0.2							
-TX	Montgomery	284371	-0.1	0.0							
+TX	Montgomery	288783	0.1	0.2							
+TX	Montgomery	288783	-0.1	0.0							
 TX	Montgomery	228120	-0.1	0.0							
 TX	Montgomery	236078	-0.1	0.0							
 TX	Montgomery	225257	0.0	0.1							
@@ -1002,10 +1038,11 @@ TX	Nueces	305438	0.0	0.3
 TX	Nueces	250646	0.0	0.3							
 TX	Nueces	227234	0.0	0.3							
 TX	Nueces	332490	-0.3	0.7							
+TX	Tarrant	288783	-0.3	0.2							
 TX	Tarrant	273812	-0.3	0.2							
 TX	Tarrant	277452	-0.3	0.2							
 TX	Tarrant	268549	-0.6	0.0							
-TX	Tarrant	284371	-0.3	0.2							
+TX	Tarrant	288783	-0.3	0.2							
 TX	Tarrant	286256	-0.3	0.0							
 TX	Tarrant	271500	-0.3	0.0							
 TX	Travis	240022	-2.0	-0.7							
@@ -1015,7 +1052,7 @@ TX	Travis	234120	-2.0	-0.7
 TX	Travis	244940	-2.0	-0.7							
 TX	Williamson	329539	-1.5	0.2							
 TX	Williamson	325604	-1.5	0.2							
-TX	Williamson	284371	-1.5	0.2							
+TX	Williamson	288783	-1.5	0.2							
 TX	Williamson	360033	-1.4	0.2							
 TX	Williamson	403316	-1.4	0.2							
 TX	Williamson	406267	-1.4	0.2							

@@ -6,7 +6,7 @@ Are MRP Liberty's homes in denser or more outlying areas than other single-famil
 
 | Portfolio | Properties | Median density (people per sq mi) | Median percentile in metro | % in least dense quarter |
 |---|---|---|---|---|
-| MRP Liberty | 1,013 | 364 | **22** | 52% |
+| MRP Liberty | 1,037 | 364 | **23** | 51% |
 | Lennar community | 1,376 | 584 | **24** | 51% |
 | Invitation Homes | 3,461 | 1,887 | **42** | 29% |
 | AMH | 3,361 | 1,154 | **33** | 36% |
@@ -20,13 +20,13 @@ Are MRP Liberty's homes in denser or more outlying areas than other single-famil
 | Dallas-Fort Worth-Arlington, TX | 13 | 12 | 28 | 26 |
 | Ocala, FL | 61 | 57 |  |  |
 | Myrtle Beach-Conway-North Myrtle Beach, SC-NC | 78 | 47 |  |  |
+| Austin-Round Rock-Georgetown, TX | 22 | 27 | 12 | 36 |
 | Raleigh-Cary, NC | 25 | 34 | 35 | 31 |
-| Austin-Round Rock-Georgetown, TX | 30 | 27 | 12 | 36 |
 | Sherman-Denison, TX | 46 | 46 |  |  |
 | Daphne-Fairhope-Foley, AL | 41 | 41 |  |  |
 | Little Rock-North Little Rock-Conway, AR | 9 | 34 |  |  |
 | Columbia, SC | 18 | 19 |  |  |
-| Warner Robins, GA | 15 | 25 |  |  |
+| Oklahoma City, OK | 13 | 25 |  |  |
 
 - **Texas:** MRP's ranking is almost identical to Lennar's communities in Houston, Dallas–Fort Worth and San Antonio. MRP's homes reflect where Lennar builds, not a worse-than-typical slice.
 - **Arkansas:** MRP's homes in Little Rock and NW Arkansas are far more outlying than Lennar's communities there. Many came through Millrose's Rausch Coleman land.
@@ -55,11 +55,11 @@ The files in this folder are tab-separated text. When you paste them into Excel,
    | File | Click this cell on `homes`, then Ctrl+V |
    |---|---|
    | [`2_homes_part1.tsv`](2_homes_part1.tsv) | **A1** |
-   | [`2_homes_part2.tsv`](2_homes_part2.tsv) | **A2437** |
-   | [`2_homes_part3.tsv`](2_homes_part3.tsv) | **A4848** |
-   | [`2_homes_part4.tsv`](2_homes_part4.tsv) | **A7254** |
+   | [`2_homes_part2.tsv`](2_homes_part2.tsv) | **A2436** |
+   | [`2_homes_part3.tsv`](2_homes_part3.tsv) | **A4847** |
+   | [`2_homes_part4.tsv`](2_homes_part4.tsv) | **A7253** |
 
-   To jump to a cell, type it (e.g. `A2437`) in the **Name Box** left of the formula bar and press **Enter**. Only part 1 has a header row.
+   To jump to a cell, type it (e.g. `A2436`) in the **Name Box** left of the formula bar and press **Enter**. Only part 1 has a header row.
 7. Paste [`3_summary.tsv`](3_summary.tsv) into cell **A1** of the **`summary`** sheet.
 8. Wait a few seconds for Excel to finish calculating. The bottom bar shows "Calculating" while it works.
 9. **Check:** in the `homes` sheet, columns **K** and **L** should all show **0**, and in `summary`, column **K** should show **0** (blank where a portfolio has no properties in that metro). A 0 means Excel's formula gives exactly the same number as our analysis.

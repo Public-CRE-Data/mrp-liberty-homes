@@ -2,19 +2,19 @@
 
 Data on the finished Lennar homes that **MRP Liberty LLC** (a subsidiary of Millrose Properties, Inc.) bought in Aug–Oct 2026: purchase prices, last asking prices, time on market, comparable sales, asking rents, Zillow price outlook, location density and investment returns. Every headline number can be **rebuilt in Excel by copy and paste**, with live formulas and check columns.
 
-Snapshot: **2026-10-07** (Oklahoma deed prices, Muskogee County and 7 Lincoln County parcel links added 2026-10-08; list prices re-sourced 2026-10-08). Zillow data: base month Aug 2026.
+Snapshot: **2026-10-07**, updated **2026-10-12** with a fresh county-by-county deed search (37 more properties, deduplicated against the existing list) and Evergreen listings as of 2026-10-12. List prices re-sourced 2026-10-08. Zillow data: base month Aug 2026.
 
 ## What we found
 
-We identified **1,045 properties** deeded to MRP Liberty LLC in public county records (Aug–Oct 2026), almost all bought from Lennar entities. **988** are advertised for rent as single-family homes by its property manager, Evergreen Live; for **918** of those, MRP ownership and the rental listing are verified at the exact address or parcel.
+We identified **1,082 properties** deeded to MRP Liberty LLC in public county records (Aug–Oct 2026), almost all bought from Lennar entities. **1,011** are advertised for rent as single-family homes by its property manager, Evergreen Live; for **941** of those, MRP ownership and the rental listing are verified at the exact address or parcel.
 
 | Evidence | Properties | How solid |
 |---|---|---|
-| Deeded to MRP Liberty LLC in county records | **1,045** | 1,030 with an MRP Liberty deed seen; 15 with MRP Liberty as owner of record (deed not seen) |
-| ...bought from a Lennar entity | 1,028 | 987 with the deed seen; 41 inferred from Lennar as prior owner in the title chain. 2 bought from other sellers |
-| **Rental listing linked: verified** | **918** | 670 exact deed address (+8 with a hand-checked spelling difference), 182 county parcel matches (block/lot or parcel ID to address), 58 with MRP Liberty as owner of record at the listing's address |
+| Deeded to MRP Liberty LLC in county records | **1,082** | 1,049 with an MRP Liberty deed seen; 33 with MRP Liberty as owner of record (deed not seen) |
+| ...bought from a Lennar entity | 1,041 | 1,000 with the deed seen; 41 inferred from Lennar as prior owner in the title chain. 8 bought from other sellers (6 are build-to-rent closings where the lot came from Millrose's own land company; see below) |
+| **Rental listing linked: verified** | **941** | 675 exact deed address (+8 with a hand-checked spelling difference), 182 county parcel matches (block/lot or parcel ID to address), 76 with MRP Liberty as owner of record at the listing's address |
 | Rental listing linked: moderate | 70 | Deed seen, but the address was assigned within a batch of deeds (e.g. 13 in Brunswick County NC) |
-| No rental listing matched | 57 | 37 have a home-level recorded price ($161,039+); the rest are lot-only deeds or not yet listed |
+| No rental listing matched | 71 | 38 have a home-level recorded price ($161,039+); the rest are lot-only deeds or not yet listed |
 
 Every property's `link_quality` and `seller_basis` are in [`mrp_liberty_homes.csv`](mrp_liberty_homes.csv), so you can filter to any tier.
 
@@ -22,15 +22,15 @@ Every property's `link_quality` and `seller_basis` are in [`mrp_liberty_homes.cs
 
 | Measure | Result |
 |---|---|
-| Properties identified | 1,045 (550 with a recorded purchase price) |
-| Estimated total spent by MRP Liberty | ≈ $285 million (recorded prices plus estimates where prices aren't public, e.g. Texas and Idaho; method in [zillow/README.md](zillow/README.md)) |
+| Properties identified | 1,082 (563 with a recorded purchase price) |
+| Estimated total spent by MRP Liberty | ≈ $301 million (recorded prices plus estimates where prices aren't public, e.g. Texas and Idaho; method in [zillow/README.md](zillow/README.md)) |
 | MRP price vs. last asking price | median **−3.2%**, mean −2.9% (302 homes with a recorded per-home price and a verified address; −3.7% for the 215 with a full listing history) |
 | Days listed for sale before the MRP deed | median **79 days** (338 homes) |
 | MRP price vs. same-community comparable sales | **0.0%** in aggregate (379 homes) |
-| Advertised for rent | 988 homes, average $1,859/month; average gross yield 8.2% |
+| Advertised for rent | 1,011 homes, average $1,865/month; average gross yield 8.2% |
 | Zillow 12-month home price forecast, MRP zip codes | **+0.3%** (value-weighted) vs. +1.4% for the US |
-| Unlevered IRR (60% NOI margin, 3% growth, 3% selling costs) | **2.3%** over 1 year, **6.0%** over 3, **6.8%** over 5 |
-| Population density of MRP zip codes, rank within metro | median **22nd** percentile vs. 24th for Lennar communities, 42nd for Invitation Homes, 33rd for AMH |
+| Unlevered IRR (60% NOI margin, 3% growth, 3% selling costs) | **2.3%** over 1 year, **6.0%** over 3, **6.7%** over 5 |
+| Population density of MRP zip codes, rank within metro | median **23rd** percentile vs. 24th for Lennar communities, 42nd for Invitation Homes, 33rd for AMH |
 
 ### MRP price vs. last asking price: which homes count
 
@@ -47,11 +47,19 @@ By state (headline sample): Arkansas −5.8% (54 homes), Florida −4.3% (74), O
 
 Homes that sold after a full public listing show larger discounts than homes that were barely marketed, so the figure depends on which homes are in the sample. Builder-aggregator prices (Jome, NewHomeSource) are not used: they are often undated or stale.
 
+### Build-to-rent closings (added 2026-10-12)
+
+Recorded documents in Forsyth County, NC show a second way MRP Liberty buys homes. Lennar Carolinas and MRP Liberty signed a **build-to-rent purchase agreement dated Aug 31, 2026**. Millrose's North Carolina land company granted MRP Liberty an **option over 52 townhome lots** in Reserve at Old Hollow (Walkertown). At each closing, the lot is deeded from the Millrose entity to MRP Liberty and Lennar conveys the finished home under the private contract. The first closing (6 homes, recorded Oct 7) shows only the **lot price on the deed ($519,500 for 6 lots)**; the home price is not public, so these homes have no `mrp_price`. Sources: Forsyth County Register of Deeds, instruments 2026035151, 2026037150, 2026037152, 2026037153 and 2026037154.
+
+### Pace of purchases
+
+Deeds recorded per week (homes): week of Aug 24: 142; **Aug 31: 637**; Sep 7: 139; Sep 14: 12; Sep 21: 4; Sep 28: 30; Oct 5–12: about 19. About 95% were recorded in the three weeks around Lennar's Aug 31 fiscal quarter-end. Recent weeks can still fill in as counties post deeds (most large county indexes we searched were current to Oct 7–12).
+
 ## What's here
 
 | Folder / file | What it is | Check it in Excel |
 |---|---|---|
-| `mrp_liberty_homes.csv` | One row per property (1,045) with all fields; column notes below | via [headline/](headline/) |
+| `mrp_liberty_homes.csv` | One row per property (1,082) with all fields; column notes below | via [headline/](headline/) |
 | `summary_by_state.csv` | State totals and medians, plus an `ALL` row | via [headline/](headline/) |
 | `mrp_vs_slate_same_house_type.csv` | MRP vs. Slate (another institutional buyer of Lennar homes), same community and house type | |
 | [`headline/`](headline/) | Copy-paste rebuild of the headline numbers by state | [headline/README.md](headline/README.md) |
@@ -82,7 +90,7 @@ Homes that sold after a full public listing show larger discounts than homes tha
 
 ## Caveats
 
-- **Coverage.** These are the properties we could find in public deed records. Purchases recorded after early October, and counties whose records need a login or CAPTCHA, aren't included, so the true total is likely somewhat higher. 37 deeds are still known only by lot and block (`address` says "lot only").
+- **Coverage.** These are the properties we could find in public deed records. Purchases recorded after early October, and counties whose records need a login or CAPTCHA, aren't included, so the true total is likely somewhat higher. 31 deeds are still known only by lot and block (`address` says "lot only").
 - **List prices are missing for many homes.** Homes sold before reaching the public MLS have no listing history.
 - **Outliers.** About 17 homes show MRP paying more than 10% above the last asking price. Some are probably a different builder's listing at the same address, so the **median** is the more reliable figure.
 - **Small samples in some states.** The Slate comparison rests on 7 matched homes.
