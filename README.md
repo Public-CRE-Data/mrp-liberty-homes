@@ -2,17 +2,17 @@
 
 Data on the finished Lennar homes that **MRP Liberty LLC** (a subsidiary of Millrose Properties, Inc.) bought in Aug–Oct 2026: purchase prices, last asking prices, time on market, comparable sales, asking rents, Zillow price outlook, location density and investment returns. Every headline number can be **rebuilt in Excel by copy and paste**, with live formulas and check columns.
 
-Snapshot: **2026-10-07**, updated **2026-10-12** with a fresh county-by-county deed search (38 more properties, deduplicated against the existing list, including 1 found in a hand-checked Gwinnett County GA owner search) and Evergreen listings as of 2026-10-12. List prices re-sourced 2026-10-08. Zillow data: base month Aug 2026.
+Snapshot: **2026-10-07**, updated **2026-10-12** with a fresh county-by-county deed search (50 more properties, deduplicated against the existing list; 13 of them found by hand-checking county owner records for Evergreen rentals: Madison County IN 9, Cleveland County OK 2, Gwinnett County GA 1 and Baltimore County MD 1) and Evergreen listings as of 2026-10-12. List prices re-sourced 2026-10-08. Zillow data: base month Aug 2026.
 
 ## What we found
 
-We identified **1,083 properties** deeded to MRP Liberty LLC in public county records (Aug–Oct 2026), almost all bought from Lennar entities. **1,012** are advertised for rent as single-family homes by its property manager, Evergreen Live; for **942** of those, MRP ownership and the rental listing are verified at the exact address or parcel.
+We identified **1,095 properties** deeded to MRP Liberty LLC in public county records (Aug–Oct 2026), almost all bought from Lennar entities. **1,024** are advertised for rent as single-family homes by its property manager, Evergreen Live; for **954** of those, MRP ownership and the rental listing are verified at the exact address or parcel.
 
 | Evidence | Properties | How solid |
 |---|---|---|
-| Deeded to MRP Liberty LLC in county records | **1,083** | 1,049 with an MRP Liberty deed seen; 34 with MRP Liberty as owner of record (deed not seen) |
-| ...bought from a Lennar entity | 1,041 | 1,000 with the deed seen; 41 inferred from Lennar as prior owner in the title chain. 8 bought from other sellers (6 are build-to-rent closings where the lot came from Millrose's own land company; see below) |
-| **Rental listing linked: verified** | **942** | 675 exact deed address (+8 with a hand-checked spelling difference), 182 county parcel matches (block/lot or parcel ID to address), 77 with MRP Liberty as owner of record at the listing's address |
+| Deeded to MRP Liberty LLC in county records | **1,095** | 1,061 with an MRP Liberty deed seen; 34 with MRP Liberty as owner of record (deed not seen) |
+| ...bought from a Lennar entity | 1,053 | 1,012 with the deed seen; 41 inferred from Lennar as prior owner in the title chain. 8 bought from other sellers (6 are build-to-rent closings where the lot came from Millrose's own land company; see below) |
+| **Rental listing linked: verified** | **954** | 687 exact deed address (+8 with a hand-checked spelling difference), 182 county parcel matches (block/lot or parcel ID to address), 77 with MRP Liberty as owner of record at the listing's address |
 | Rental listing linked: moderate | 70 | Deed seen, but the address was assigned within a batch of deeds (e.g. 13 in Brunswick County NC) |
 | No rental listing matched | 71 | 38 have a home-level recorded price ($161,039+); the rest are lot-only deeds or not yet listed |
 
@@ -22,12 +22,12 @@ Every property's `link_quality` and `seller_basis` are in [`mrp_liberty_homes.cs
 
 | Measure | Result |
 |---|---|
-| Properties identified | 1,083 (563 with a recorded purchase price) |
-| Estimated total spent by MRP Liberty | ≈ $302 million (recorded prices plus estimates where prices aren't public, e.g. Texas and Idaho; method in [zillow/README.md](zillow/README.md)) |
+| Properties identified | 1,095 (566 with a recorded purchase price) |
+| Estimated total spent by MRP Liberty | ≈ $306 million (recorded prices plus estimates where prices aren't public, e.g. Texas and Idaho; method in [zillow/README.md](zillow/README.md)) |
 | MRP price vs. last asking price | median **−3.2%**, mean −2.9% (302 homes with a recorded per-home price and a verified address; −3.7% for the 215 with a full listing history) |
 | Days listed for sale before the MRP deed | median **79 days** (338 homes) |
 | MRP price vs. same-community comparable sales | **0.0%** in aggregate (379 homes) |
-| Advertised for rent | 1,012 homes, average $1,866/month; average gross yield 8.2% |
+| Advertised for rent | 1,024 homes, average $1,868/month; average gross yield 8.2% |
 | Zillow 12-month home price forecast, MRP zip codes | **+0.3%** (value-weighted) vs. +1.4% for the US |
 | Unlevered IRR (60% NOI margin, 3% growth, 3% selling costs) | **2.3%** over 1 year, **6.0%** over 3, **6.7%** over 5 |
 | Population density of MRP zip codes, rank within metro | median **23rd** percentile vs. 24th for Lennar communities, 42nd for Invitation Homes, 33rd for AMH |
@@ -59,7 +59,7 @@ Deeds recorded per week (homes): week of Aug 24: 142; **Aug 31: 637**; Sep 7: 13
 
 | Folder / file | What it is | Check it in Excel |
 |---|---|---|
-| `mrp_liberty_homes.csv` | One row per property (1,083) with all fields; column notes below | via [headline/](headline/) |
+| `mrp_liberty_homes.csv` | One row per property (1,095) with all fields; column notes below | via [headline/](headline/) |
 | `summary_by_state.csv` | State totals and medians, plus an `ALL` row | via [headline/](headline/) |
 | `mrp_vs_slate_same_house_type.csv` | MRP vs. Slate (another institutional buyer of Lennar homes), same community and house type | |
 | [`headline/`](headline/) | Copy-paste rebuild of the headline numbers by state | [headline/README.md](headline/README.md) |
