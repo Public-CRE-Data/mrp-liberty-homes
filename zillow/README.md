@@ -8,7 +8,7 @@
 | Zillow forecast, 3 months to Nov 2026 | +0.3% | +0.6% |
 | Home values, change since Jan 2020 | +44.3% | +48.2% |
 | Home values, last 12 months (to Aug 2026) | −1.0% | +1.3% |
-| Share of portfolio value where Zillow forecasts a decline | 38% | |
+| Share of portfolio value where Zillow forecasts a decline | 37% | |
 
 By state, Zillow's 12-month forecast is weakest for Texas (−0.9%, 29% of value) and Florida (−0.8%, 13%), and strongest for Georgia (+2.2%) and Oklahoma (+2.0%). Full breakdown by state and metro: `hpa_forecast_summary.csv`.
 
@@ -27,11 +27,11 @@ By state, Zillow's 12-month forecast is weakest for Texas (−0.9%, 29% of value
 **1. Weights (how much each home counts).** Each home is weighted by its dollar value, so larger holdings count more:
 - the MRP deed price where recorded (566 homes);
 - otherwise its last asking price less 1.63%, the average gap between MRP's price and the last asking price (278 homes; mostly Texas, where deed prices are not public);
-- otherwise the average MRP deed price for its state (89 homes), or for all states (162 homes; mostly Texas and Idaho, which don't disclose prices).
+- otherwise the average MRP deed price for its state (98 homes), or for all states (162 homes; mostly Texas and Idaho, which don't disclose prices).
 
-Total weight: $306 million (an estimate of MRP's total spend; about half is recorded prices, half estimated). Each home's value and method are in [`mrp_liberty_homes.csv`](../mrp_liberty_homes.csv) (`weight_value`, `weight_value_basis`).
+Total weight: $310 million (an estimate of MRP's total spend; about half is recorded prices, half estimated). Each home's value and method are in [`mrp_liberty_homes.csv`](../mrp_liberty_homes.csv) (`weight_value`, `weight_value_basis`).
 
-**2. Forecast.** Each home takes the Zillow Home Value Forecast for its zip code (1,050 homes). Where the zip has no forecast, mostly lot-only deeds without a full address, it takes the forecast for the metro covering its county (45 homes). The portfolio forecast is the value-weighted average:
+**2. Forecast.** Each home takes the Zillow Home Value Forecast for its zip code (1,059 homes). Where the zip has no forecast, mostly lot-only deeds without a full address, it takes the forecast for the metro covering its county (45 homes). The portfolio forecast is the value-weighted average:
   `forecast = Σ(weight × zip forecast) ÷ Σ(weight)`.
 Equal-weighting the homes gives almost the same answer (+0.29% vs. +0.30%).
 
