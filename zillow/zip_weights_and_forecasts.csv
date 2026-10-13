@@ -1,142 +1,142 @@
 zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_latest_usd,zhvi_month,fc_1m_pct,fc_3m_pct,fc_12m_pct
-75407,Princeton,Collin County,TX,"Dallas-Fort Worth-Arlington, TX",50.0,13763452,4.567,282665,2026-08-31,-0.3,-0.4,-0.9
-75092,Sherman,Grayson County,TX,"Sherman-Denison, TX",21.0,6064446,2.012,285946,2026-08-31,-0.3,-0.8,-2.9
-29588,Myrtle Beach,Horry County,SC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",22.0,6045725,2.006,337270,2026-08-31,0.1,0.2,1.0
-77532,Crosby,Harris County,TX,"Houston-The Woodlands-Sugar Land, TX",24.0,5873595,1.949,263179,2026-08-31,-0.1,0.0,-0.1
-34476,Ocala,Marion County,FL,"Ocala, FL",21.13,5623487,1.866,293513,2026-08-31,-0.1,-0.2,-1.9
-28610,Claremont,Catawba County,NC,"Hickory-Lenoir-Morganton, NC",18.0,5581000,1.852,262350,2026-08-31,0.2,1.0,1.2
-36535,Foley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",16.26,5014620,1.664,304078,2026-08-31,0.2,0.9,0.9
-29054,Gilbert,Lexington County,SC,"Columbia, SC",19.0,4853839,1.611,338870,2026-08-31,0.4,1.1,1.5
-78130,New Braunfels,Comal County,TX,"San Antonio-New Braunfels, TX",20.0,4816176,1.598,304179,2026-08-31,0.0,-0.1,-0.7
-31069,Perry,Houston County,GA,"Warner Robins, GA",16.0,4798039,1.592,277445,2026-08-31,0.3,0.8,3.2
-77515,Angleton,Brazoria County,TX,"Houston-The Woodlands-Sugar Land, TX",16.0,4620530,1.533,245615,2026-08-31,-0.1,0.3,0.0
-78634,Hutto,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",16.0,4597847,1.526,329945,2026-08-31,-0.1,-0.3,-2.0
-28469,Ocean Isle Beach,Brunswick County,NC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",13.0,4523500,1.501,556670,2026-08-31,0.0,-0.1,1.1
-27703,Durham,Durham County,NC,"Durham-Chapel Hill, NC",7.0,4245500,1.409,381940,2026-08-31,-0.3,-0.4,-0.2
-29501,Florence,Florence County,SC,"Florence, SC",15.0,3975160,1.319,245235,2026-08-31,0.1,0.5,1.8
-32908,Palm Bay,Brevard County,FL,"Palm Bay-Melbourne-Titusville, FL",11.0,3646691,1.21,318059,2026-08-31,0.0,0.2,-0.5
-29745,York,York County,SC,"Charlotte-Concord-Gastonia, NC-SC",13.0,3622720,1.202,352627,2026-08-31,-0.3,0.2,0.4
-74804,Shawnee,Pottawatomie County,OK,"Shawnee, OK",16.29,3519185,1.168,228887,2026-08-31,0.1,0.3,3.0
-30044,Lawrenceville,Gwinnett County,GA,"Atlanta-Sandy Springs-Alpharetta, GA",10.0,3462953,1.149,358350,2026-08-31,0.0,0.4,0.6
-36580,Summerdale,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",10.26,3310419,1.099,290357,2026-08-31,0.3,1.2,1.1
-32615,Alachua,Alachua County,FL,"Gainesville, FL",12.0,3198700,1.061,330064,2026-08-31,-0.3,-0.3,-1.8
-29053,Gaston,Lexington County,SC,"Columbia, SC",11.0,3174094,1.053,157554,2026-08-31,0.4,1.6,0.8
-32409,Southport,Bay County,FL,"Panama City, FL",11.0,3107540,1.031,371531,2026-08-31,0.0,0.4,0.3
-27587,Wake Forest,Wake County,NC,"Raleigh-Cary, NC",9.0,2984500,0.99,511567,2026-08-31,0.1,0.3,-0.1
-78109,Converse,Bexar County,TX,"San Antonio-New Braunfels, TX",13.03,2984280,0.99,241325,2026-08-31,-0.2,-0.3,-0.8
-75090,Sherman,Grayson County,TX,"Sherman-Denison, TX",10.0,2887831,0.958,206753,2026-08-31,-0.4,-0.7,-3.4
-77328,Cleveland,San Jacinto County,TX,"Houston-The Woodlands-Sugar Land, TX",13.0,2879689,0.956,264373,2026-08-31,-0.2,0.1,0.0
-27330,Sanford,Lee County,NC,"Sanford, NC",8.0,2788978,0.925,289778,2026-08-31,0.1,0.8,1.0
-27571,Rolesville,Wake County,NC,"Raleigh-Cary, NC",8.0,2626500,0.872,496729,2026-08-31,0.1,0.1,-0.2
-34432,Dunnellon,Marion County,FL,"Ocala, FL",8.12,2612673,0.867,301823,2026-08-31,0.1,0.1,-1.6
-78112,Elmendorf,Bexar County,TX,"San Antonio-New Braunfels, TX",16.03,2465308,0.818,227571,2026-08-31,-0.2,-0.1,-0.5
-77484,Waller,Harris County,TX,"Houston-The Woodlands-Sugar Land, TX",8.0,2408896,0.799,353605,2026-08-31,-0.1,-0.1,0.0
-29325,Clinton,Laurens County,SC,"Greenville-Anderson, SC",12.0,2305485,0.765,176794,2026-08-31,-0.5,0.2,0.5
-78264,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",13.03,2295690,0.762,222259,2026-08-31,0.0,0.2,-0.4
-72727,Elkins,Washington County,AR,"Fayetteville-Springdale-Rogers, AR",7.0,2283404,0.758,288564,2026-08-31,0.1,0.4,1.3
-29927,Hardeeville,Jasper County,SC,"Hilton Head Island-Bluffton, SC",7.0,2244730,0.745,409228,2026-08-31,-0.5,-0.3,0.8
-27501,Angier,Harnett County,NC,"Fayetteville, NC",7.0,2152500,0.714,329526,2026-08-31,-0.2,-0.1,0.3
-27051,Walkertown,Forsyth County,NC,"Winston-Salem, NC",6.0,2091733,0.694,267464,2026-08-31,0.2,0.8,1.6
+75407,Princeton,Collin County,TX,"Dallas-Fort Worth-Arlington, TX",50.0,13763452,4.562,282665,2026-08-31,-0.3,-0.4,-0.9
+75092,Sherman,Grayson County,TX,"Sherman-Denison, TX",21.0,6064446,2.01,285946,2026-08-31,-0.3,-0.8,-2.9
+29588,Myrtle Beach,Horry County,SC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",22.0,6045725,2.004,337270,2026-08-31,0.1,0.2,1.0
+77532,Crosby,Harris County,TX,"Houston-The Woodlands-Sugar Land, TX",24.0,5873595,1.947,263179,2026-08-31,-0.1,0.0,-0.1
+34476,Ocala,Marion County,FL,"Ocala, FL",21.13,5623487,1.864,293513,2026-08-31,-0.1,-0.2,-1.9
+28610,Claremont,Catawba County,NC,"Hickory-Lenoir-Morganton, NC",18.0,5581000,1.85,262350,2026-08-31,0.2,1.0,1.2
+36535,Foley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",16.26,5014620,1.662,304078,2026-08-31,0.2,0.9,0.9
+29054,Gilbert,Lexington County,SC,"Columbia, SC",19.0,4853839,1.609,338870,2026-08-31,0.4,1.1,1.5
+78130,New Braunfels,Comal County,TX,"San Antonio-New Braunfels, TX",20.0,4816176,1.596,304179,2026-08-31,0.0,-0.1,-0.7
+31069,Perry,Houston County,GA,"Warner Robins, GA",16.0,4798039,1.59,277445,2026-08-31,0.3,0.8,3.2
+77515,Angleton,Brazoria County,TX,"Houston-The Woodlands-Sugar Land, TX",16.0,4620530,1.532,245615,2026-08-31,-0.1,0.3,0.0
+78634,Hutto,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",16.0,4597847,1.524,329945,2026-08-31,-0.1,-0.3,-2.0
+28469,Ocean Isle Beach,Brunswick County,NC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",13.0,4523500,1.499,556670,2026-08-31,0.0,-0.1,1.1
+27703,Durham,Durham County,NC,"Durham-Chapel Hill, NC",7.0,4245500,1.407,381940,2026-08-31,-0.3,-0.4,-0.2
+29501,Florence,Florence County,SC,"Florence, SC",15.0,3975160,1.318,245235,2026-08-31,0.1,0.5,1.8
+32908,Palm Bay,Brevard County,FL,"Palm Bay-Melbourne-Titusville, FL",11.0,3646691,1.209,318059,2026-08-31,0.0,0.2,-0.5
+29745,York,York County,SC,"Charlotte-Concord-Gastonia, NC-SC",13.0,3622720,1.201,352627,2026-08-31,-0.3,0.2,0.4
+74804,Shawnee,Pottawatomie County,OK,"Shawnee, OK",16.29,3519185,1.166,228887,2026-08-31,0.1,0.3,3.0
+30044,Lawrenceville,Gwinnett County,GA,"Atlanta-Sandy Springs-Alpharetta, GA",10.0,3462953,1.148,358350,2026-08-31,0.0,0.4,0.6
+36580,Summerdale,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",10.26,3310419,1.097,290357,2026-08-31,0.3,1.2,1.1
+32615,Alachua,Alachua County,FL,"Gainesville, FL",12.0,3198700,1.06,330064,2026-08-31,-0.3,-0.3,-1.8
+29053,Gaston,Lexington County,SC,"Columbia, SC",11.0,3174094,1.052,157554,2026-08-31,0.4,1.6,0.8
+32409,Southport,Bay County,FL,"Panama City, FL",11.0,3107540,1.03,371531,2026-08-31,0.0,0.4,0.3
+27587,Wake Forest,Wake County,NC,"Raleigh-Cary, NC",9.0,2984500,0.989,511567,2026-08-31,0.1,0.3,-0.1
+78109,Converse,Bexar County,TX,"San Antonio-New Braunfels, TX",13.03,2984280,0.989,241325,2026-08-31,-0.2,-0.3,-0.8
+75090,Sherman,Grayson County,TX,"Sherman-Denison, TX",10.0,2887831,0.957,206753,2026-08-31,-0.4,-0.7,-3.4
+77328,Cleveland,San Jacinto County,TX,"Houston-The Woodlands-Sugar Land, TX",13.0,2879689,0.955,264373,2026-08-31,-0.2,0.1,0.0
+27330,Sanford,Lee County,NC,"Sanford, NC",8.0,2788978,0.924,289778,2026-08-31,0.1,0.8,1.0
+27571,Rolesville,Wake County,NC,"Raleigh-Cary, NC",8.0,2626500,0.871,496729,2026-08-31,0.1,0.1,-0.2
+34432,Dunnellon,Marion County,FL,"Ocala, FL",8.12,2612673,0.866,301823,2026-08-31,0.1,0.1,-1.6
+78112,Elmendorf,Bexar County,TX,"San Antonio-New Braunfels, TX",16.03,2465308,0.817,227571,2026-08-31,-0.2,-0.1,-0.5
+77484,Waller,Harris County,TX,"Houston-The Woodlands-Sugar Land, TX",8.0,2408896,0.798,353605,2026-08-31,-0.1,-0.1,0.0
+30620,Bethlehem,Barrow County,GA,"Atlanta-Sandy Springs-Alpharetta, GA",6.0,2314633,0.767,363177,2026-08-31,0.0,0.2,0.8
+29325,Clinton,Laurens County,SC,"Greenville-Anderson, SC",12.0,2305485,0.764,176794,2026-08-31,-0.5,0.2,0.5
+78264,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",13.03,2295690,0.761,222259,2026-08-31,0.0,0.2,-0.4
+72727,Elkins,Washington County,AR,"Fayetteville-Springdale-Rogers, AR",7.0,2283404,0.757,288564,2026-08-31,0.1,0.4,1.3
+29927,Hardeeville,Jasper County,SC,"Hilton Head Island-Bluffton, SC",7.0,2244730,0.744,409228,2026-08-31,-0.5,-0.3,0.8
+27501,Angier,Harnett County,NC,"Fayetteville, NC",7.0,2152500,0.713,329526,2026-08-31,-0.2,-0.1,0.3
+27051,Walkertown,Forsyth County,NC,"Winston-Salem, NC",6.0,2091733,0.693,267464,2026-08-31,0.2,0.8,1.6
 33917,North Fort Myers,Lee County,FL,"Cape Coral-Fort Myers, FL",9.0,2062594,0.684,305218,2026-08-31,0.0,0.1,-1.1
-23223,Richmond,Henrico County,VA,"Richmond, VA",4.0,2040242,0.677,300903,2026-08-31,0.3,0.9,2.1
-29483,Summerville,Dorchester County,SC,"Charleston-North Charleston, SC",8.0,1997273,0.663,362006,2026-08-31,0.0,0.3,1.1
-37323,Cleveland,Bradley County,TN,"Cleveland, TN",6.0,1986624,0.659,301557,2026-08-31,0.0,0.2,0.7
-30620,Bethlehem,Barrow County,GA,"Atlanta-Sandy Springs-Alpharetta, GA",5.0,1971276,0.654,363177,2026-08-31,0.0,0.2,0.8
-32257,Jacksonville,Duval County,FL,"Jacksonville, FL",7.0,1946102,0.646,358619,2026-08-31,0.2,0.7,0.6
-31093,Warner Robins,Houston County,GA,"Warner Robins, GA",7.0,1931397,0.641,168716,2026-08-31,0.4,1.2,3.7
-32583,Milton,Santa Rosa County,FL,"Pensacola-Ferry Pass-Brent, FL",7.0,1864893,0.619,290999,2026-08-31,0.1,0.4,0.8
-72011,Bauxite,Saline County,AR,"Little Rock-North Little Rock-Conway, AR",9.0,1835567,0.609,251144,2026-08-31,0.4,0.9,2.3
-29335,Enoree,Spartanburg County,SC,"Spartanburg, SC",6.0,1834354,0.609,210426,2026-08-31,0.2,1.2,0.5
+23223,Richmond,Henrico County,VA,"Richmond, VA",4.0,2040242,0.676,300903,2026-08-31,0.3,0.9,2.1
+29483,Summerville,Dorchester County,SC,"Charleston-North Charleston, SC",8.0,1997273,0.662,362006,2026-08-31,0.0,0.3,1.1
+37323,Cleveland,Bradley County,TN,"Cleveland, TN",6.0,1986624,0.658,301557,2026-08-31,0.0,0.2,0.7
+32257,Jacksonville,Duval County,FL,"Jacksonville, FL",7.0,1946102,0.645,358619,2026-08-31,0.2,0.7,0.6
+31093,Warner Robins,Houston County,GA,"Warner Robins, GA",7.0,1931397,0.64,168716,2026-08-31,0.4,1.2,3.7
+32583,Milton,Santa Rosa County,FL,"Pensacola-Ferry Pass-Brent, FL",7.0,1864893,0.618,290999,2026-08-31,0.1,0.4,0.8
+72011,Bauxite,Saline County,AR,"Little Rock-North Little Rock-Conway, AR",9.0,1835567,0.608,251144,2026-08-31,0.4,0.9,2.3
+29335,Enoree,Spartanburg County,SC,"Spartanburg, SC",6.0,1834354,0.608,210426,2026-08-31,0.2,1.2,0.5
 80102,Bennett,Adams County,CO,"Denver-Aurora-Lakewood, CO",4.0,1757500,0.583,516651,2026-08-31,0.0,-0.1,0.3
-83605,Caldwell,Canyon County,ID,"Boise City, ID",6.0,1732699,0.575,373233,2026-08-31,0.3,0.8,0.3
-46074,Westfield,Hamilton County,IN,"Indianapolis-Carmel-Anderson, IN",5.0,1720606,0.571,519144,2026-08-31,0.5,1.0,1.5
-36551,Loxley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",5.26,1719472,0.571,283589,2026-08-31,0.2,0.9,0.9
-27577,Smithfield,Johnston County,NC,"Raleigh-Cary, NC",5.0,1717500,0.57,289706,2026-08-31,-0.2,-0.1,-0.4
-55301,Albertville,Wright County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",4.0,1701553,0.565,381780,2026-08-31,0.1,0.4,0.7
-30241,Lagrange,Troup County,GA,"LaGrange, GA-AL",6.0,1690831,0.561,226340,2026-08-31,0.2,0.7,2.7
+83605,Caldwell,Canyon County,ID,"Boise City, ID",6.0,1732699,0.574,373233,2026-08-31,0.3,0.8,0.3
+46074,Westfield,Hamilton County,IN,"Indianapolis-Carmel-Anderson, IN",5.0,1720606,0.57,519144,2026-08-31,0.5,1.0,1.5
+36551,Loxley,Baldwin County,AL,"Daphne-Fairhope-Foley, AL",5.26,1719472,0.57,283589,2026-08-31,0.2,0.9,0.9
+27577,Smithfield,Johnston County,NC,"Raleigh-Cary, NC",5.0,1717500,0.569,289706,2026-08-31,-0.2,-0.1,-0.4
+55301,Albertville,Wright County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",4.0,1701553,0.564,381780,2026-08-31,0.1,0.4,0.7
+30241,Lagrange,Troup County,GA,"LaGrange, GA-AL",6.0,1690831,0.56,226340,2026-08-31,0.2,0.7,2.7
 72713,Bentonville,Benton County,AR,"Fayetteville-Springdale-Rogers, AR",6.0,1682271,0.558,451369,2026-08-31,0.1,0.2,1.3
-73034,Edmond,Oklahoma County,OK,"Oklahoma City, OK",6.0,1657000,0.55,422354,2026-08-31,0.3,0.5,1.6
-74881,Wellston,Lincoln County,OK,"Oklahoma City, OK",8.2,1651050,0.548,192694,2026-08-31,0.0,0.0,1.3
+73034,Edmond,Oklahoma County,OK,"Oklahoma City, OK",6.0,1657000,0.549,422354,2026-08-31,0.3,0.5,1.6
+74881,Wellston,Lincoln County,OK,"Oklahoma City, OK",8.2,1651050,0.547,192694,2026-08-31,0.0,0.0,1.3
 32439,Freeport,Walton County,FL,"Crestview-Fort Walton Beach-Destin, FL",5.0,1646742,0.546,390909,2026-08-31,-0.1,-0.1,0.1
-72916,Fort Smith,Sebastian County,AR,"Fort Smith, AR-OK",7.0,1635289,0.543,321086,2026-08-31,0.1,0.4,1.4
+72916,Fort Smith,Sebastian County,AR,"Fort Smith, AR-OK",7.0,1635289,0.542,321086,2026-08-31,0.1,0.4,1.4
 19904,Dover,Kent County,DE,"Dover, DE",5.0,1628551,0.54,349272,2026-08-31,0.5,1.3,2.4
-35044,Childersburg,Talladega County,AL,"Talladega-Sylacauga, AL",7.14,1595834,0.53,167712,2026-08-31,0.2,1.2,1.5
+35044,Childersburg,Talladega County,AL,"Talladega-Sylacauga, AL",7.14,1595834,0.529,167712,2026-08-31,0.2,1.2,1.5
 37421,Chattanooga,Hamilton County,TN,"Chattanooga, TN-GA",5.0,1594941,0.529,364706,2026-08-31,0.0,0.2,-0.1
-30605,Athens,Clarke County,GA,"Athens-Clarke County, GA",4.0,1592703,0.529,346444,2026-08-31,0.2,0.5,2.0
-78222,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",9.03,1581528,0.525,208420,2026-08-31,-0.2,-0.1,-0.8
-72761,Siloam Springs,Benton County,AR,"Fayetteville-Springdale-Rogers, AR",7.0,1560313,0.518,284397,2026-08-31,0.1,0.4,1.2
+30605,Athens,Clarke County,GA,"Athens-Clarke County, GA",4.0,1592703,0.528,346444,2026-08-31,0.2,0.5,2.0
+78222,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",9.03,1581528,0.524,208420,2026-08-31,-0.2,-0.1,-0.8
+72761,Siloam Springs,Benton County,AR,"Fayetteville-Springdale-Rogers, AR",7.0,1560313,0.517,284397,2026-08-31,0.1,0.4,1.2
 29388,Woodruff,Spartanburg County,SC,"Spartanburg, SC",6.0,1558694,0.517,290329,2026-08-31,0.1,0.6,0.8
-27591,Wendell,Wake County,NC,"Raleigh-Cary, NC",4.0,1535500,0.51,367378,2026-08-31,-0.1,0.1,-0.2
-34479,Ocala,Marion County,FL,"Ocala, FL",6.13,1494659,0.496,234270,2026-08-31,-0.2,-0.1,-2.1
-80904,Colorado Springs,El Paso County,CO,"Colorado Springs, CO",3.0,1476477,0.49,451575,2026-08-31,0.2,0.6,0.1
-55024,Farmington,Dakota County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",4.0,1464295,0.486,406875,2026-08-31,0.2,0.6,0.7
-34473,Ocala,Marion County,FL,"Ocala, FL",5.13,1446140,0.48,264765,2026-08-31,-0.2,-0.4,-2.1
+27591,Wendell,Wake County,NC,"Raleigh-Cary, NC",4.0,1535500,0.509,367378,2026-08-31,-0.1,0.1,-0.2
+34479,Ocala,Marion County,FL,"Ocala, FL",6.13,1494659,0.495,234270,2026-08-31,-0.2,-0.1,-2.1
+80904,Colorado Springs,El Paso County,CO,"Colorado Springs, CO",3.0,1476477,0.489,451575,2026-08-31,0.2,0.6,0.1
+55024,Farmington,Dakota County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",4.0,1464295,0.485,406875,2026-08-31,0.2,0.6,0.7
+34473,Ocala,Marion County,FL,"Ocala, FL",5.13,1446140,0.479,264765,2026-08-31,-0.2,-0.4,-2.1
 78656,Maxwell,Caldwell County,TX,"Austin-Round Rock-Georgetown, TX",5.0,1443916,0.479,254335,2026-08-31,0.0,-0.3,-1.6
 72065,Hensley,Saline County,AR,"Little Rock-North Little Rock-Conway, AR",7.0,1399483,0.464,247321,2026-08-31,0.3,0.8,2.2
-73089,Tuttle,Grady County,OK,"Oklahoma City, OK",6.0,1389194,0.461,328224,2026-08-31,0.0,-0.2,1.5
+73089,Tuttle,Grady County,OK,"Oklahoma City, OK",6.0,1389194,0.46,328224,2026-08-31,0.0,-0.2,1.5
 55387,Waconia,Carver County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",3.0,1374843,0.456,464478,2026-08-31,0.4,0.8,0.9
-78410,Corpus Christi,Nueces County,TX,"Corpus Christi, TX",5.0,1364682,0.453,240637,2026-08-31,0.1,0.3,0.0
-31047,Kathleen,Houston County,GA,"Warner Robins, GA",4.0,1304500,0.433,360093,2026-08-31,0.3,0.8,3.0
-77469,Rosenberg,Fort Bend County,TX,"Houston-The Woodlands-Sugar Land, TX",6.0,1294492,0.43,337586,2026-08-31,0.0,0.0,-0.3
+78410,Corpus Christi,Nueces County,TX,"Corpus Christi, TX",5.0,1364682,0.452,240637,2026-08-31,0.1,0.3,0.0
+31047,Kathleen,Houston County,GA,"Warner Robins, GA",4.0,1304500,0.432,360093,2026-08-31,0.3,0.8,3.0
+77469,Rosenberg,Fort Bend County,TX,"Houston-The Woodlands-Sugar Land, TX",6.0,1294492,0.429,337586,2026-08-31,0.0,0.0,-0.3
 27569,Princeton,Johnston County,NC,"Raleigh-Cary, NC",4.0,1275000,0.423,276939,2026-08-31,0.0,0.0,-0.3
-73044,Guthrie,Logan County,OK,"Oklahoma City, OK",6.0,1255500,0.417,260396,2026-08-31,0.0,-0.1,1.8
-78263,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",7.03,1253398,0.416,348574,2026-08-31,0.3,0.6,-0.4
+73044,Guthrie,Logan County,OK,"Oklahoma City, OK",6.0,1255500,0.416,260396,2026-08-31,0.0,-0.1,1.8
+78263,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",7.03,1253398,0.415,348574,2026-08-31,0.3,0.6,-0.4
 78224,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",5.03,1233480,0.409,200087,2026-08-31,0.3,0.7,-0.4
 77303,Conroe,Montgomery County,TX,"Houston-The Woodlands-Sugar Land, TX",6.0,1230138,0.408,267140,2026-08-31,0.0,0.2,0.1
 78221,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",6.03,1227823,0.407,176881,2026-08-31,0.2,0.6,-1.0
-30677,Watkinsville,Oconee County,GA,"Athens-Clarke County, GA",2.0,1198521,0.398,521455,2026-08-31,0.1,0.3,1.6
+30677,Watkinsville,Oconee County,GA,"Athens-Clarke County, GA",2.0,1198521,0.397,521455,2026-08-31,0.1,0.3,1.6
 78621,Elgin,Bastrop County,TX,"Austin-Round Rock-Georgetown, TX",5.0,1182402,0.392,288275,2026-08-31,-0.4,-0.7,-2.0
 78633,Georgetown,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",3.0,1169616,0.388,437146,2026-08-31,0.2,0.2,-1.4
-27546,Lillington,Harnett County,NC,"Fayetteville, NC",5.0,1156500,0.384,292589,2026-08-31,-0.1,0.1,0.5
-72012,Beebe,White County,AR,"Searcy, AR",6.0,1134831,0.377,214002,2026-08-31,0.2,0.8,2.4
+27546,Lillington,Harnett County,NC,"Fayetteville, NC",5.0,1156500,0.383,292589,2026-08-31,-0.1,0.1,0.5
+72012,Beebe,White County,AR,"Searcy, AR",6.0,1134831,0.376,214002,2026-08-31,0.2,0.8,2.4
 72023,Cabot,Lonoke County,AR,"Little Rock-North Little Rock-Conway, AR",6.0,1106000,0.367,253266,2026-08-31,0.1,0.4,2.0
 72753,Prairie Grove,Washington County,AR,"Fayetteville-Springdale-Rogers, AR",4.0,1101408,0.365,320551,2026-08-31,0.1,0.3,1.2
 35603,Decatur,Morgan County,AL,"Decatur, AL",3.86,1078633,0.358,280398,2026-08-31,0.0,0.5,1.2
 28016,Bessemer City,Gaston County,NC,"Charlotte-Concord-Gastonia, NC-SC",3.0,1045867,0.347,238798,2026-08-31,0.2,0.7,0.9
-32653,Gainesville,Alachua County,FL,"Gainesville, FL",4.0,1032500,0.343,325757,2026-08-31,-0.3,-0.2,-1.9
+32653,Gainesville,Alachua County,FL,"Gainesville, FL",4.0,1032500,0.342,325757,2026-08-31,-0.3,-0.2,-1.9
 32570,Milton,Santa Rosa County,FL,"Pensacola-Ferry Pass-Brent, FL",4.0,1001449,0.332,277938,2026-08-31,0.2,0.6,0.9
 78253,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",4.03,998524,0.331,321151,2026-08-31,0.1,0.1,-0.5
-74074,Stillwater,Payne County,OK,"Stillwater, OK",4.0,969000,0.322,277850,2026-08-31,0.2,0.7,2.2
+74074,Stillwater,Payne County,OK,"Stillwater, OK",4.0,969000,0.321,277850,2026-08-31,0.2,0.7,2.2
 37186,Westmoreland,Sumner County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",3.0,961596,0.319,288260,2026-08-31,0.3,0.7,0.2
 19962,Magnolia,Kent County,DE,"Dover, DE",2.0,944298,0.313,423841,2026-08-31,0.3,0.7,2.1
 78628,Georgetown,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",3.0,943925,0.313,472070,2026-08-31,0.2,0.2,-1.5
-46239,Indianapolis,Marion County,IN,"Indianapolis-Carmel-Anderson, IN",3.0,936612,0.311,293969,2026-08-31,0.0,0.4,1.2
+46239,Indianapolis,Marion County,IN,"Indianapolis-Carmel-Anderson, IN",3.0,936612,0.31,293969,2026-08-31,0.0,0.4,1.2
 27253,Graham,Alamance County,NC,"Burlington, NC",3.0,911000,0.302,301517,2026-08-31,-0.2,-0.1,0.1
-72143,Searcy,White County,AR,"Searcy, AR",4.0,903092,0.3,224163,2026-08-31,0.3,1.1,2.6
-76537,Jarrell,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",4.0,902836,0.3,254804,2026-08-31,-0.1,-0.4,-1.5
+72143,Searcy,White County,AR,"Searcy, AR",4.0,903092,0.299,224163,2026-08-31,0.3,1.1,2.6
+76537,Jarrell,Williamson County,TX,"Austin-Round Rock-Georgetown, TX",4.0,902836,0.299,254804,2026-08-31,-0.1,-0.4,-1.5
 55376,Saint Michael,Wright County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",2.0,897872,0.298,434188,2026-08-31,0.2,0.5,0.9
 77845,College Station,Brazos County,TX,"College Station-Bryan, TX",3.0,896275,0.297,365368,2026-08-31,-0.1,0.1,0.2
 75172,Wilmer,Dallas County,TX,"Dallas-Fort Worth-Arlington, TX",3.0,866349,0.287,217223,2026-08-31,-0.1,0.2,0.6
-76031,Cleburne,Johnson County,TX,"Dallas-Fort Worth-Arlington, TX",3.2,845766,0.281,277600,2026-08-31,0.0,0.5,0.3
+76031,Cleburne,Johnson County,TX,"Dallas-Fort Worth-Arlington, TX",3.2,845766,0.28,277600,2026-08-31,0.0,0.5,0.3
 76108,Fort Worth,Tarrant County,TX,"Dallas-Fort Worth-Arlington, TX",3.02,844704,0.28,283378,2026-08-31,0.0,0.2,-0.3
 27616,Raleigh,Wake County,NC,"Raleigh-Cary, NC",2.0,837500,0.278,352158,2026-08-31,-0.1,0.1,-0.4
-33838,Dundee,Polk County,FL,"Lakeland-Winter Haven, FL",3.0,797480,0.265,264691,2026-08-31,-0.2,-0.2,-0.6
+33838,Dundee,Polk County,FL,"Lakeland-Winter Haven, FL",3.0,797480,0.264,264691,2026-08-31,-0.2,-0.2,-0.6
 77354,Magnolia,Montgomery County,TX,"Houston-The Woodlands-Sugar Land, TX",3.0,752981,0.25,378164,2026-08-31,0.0,0.0,-0.1
 37312,Cleveland,Bradley County,TN,"Cleveland, TN",2.0,744850,0.247,353565,2026-08-31,-0.1,0.1,0.7
 77336,Houston,Harris County,TX,"Houston-The Woodlands-Sugar Land, TX",3.0,735932,0.244,274325,2026-08-31,0.1,0.4,0.2
 78223,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",3.03,735552,0.244,182506,2026-08-31,0.0,0.3,-0.7
 35120,Odenville,Saint Clair County,AL,"Birmingham-Hoover, AL",3.0,730624,0.242,260874,2026-08-31,0.1,0.1,1.3
 29579,Myrtle Beach,Horry County,SC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",3.0,727206,0.241,388682,2026-08-31,0.1,0.1,0.9
-35055,Cullman,Cullman County,AL,"Cullman, AL",3.0,719173,0.239,253558,2026-08-31,0.2,0.6,1.7
+35055,Cullman,Cullman County,AL,"Cullman, AL",3.0,719173,0.238,253558,2026-08-31,0.2,0.6,1.7
 33525,Dade City,Pasco County,FL,"Tampa-St. Petersburg-Clearwater, FL",2.0,718600,0.238,346203,2026-08-31,-0.1,0.2,0.3
-77316,Montgomery,Montgomery County,TX,"Houston-The Woodlands-Sugar Land, TX",3.0,710203,0.236,413912,2026-08-31,0.0,0.1,0.0
+77316,Montgomery,Montgomery County,TX,"Houston-The Woodlands-Sugar Land, TX",3.0,710203,0.235,413912,2026-08-31,0.0,0.1,0.0
 35613,Athens,Limestone County,AL,"Huntsville, AL",2.0,708754,0.235,346585,2026-08-31,0.2,0.7,1.0
-32435,Defuniak Springs,Walton County,FL,"Crestview-Fort Walton Beach-Destin, FL",3.0,685888,0.228,239826,2026-08-31,-0.2,0.3,-0.4
-34219,Parrish,Manatee County,FL,"North Port-Sarasota-Bradenton, FL",2.0,683097,0.227,413502,2026-08-31,0.1,0.3,0.1
+32435,Defuniak Springs,Walton County,FL,"Crestview-Fort Walton Beach-Destin, FL",3.0,685888,0.227,239826,2026-08-31,-0.2,0.3,-0.4
+34219,Parrish,Manatee County,FL,"North Port-Sarasota-Bradenton, FL",2.0,683097,0.226,413502,2026-08-31,0.1,0.3,0.1
 78214,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",4.03,633672,0.21,137230,2026-08-31,0.6,1.5,-1.1
-77306,Conroe,Montgomery County,TX,"Houston-The Woodlands-Sugar Land, TX",3.0,631507,0.21,228030,2026-08-31,-0.4,-0.4,0.0
+77306,Conroe,Montgomery County,TX,"Houston-The Woodlands-Sugar Land, TX",3.0,631507,0.209,228030,2026-08-31,-0.4,-0.4,0.0
 72019,Benton,Saline County,AR,"Little Rock-North Little Rock-Conway, AR",3.0,615174,0.204,297701,2026-08-31,0.3,0.7,1.9
 74011,Broken Arrow,Tulsa County,OK,"Tulsa, OK",2.0,615000,0.204,301650,2026-08-31,0.2,0.6,2.1
 33909,Cape Coral,Lee County,FL,"Cape Coral-Fort Myers, FL",2.0,608651,0.202,299567,2026-08-31,0.0,0.2,-1.1
 72404,Jonesboro,Craighead County,AR,"Jonesboro, AR",3.0,605295,0.201,267119,2026-08-31,0.1,0.3,1.5
 72015,Benton,Saline County,AR,"Little Rock-North Little Rock-Conway, AR",3.0,588688,0.195,209662,2026-08-31,0.2,0.6,2.1
-29644,Fountain Inn,Greenville County,SC,"Greenville-Anderson, SC",2.0,586174,0.195,308888,2026-08-31,-0.2,-0.1,0.8
-37076,Nashville,Davidson County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",1.0,583562,0.194,411827,2026-08-31,0.0,0.4,-0.2
-19734,Townsend,New Castle County,DE,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2.0,577566,0.192,488288,2026-08-31,0.3,0.8,1.5
-75459,Sherman,Grayson County,TX,"Sherman-Denison, TX",2.0,577566,0.192,296318,2026-08-31,-0.5,-0.9,-2.9
-78666,San Marcos,Hays County,TX,"Austin-Round Rock-Georgetown, TX",2.0,577566,0.192,314679,2026-08-31,0.1,0.2,-1.5
-32567,Paxton,Okaloosa County,FL,"Crestview-Fort Walton Beach-Destin, FL",2.0,568400,0.189,296836,2026-08-31,0.1,0.6,0.1
-76179,Fort Worth,Tarrant County,TX,"Dallas-Fort Worth-Arlington, TX",2.02,562414,0.187,317788,2026-08-31,0.0,0.0,-0.3
+29644,Fountain Inn,Greenville County,SC,"Greenville-Anderson, SC",2.0,586174,0.194,308888,2026-08-31,-0.2,-0.1,0.8
+37076,Nashville,Davidson County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",1.0,583562,0.193,411827,2026-08-31,0.0,0.4,-0.2
+19734,Townsend,New Castle County,DE,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2.0,577566,0.191,488288,2026-08-31,0.3,0.8,1.5
+75459,Sherman,Grayson County,TX,"Sherman-Denison, TX",2.0,577566,0.191,296318,2026-08-31,-0.5,-0.9,-2.9
+78666,San Marcos,Hays County,TX,"Austin-Round Rock-Georgetown, TX",2.0,577566,0.191,314679,2026-08-31,0.1,0.2,-1.5
+32567,Paxton,Okaloosa County,FL,"Crestview-Fort Walton Beach-Destin, FL",2.0,568400,0.188,296836,2026-08-31,0.1,0.6,0.1
+76179,Fort Worth,Tarrant County,TX,"Dallas-Fort Worth-Arlington, TX",2.02,562414,0.186,317788,2026-08-31,0.0,0.0,-0.3
 32404,Panama City,Bay County,FL,"Panama City, FL",2.0,545905,0.181,286518,2026-08-31,-0.1,-0.2,0.3
 29568,Longs,Horry County,SC,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",2.0,541876,0.18,295858,2026-08-31,-0.1,-0.1,0.9
 37087,Lebanon,Wilson County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",1.0,540817,0.179,445885,2026-08-31,0.1,0.4,0.1
@@ -146,7 +146,7 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 33839,Eagle Lake,Polk County,FL,"Lakeland-Winter Haven, FL",2.0,516684,0.171,284259,2026-08-31,-0.2,-0.1,-0.4
 37130,Murfreesboro,Rutherford County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",1.0,510476,0.169,377358,2026-08-31,0.1,0.4,0.1
 37419,Chattanooga,Hamilton County,TN,"Chattanooga, TN-GA",2.0,507617,0.168,374032,2026-08-31,0.0,0.2,-0.1
-55379,Shakopee,Scott County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",1.0,504984,0.168,407467,2026-08-31,0.2,0.6,0.7
+55379,Shakopee,Scott County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",1.0,504984,0.167,407467,2026-08-31,0.2,0.6,0.7
 78605,Bertram,Burnet County,TX,,2.0,494799,0.164,415542,2026-08-31,,,
 85120,Apache Junction,Pinal County,AZ,"Phoenix-Mesa-Chandler, AZ",1.0,485262,0.161,355598,2026-08-31,-0.1,0.1,-0.6
 37066,Gallatin,Sumner County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",1.0,474599,0.157,444359,2026-08-31,0.1,0.3,0.1
@@ -158,11 +158,11 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 78219,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",2.03,432997,0.144,168664,2026-08-31,0.1,0.3,-1.0
 77357,New Caney,Montgomery County,TX,"Houston-The Woodlands-Sugar Land, TX",2.0,426907,0.142,260830,2026-08-31,-0.2,-0.2,0.1
 37127,Murfreesboro,Rutherford County,TN,"Nashville-Davidson--Murfreesboro--Franklin, TN",1.0,416007,0.138,420545,2026-08-31,0.1,0.3,0.1
-37043,Clarksville,Montgomery County,TN,"Clarksville, TN-KY",1.0,414539,0.138,399867,2026-08-31,0.3,0.5,0.2
+37043,Clarksville,Montgomery County,TN,"Clarksville, TN-KY",1.0,414539,0.137,399867,2026-08-31,0.3,0.5,0.2
 33545,Wesley Chapel,Pasco County,FL,"Tampa-St. Petersburg-Clearwater, FL",1.0,409300,0.136,391362,2026-08-31,0.0,0.2,0.3
 74010,Castle,Creek County,OK,"Tulsa, OK",2.0,403000,0.134,198107,2026-08-31,0.5,0.7,1.9
 27610,Raleigh,Wake County,NC,"Raleigh-Cary, NC",1.0,394000,0.131,313479,2026-08-31,-0.2,0.0,-0.4
-35749,Harvest,Madison County,AL,"Huntsville, AL",1.0,387537,0.129,314298,2026-08-31,0.2,0.6,1.0
+35749,Harvest,Madison County,AL,"Huntsville, AL",1.0,387537,0.128,314298,2026-08-31,0.2,0.6,1.0
 85326,Buckeye,Maricopa County,AZ,"Phoenix-Mesa-Chandler, AZ",1.0,385264,0.128,368542,2026-08-31,-0.2,-0.1,-0.6
 32219,Jacksonville,Duval County,FL,"Jacksonville, FL",1.0,373337,0.124,291007,2026-08-31,0.0,0.1,0.6
 35096,Lincoln,Talladega County,AL,"Talladega-Sylacauga, AL",2.14,370367,0.123,228786,2026-08-31,-0.2,-0.1,0.9
@@ -176,8 +176,8 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 33598,Wimauma,Hillsborough County,FL,"Tampa-St. Petersburg-Clearwater, FL",1.0,321828,0.107,344570,2026-08-31,-0.1,0.0,0.2
 55068,Rosemount,Dakota County,MN,"Minneapolis-St. Paul-Bloomington, MN-WI",1.0,311198,0.103,412750,2026-08-31,0.3,0.6,0.6
 33954,Port Charlotte,Charlotte County,FL,"Punta Gorda, FL",1.0,310200,0.103,299510,2026-08-31,0.4,0.9,0.6
-34482,Ocala,Marion County,FL,"Ocala, FL",1.12,306102,0.102,292670,2026-08-31,-0.2,-0.3,-2.1
-27880,Sims,Wilson County,NC,"Wilson, NC",1.0,303000,0.101,300491,2026-08-31,-0.1,0.2,0.1
+34482,Ocala,Marion County,FL,"Ocala, FL",1.12,306102,0.101,292670,2026-08-31,-0.2,-0.3,-2.1
+27880,Sims,Wilson County,NC,"Wilson, NC",1.0,303000,0.1,300491,2026-08-31,-0.1,0.2,0.1
 33993,Cape Coral,Lee County,FL,"Cape Coral-Fort Myers, FL",1.0,300645,0.1,326246,2026-08-31,0.0,0.2,-1.0
 46235,Indianapolis,Marion County,IN,"Indianapolis-Carmel-Anderson, IN",1.0,298051,0.099,218192,2026-08-31,0.0,0.4,1.2
 76058,Joshua,Johnson County,TX,"Dallas-Fort Worth-Arlington, TX",1.2,294827,0.098,357045,2026-08-31,0.0,0.1,-0.1
@@ -196,22 +196,22 @@ zip,city,county,state,metro,mrp_homes,weight_value,weight_share_pct,zhvi_sfr_lat
 35621,Eva,Morgan County,AL,"Decatur, AL",0.86,276475,0.092,213255,2026-08-31,0.4,0.9,1.3
 72734,Gentry,Benton County,AR,"Fayetteville-Springdale-Rogers, AR",1.0,275627,0.091,306968,2026-08-31,0.2,0.5,1.3
 76134,Fort Worth,Tarrant County,TX,"Dallas-Fort Worth-Arlington, TX",1.02,273207,0.091,247531,2026-08-31,-0.1,0.0,-0.6
-72751,Pea Ridge,Benton County,AR,"Fayetteville-Springdale-Rogers, AR",1.0,272723,0.091,346911,2026-08-31,-0.1,0.0,1.0
+72751,Pea Ridge,Benton County,AR,"Fayetteville-Springdale-Rogers, AR",1.0,272723,0.09,346911,2026-08-31,-0.1,0.0,1.0
 30461,Statesboro,Bulloch County,GA,"Statesboro, GA",1.0,269367,0.089,313363,2026-08-31,-0.3,-0.4,0.1
 33853,Lake Wales,Polk County,FL,"Lakeland-Winter Haven, FL",1.0,263087,0.087,222353,2026-08-31,0.0,0.2,-0.5
 35611,Athens,Limestone County,AL,"Huntsville, AL",1.0,258907,0.086,249946,2026-08-31,0.1,0.8,0.6
 33541,Zephyrhills,Pasco County,FL,"Tampa-St. Petersburg-Clearwater, FL",1.0,235600,0.078,339169,2026-08-31,-0.1,0.1,0.2
 73012,Edmond,Oklahoma County,OK,"Oklahoma City, OK",1.0,233000,0.077,328536,2026-08-31,0.1,0.1,1.3
-78211,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",1.03,221503,0.074,130271,2026-08-31,0.1,1.0,-1.3
-74834,Chandler,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,210479,2026-08-31,-0.2,-0.5,1.2
-74864,Prague,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,193300,2026-08-31,-0.3,-0.6,1.3
-74079,Stroud,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,156379,2026-08-31,0.3,0.0,1.6
-74855,Meeker,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,223615,2026-08-31,-0.2,-0.5,1.3
-74824,Agra,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,229365,2026-08-31,-0.3,-0.6,1.1
-74875,Tryon,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,203747,2026-08-31,-0.2,-1.0,1.0
-74869,Sparks,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,199928,2026-08-31,-0.2,-0.9,0.9
-74832,Carney,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,179521,2026-08-31,-0.3,-0.7,1.0
-74026,Davenport,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.072,108524,2026-08-31,-0.9,-1.1,-0.1
+78211,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",1.03,221503,0.073,130271,2026-08-31,0.1,1.0,-1.3
+74834,Chandler,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,210479,2026-08-31,-0.2,-0.5,1.2
+74864,Prague,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,193300,2026-08-31,-0.3,-0.6,1.3
+74079,Stroud,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,156379,2026-08-31,0.3,0.0,1.6
+74855,Meeker,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,223615,2026-08-31,-0.2,-0.5,1.3
+74824,Agra,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,229365,2026-08-31,-0.3,-0.6,1.1
+74875,Tryon,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,203747,2026-08-31,-0.2,-1.0,1.0
+74869,Sparks,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,199928,2026-08-31,-0.2,-0.9,0.9
+74832,Carney,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,179521,2026-08-31,-0.3,-0.7,1.0
+74026,Davenport,Lincoln County,OK,"Oklahoma City, OK",1.2,215518,0.071,108524,2026-08-31,-0.9,-1.1,-0.1
 72113,Maumelle,Pulaski County,AR,"Little Rock-North Little Rock-Conway, AR",1.0,205139,0.068,305554,2026-08-31,0.2,0.5,1.8
 72106,Mayflower,Faulkner County,AR,"Little Rock-North Little Rock-Conway, AR",1.0,204420,0.068,222832,2026-08-31,0.4,1.0,2.5
 78245,San Antonio,Bexar County,TX,"San Antonio-New Braunfels, TX",1.03,183138,0.061,256495,2026-08-31,0.0,0.1,-0.6

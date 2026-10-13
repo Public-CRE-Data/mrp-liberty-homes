@@ -27,11 +27,11 @@ By state, Zillow's 12-month forecast is weakest for Texas (−0.9%, 29% of value
 **1. Weights (how much each home counts).** Each home is weighted by its dollar value, so larger holdings count more:
 - the MRP deed price where recorded (563 homes);
 - otherwise its last asking price less 1.63%, the average gap between MRP's price and the last asking price (278 homes; mostly Texas, where deed prices are not public);
-- otherwise the average MRP deed price for its state (88 homes), or for all states (153 homes; mostly Texas and Idaho, which don't disclose prices).
+- otherwise the average MRP deed price for its state (89 homes), or for all states (153 homes; mostly Texas and Idaho, which don't disclose prices).
 
-Total weight: $301 million (an estimate of MRP's total spend; about half is recorded prices, half estimated). Each home's value and method are in [`mrp_liberty_homes.csv`](../mrp_liberty_homes.csv) (`weight_value`, `weight_value_basis`).
+Total weight: $302 million (an estimate of MRP's total spend; about half is recorded prices, half estimated). Each home's value and method are in [`mrp_liberty_homes.csv`](../mrp_liberty_homes.csv) (`weight_value`, `weight_value_basis`).
 
-**2. Forecast.** Each home takes the Zillow Home Value Forecast for its zip code (1,037 homes). Where the zip has no forecast, mostly lot-only deeds without a full address, it takes the forecast for the metro covering its county (45 homes). The portfolio forecast is the value-weighted average:
+**2. Forecast.** Each home takes the Zillow Home Value Forecast for its zip code (1,038 homes). Where the zip has no forecast, mostly lot-only deeds without a full address, it takes the forecast for the metro covering its county (45 homes). The portfolio forecast is the value-weighted average:
   `forecast = Σ(weight × zip forecast) ÷ Σ(weight)`.
 Equal-weighting the homes gives almost the same answer (+0.29% vs. +0.30%).
 
