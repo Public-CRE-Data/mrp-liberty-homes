@@ -1,6 +1,6 @@
 # Pace of MRP Liberty's purchases: buying appears to have paused since Oct 5
 
-MRP Liberty LLC (Millrose Properties' home-buying subsidiary) bought Lennar homes in **two bursts around Lennar's quarter-ends**, then stopped. A re-check on **Oct 19, 2026** of about 190 counties we can search found **no Lennar-to-MRP Liberty deed recorded after Oct 5**, although most county records were current to Oct 12–19.
+Based on county deed records, MRP Liberty LLC (Millrose Properties' home-buying subsidiary) appears to have bought Lennar homes in **two bursts around Lennar's quarter-ends** and then stopped. A re-check on **Oct 19, 2026** of about 190 counties we can search found **no Lennar-to-MRP Liberty deed recorded after Oct 5**, although most county records were current to Oct 12–19.
 
 ## Homes deeded to MRP Liberty, by week
 
@@ -19,7 +19,7 @@ MRP Liberty LLC (Millrose Properties' home-buying subsidiary) bought Lennar home
 - 1,038 of the 1,107 homes have a date: the recording date, or where the index doesn't show one, the deed or sale date from the assessor. The other 68 are known only as owned by MRP Liberty, with no date. One deed was recorded in May.
 - **About 93% were dated in the three weeks around the Aug 31 quarter-end.** A smaller burst came around Sep 30.
 
-## Why this looks like a pause, not slow record-keeping
+## Why we believe this is a pause, not slow record-keeping
 
 County records lag. An empty week can simply mean the county hasn't caught up. So for each county we recorded **how current its records are**, and compared that with the latest MRP Liberty deed:
 
@@ -35,14 +35,14 @@ County records lag. An empty week can simply mean the county hasn't caught up. S
 | Sebastian, AR (assessor, filed dates) | Oct 14 | Oct 5 | 7 |
 
 - **In about 35 counties whose records run to Oct 14–19, the latest MRP Liberty deed is Oct 5 or earlier.** These include Millrose's largest markets in Texas, Florida, the Carolinas and Arizona, plus Minnesota's state sale filings.
-- In the same counties, **Lennar kept recording sales to individual buyers** during those weeks, so records were flowing.
+- In the same counties, **Lennar kept recording sales to individual buyers** during those weeks, which suggests records were flowing.
 - **Owner records match the deeds.** County owner lists show the same MRP Liberty homes as a week earlier, and no MRP Liberty homes have been resold.
-- Millrose's land-bank entities (MRP H… LLCs, Millrose Properties [state] LLCs) kept recording land deals with several builders through mid-October. **The pause is in finished-home purchases, not the land business.**
+- Millrose's land-bank entities (MRP H… LLCs, Millrose Properties [state] LLCs) kept recording land deals with several builders through mid-October. **The pause appears to be in finished-home purchases, not the land business.**
 
 **Limits:**
 - Many county sources are tax or map layers, which lag deed books by days to weeks. The cleanest evidence is the clerk and register-of-deeds indexes above.
 - Counties we can't search (logins, CAPTCHAs, disclaimer gates) could still hold later deeds.
-- A pause could also be a quarter-end pattern. **The next test is Lennar's Nov 30 fiscal year-end:** if purchases resume around then, the pattern is quarter-end timing; if not, it's a real pause.
+- What looks like a pause could also be a quarter-end buying pattern. **The next test is Lennar's Nov 30 fiscal year-end:** if purchases resume around then, quarter-end timing would be the more likely explanation; if not, a sustained pause would be.
 
 ## Files
 

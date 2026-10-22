@@ -2,7 +2,7 @@
 
 An illustrative sensitivity of Millrose Properties' (NYSE: MRP) **$9.6 billion land book** (homesites under option, June 30, 2026). The question: if the housing market softens, how big a **price cut on that land could homebuilders credibly demand**, and would Millrose's **credit-facility covenants** hold? Every number below can be rebuilt in Excel by copy and paste, with live formulas and check columns. Instructions are [at the bottom](#check-our-work-in-excel).
 
-**Short answer:** not at today's conditions. It gets tight if **Lennar's sales incentives move back toward their 2025 highs (~15% of price)**, and the covenants break if that comes with **moderate price weakness**. The main variable is builder incentives and margins, not headline home prices.
+**Short answer:** on our estimates, not at today's conditions. We think it would get tight if **Lennar's sales incentives move back toward their 2025 highs (~15% of price)**, and that the covenants could be breached if that came with **moderate price weakness**. In our analysis the main variable is builder incentives and margins, not headline home prices.
 
 *This is an illustrative sensitivity built from public filings and stated assumptions. It is not a valuation, a forecast or investment advice. Change any assumption on the `inputs` sheet and every table updates.*
 
@@ -15,16 +15,16 @@ An illustrative sensitivity of Millrose Properties' (NYSE: MRP) **$9.6 billion l
 | Development still to fund | **$6.9B** | Q2 2026 10-Q |
 | Optioned to Lennar | ~68% of invested capital | Q2 2026 10-Q (Master Program Agreement vs. other agreements) |
 
-**Almost all of it is early-stage land.** About **23% of the development work is done across the whole book**. We split the book by vintage using the S-11's development-stage table (Sept 2024), Millrose's disclosed split of spending between land and development, and the assumption that Lennar takes down the most finished lots first:
+**We believe most of the book is early-stage land**, based on our analysis of Millrose's disclosed remaining development costs ($6.9B), its split of spending since the spin-off between land ($4.9B) and development ($2.9B), and the S-11's development-stage table (Sept 2024), and assuming land is roughly half of a finished lot's cost. On that basis we estimate about **23% of the development work is done across the whole book**. We split the book by vintage using the same sources and assuming Lennar takes down the most finished lots first:
 
 | Vintage | Book | Takedown value | Development done | Priced at (home-value index) |
 |---|---|---|---|---|
 | Legacy: Lennar spin-off + Rausch Coleman land, still held | ~$3.4B | ~$6.0B | ~25% (range 5–59%) | ~144 (mostly 2022–24; Rausch at the Feb 2025 peak) |
 | Post-2025 additions | ~$6.1B | ~$10.4B | ~21% (range 0–34%) | ~145 |
 
-- **Land is about half of a finished lot's cost in both vintages** (43% legacy, 47% post-2025, implied by the filings).
+- **We estimate land is about half of a finished lot's cost in both vintages** (43% legacy, 47% post-2025), as implied by the filings under the assumptions above.
 - **The vintage split depends on one unknown:** how ~$1.9B of development spending on lots still held divides between old and new land. The range column shows the extremes. The whole-book figure (~23% developed) does not depend on it.
-- **There's no price cushion in either vintage.** Home values in Millrose's markets rose ~45% from 2020 to mid-2022 and have been flat since. Nearly all the land was booked at about today's level.
+- **We don't see a meaningful price cushion in either vintage.** On our proxy index, home values in Millrose's markets rose ~45% from 2020 to mid-2022 and have been roughly flat since, so we believe most of the land was booked at about today's level. The purchase dates of individual parcels are not disclosed.
 
 ![Home value index, Millrose markets vs. US](home_value_index.png)
 
@@ -32,11 +32,11 @@ An illustrative sensitivity of Millrose Properties' (NYSE: MRP) **$9.6 billion l
 
 ## 2. Method: builder margins, not home prices
 
-A builder keeps taking down lots only while it can earn a normal margin on the homes it builds on them. The most it can afford to pay for a lot is:
+Our framework assumes a builder keeps taking down lots only while it can earn a normal margin on the homes it builds on them. On that view, the most it can afford to pay for a lot is:
 
 > today's lot price + (builder's gross margin today − normal gross margin) × home price
 
-Once the agreed takedown price exceeds that by more than the **10% the builder forfeits by walking away** (a 5% option deposit plus a 5% termination fee, both on the takedown price, under the Master Option Agreement), it can credibly demand a cut.
+We assume that once the agreed takedown price exceeds that by more than the **10% the builder forfeits by walking away** (a 5% option deposit plus a 5% termination fee, both on the takedown price, under the Master Option Agreement), it could credibly push for a cut. In practice, pooling, termination-fee caps and the builder's relationship with Millrose could make the real threshold higher or lower.
 
 | Input | Value | Source |
 |---|---|---|
@@ -46,15 +46,15 @@ Once the agreed takedown price exceeds that by more than the **10% the builder f
 | Lot share of home price | ~30% ($113k average Millrose takedown ÷ $372k Lennar average price) | Millrose and Lennar filings |
 
 **Why margins, not Zillow:**
-- **Builders discount through incentives, not sticker prices.** Lennar books incentives (price discounts and mortgage-rate buydowns) as a reduction of revenue, so they come straight out of gross margin. Zillow and the Census new-home price index don't see them.
-- **New-home sticker prices fall less than Zillow.** In 2006–11, the Census constant-quality new-home index fell about half as much as Zillow (US −13.5% vs. −23%; South −7% vs. −21%), with the rest of the adjustment going through incentives ([`newhome`](10_newhome_vs_zillow.tsv)).
-- **Since 2022, Lennar's margin fell 13 points while industry sticker prices (Census index) rose about 8%.** About 60% of the drop is incentives (2.5% → 12% of price). The rest is costs rising faster than prices, which Lennar attributes to **higher land costs** (partly offset by construction costs down 14% per square foot since late 2023). See [`lennar`](5_lennar_quarterly.tsv).
+- **In our view, builders discount mainly through incentives, not sticker prices.** Lennar books incentives (price discounts and mortgage-rate buydowns) as a reduction of revenue, so they come straight out of gross margin. Zillow and the Census new-home price index don't see them.
+- **New-home sticker prices have historically fallen less than Zillow.** In 2006–11, the Census constant-quality new-home index fell about half as much as Zillow (US −13.5% vs. −23%; South −7% vs. −21%); we believe much of the rest of the adjustment went through incentives, which the index doesn't capture ([`newhome`](10_newhome_vs_zillow.tsv)).
+- **Since 2022, Lennar's margin fell 13 points while industry sticker prices (Census index) rose about 8%.** By our estimate, about 60% of the drop reflects incentives (2.5% → 12% of price), assuming costs otherwise kept pace with pre-incentive prices. The rest appears to be costs rising faster than prices, which Lennar attributes mainly to **higher land costs** (partly offset by construction costs down 14% per square foot since late 2023). See [`lennar`](5_lennar_quarterly.tsv).
 
 So the scenarios use **two inputs**: the change in new-home sticker prices (linked to Zillow) and Lennar's incentive rate.
 
 ## 3. Results: haircut builders could credibly ask
 
-Central case: 20% normal margin, construction costs unchanged over 12 months. Shown in $ and as % of Millrose's $9.6B book (Lennar-optioned land only); ranges in brackets cover normal margins of 19%–21.4%.
+These are our estimates under stated assumptions, not predictions. Central case: 20% normal margin, construction costs unchanged over 12 months. Shown in $ and as % of Millrose's $9.6B book (Lennar-optioned land only); ranges in brackets cover normal margins of 19%–21.4%.
 
 | New-home sticker price, next 12 months ↓ / Lennar incentives → | 6% ("normal") | **12% (today)** | 15% (2025 high) |
 |---|---|---|---|
@@ -62,10 +62,10 @@ Central case: 20% normal margin, construction costs unchanged over 12 months. Sh
 | **Moderate:** Zillow −5% (new-home ≈ −2.5%) | 0 | **$0.9B, 9%** ($0.5–1.4B) | **$1.8B, 19%** ($1.5–2.3B) |
 | **Severe:** new-home −5% (≈ Zillow −10%) | 0 ($0–0.2B) | **$1.6B, 16%** ($1.2–2.1B) | **$2.5B, 26%** ($2.2–3.0B) |
 
-- **Today, Millrose's lots are worth about 8–16% less to Lennar than their agreed takedown prices**, right at the 10% walk-away line.
-- **Incentives decide it.** At ~6% (Lennar's "normal"), there's no credible haircut in any scenario. Back at ~15%, there's about $1B even with flat prices.
+- **We estimate that today Millrose's lots are worth about 8–16% less to Lennar than their agreed takedown prices**, close to the 10% walk-away line, assuming a 19–21.4% normal margin and that Lennar's blended margin is representative of Millrose lots.
+- **In our analysis, incentives matter most.** At ~6% (Lennar's "normal"), we find no credible haircut in any scenario; back at ~15%, we estimate about $1B even with flat prices.
 - **Zillow's forecast for Millrose's markets is +0.5%**, but 31% of the dollars are in zip codes forecast to fall (Texas −0.5%), and Zillow has been too optimistic recently.
-- **The vintage split hardly changes the totals:** every vintage was booked within about ±2% of where home values are forecast to be in 12 months.
+- **The vintage split appears to change the totals little:** on our proxy index, each vintage was booked within about ±2% of where home values are forecast to be in 12 months.
 
 ## 4. Covenants
 
@@ -79,16 +79,16 @@ Credit agreement (March 2026), Section 7.27. All tests are on **book values**, s
 
 A breach is an immediate event of default under Section 8.3, with no cure period. The senior notes have no leverage test.
 
-**Leverage path:** 29.7% at June 30 → ~33–37% after the October 2026 raise ($1.0B notes + $0.5B term loan; revolver repaid) → **~41%** once the Dream Finders/Beazer homesites (up to $1.25B; $500M of 2031 notes must be redeemed if that merger doesn't close by May 13, 2027) are funded from the leftover proceeds plus the revolver.
+**Leverage path (our estimates):** 29.7% at June 30 → ~33–37% after the October 2026 raise ($1.0B notes + $0.5B term loan), assuming the revolver was repaid → **~41%** once the Dream Finders/Beazer homesites (up to $1.25B; $500M of 2031 notes must be redeemed if that merger doesn't close by May 13, 2027) are funded from the leftover proceeds plus the revolver.
 
-**Write-down room** before a breach ([`covenants`](7_covenants.tsv)):
+**Estimated write-down room** before a breach ([`covenants`](7_covenants.tsv)), assuming equity stays near $5.85B and no new equity is issued:
 
 | Situation | Room | Binding test |
 |---|---|---|
 | Dream Finders/Beazer funded, no step-up | ~$0.84B | 45% cap |
 | Step-up elected (needs one acquisition ≥ ~$1.05–1.1B; may not apply if the homesite purchase is ~$0.8B or split into tranches) | ~$1.46B | Net-worth floor |
 
-**Over time it depends on takedowns** ([`leverage`](8_leverage_path.tsv), quarterly Q1 2027–Q2 2028):
+**Over time we think it depends on takedowns** ([`leverage`](8_leverage_path.tsv), quarterly Q1 2027–Q2 2028; illustrative paths, not forecasts):
 
 | Path | Room in Q4 2027 (no step-up / step-up) |
 |---|---|
@@ -98,29 +98,29 @@ A breach is an immediate event of default under Section 8.3, with no cure period
 | D. Lennar pause: takedowns −60%, half option fees; development continues | breached (−$1.2B) / $0.05B |
 | E. Same pause, development deferred with takedowns | $0.6B / $1.15B |
 
-**Putting it together:**
-- **Fine** at today's conditions.
-- **Tight** if incentives return to ~15%, or with moderate price weakness at today's incentives (~$0.9–1.0B), unless Millrose stops buying new land or elects the step-up.
-- **Breached** with moderate weakness plus 15% incentives, or in the severe case (~$1.6–2.5B), which exceeds the ~$1.46B net-worth ceiling. That would need an amendment or new equity.
-- **The worst sequence** is a Lennar pause while Millrose keeps funding development (path D): leverage rises even before any write-down.
+**Putting it together (our reading):**
+- **Likely fine** at today's conditions.
+- **Could get tight** if incentives return to ~15%, or with moderate price weakness at today's incentives (~$0.9–1.0B), unless Millrose stops buying new land or elects the step-up.
+- **Could be breached** with moderate weakness plus 15% incentives, or in the severe case (~$1.6–2.5B), which would exceed the ~$1.46B net-worth ceiling and would likely require an amendment or new equity.
+- **The most adverse sequence we model** is a Lennar pause while Millrose keeps funding development (path D): leverage would rise even before any write-down. We have not confirmed whether development funding can be deferred during a pause.
 
-## 5. Why the real path is likely slower and milder
+## 5. Why we think the real path would likely be slower and milder
 
-1. **Nothing is written down while builders keep paying.** Contracts limit cherry-picking:
+1. **We would not expect write-downs while builders keep paying.** Contracts limit cherry-picking:
    - pooling: walking away from one community forfeits deposits across the pool, and Millrose can end the builder's options on the rest of it;
    - termination fees capped at $50M per pool (spin-off land) and $25M per pool (later land);
-   - Lennar relies on Millrose for its land-light model.
-2. **The first levers are pauses and fee cuts, not price cuts:**
+   - Lennar relies on Millrose for its land-light model, which we believe gives it reason to avoid walking away.
+2. **We expect the first levers to be pauses and fee cuts, not price cuts:**
    - **Market pause:** triggered when the Burns home value index for a metro is down 10% or more from a property's own effective date; 2 + 2 six-month pauses at half the option rate.
    - **Discretionary pause:** costs Lennar its right to match lower option rates Millrose gives other builders.
 3. **Metros past the trigger** ([`pause`](9_pause_trigger.tsv), Zillow used as a stand-in for Burns, measured from Feb 2025):
    - past −10% today: **Punta Gorda and Cape Coral**, ~1.7% of the land (~$0.17B);
    - on Zillow's 12-month forecast: add **Austin and Sherman, TX** (~$0.34B in total);
-   - metros holding ~47% of the land are already down 2.5% or more, so a further ~7.5% fall would push them past.
+   - metros holding ~47% of the land are already down 2.5% or more on Zillow, so a further ~7.5% fall could push them past, if Burns moves similarly.
    - Only properties whose own effective date precedes the decline qualify, so actual triggered amounts are smaller.
 
 **What could make it worse:**
-- Lennar's margin is blended with its own, cheaper land; margins on Millrose lots are probably lower.
+- Lennar's margin is blended with its own land, which we believe is cheaper; margins on Millrose lots may be lower.
 - Lennar's selling costs rose ~1 point in 2025.
 - Other builders (~32% of the book) are not modeled.
 - Millrose still has $6.9B of development to fund.

@@ -53,11 +53,11 @@ Recorded documents in Forsyth County, NC show a second way MRP Liberty buys home
 
 ### Pace of purchases: appears paused since Oct 5
 
-Homes deeded per week: week of Aug 24: 132; **Aug 31: 682**; Sep 7: 154; Sep 14: 13; Sep 21: 4; Sep 28: 37; Oct 5: 16 (the last Lennar deeds on Oct 5, plus a 6-home build-to-rent closing on Oct 7); **Oct 12 and Oct 19: none**. About 93% were dated in the three weeks around Lennar's Aug 31 fiscal quarter-end, with a smaller burst around Sep 30. A re-check on Oct 19 of about 190 searchable counties found no Lennar-to-MRP Liberty deed recorded after Oct 5, although most county records were current to Oct 12–19 (e.g. Collin TX and Travis TX to Oct 19, Marion FL to Oct 18, Wake NC to Oct 16). Detail, county-by-county record currency and Excel checks: [pace/](pace/).
+Homes deeded per week, from county deed records: week of Aug 24: 132; **Aug 31: 682**; Sep 7: 154; Sep 14: 13; Sep 21: 4; Sep 28: 37; Oct 5: 16 (the last Lennar deeds on Oct 5, plus a 6-home build-to-rent closing on Oct 7); **Oct 12 and Oct 19: none**. About 93% were dated in the three weeks around Lennar's Aug 31 fiscal quarter-end, with a smaller burst around Sep 30. A re-check on Oct 19 of about 190 searchable counties found no Lennar-to-MRP Liberty deed recorded after Oct 5, although most county records were current to Oct 12–19 (e.g. Collin TX and Travis TX to Oct 19, Marion FL to Oct 18, Wake NC to Oct 16). Detail, county-by-county record currency and Excel checks: [pace/](pace/).
 
 ### Millrose's land book (added 2026-10-22)
 
-A separate, illustrative sensitivity of Millrose's $9.6B land book: how much of a price cut builders could credibly demand as margins and incentives move, and what that means for Millrose's credit-facility covenants. At today's conditions no cut is credible. If Lennar's incentives return to ~15% of price, or new-home prices fall moderately, the credible cut reaches ~$1–2.5B, against roughly $0.8–1.5B of covenant room. Details and Excel checks: [millrose_land/](millrose_land/).
+A separate, illustrative sensitivity of Millrose's $9.6B land book: how much of a price cut builders could credibly demand as margins and incentives move, and what that could mean for Millrose's credit-facility covenants. On our estimates and stated assumptions, no cut appears credible at today's conditions. If Lennar's incentives returned to ~15% of price, or new-home prices fell moderately, we estimate the credible cut could reach ~$1–2.5B, against roughly $0.8–1.5B of covenant room. Details and Excel checks: [millrose_land/](millrose_land/).
 
 ## What's here
 
