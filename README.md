@@ -51,9 +51,13 @@ Homes that sold after a full public listing show larger discounts than homes tha
 
 Recorded documents in Forsyth County, NC show a second way MRP Liberty buys homes. Lennar Carolinas and MRP Liberty signed a **build-to-rent purchase agreement dated Aug 31, 2026**. Millrose's North Carolina land company granted MRP Liberty an **option over 52 townhome lots** in Reserve at Old Hollow (Walkertown). At each closing, the lot is deeded from the Millrose entity to MRP Liberty and Lennar conveys the finished home under the private contract. The first closing (6 homes, recorded Oct 7) shows only the **lot price on the deed ($519,500 for 6 lots)**; the home price is not public, so these homes have no `mrp_price`. Sources: Forsyth County Register of Deeds, instruments 2026035151, 2026037150, 2026037152, 2026037153 and 2026037154.
 
-### Pace of purchases
+### Pace of purchases: appears paused since Oct 5
 
-Deeds recorded per week (homes): week of Aug 24: 142; **Aug 31: 637**; Sep 7: 139; Sep 14: 12; Sep 21: 4; Sep 28: 30; Oct 5–12: about 19 (the last Lennar deeds on Oct 5, plus a 6-home build-to-rent closing on Oct 7); **Oct 13–19: none**. About 95% were recorded in the three weeks around Lennar's Aug 31 fiscal quarter-end, with a smaller burst around Sep 30. A re-check on Oct 19 of about 190 searchable counties found no Lennar-to-MRP Liberty deed recorded after Oct 5, although most county indexes were current to Oct 12–19 (e.g. Travis TX to Oct 19, Marion FL to Oct 18, Wake NC to Oct 16, Williamson TX to Oct 14). Counties we cannot search could still hold later deeds.
+Homes deeded per week: week of Aug 24: 132; **Aug 31: 682**; Sep 7: 154; Sep 14: 13; Sep 21: 4; Sep 28: 37; Oct 5: 16 (the last Lennar deeds on Oct 5, plus a 6-home build-to-rent closing on Oct 7); **Oct 12 and Oct 19: none**. About 93% were dated in the three weeks around Lennar's Aug 31 fiscal quarter-end, with a smaller burst around Sep 30. A re-check on Oct 19 of about 190 searchable counties found no Lennar-to-MRP Liberty deed recorded after Oct 5, although most county records were current to Oct 12–19 (e.g. Collin TX and Travis TX to Oct 19, Marion FL to Oct 18, Wake NC to Oct 16). Detail, county-by-county record currency and Excel checks: [pace/](pace/).
+
+### Millrose's land book (added 2026-10-22)
+
+A separate, illustrative sensitivity of Millrose's $9.6B land book: how much of a price cut builders could credibly demand as margins and incentives move, and what that means for Millrose's credit-facility covenants. At today's conditions no cut is credible. If Lennar's incentives return to ~15% of price, or new-home prices fall moderately, the credible cut reaches ~$1–2.5B, against roughly $0.8–1.5B of covenant room. Details and Excel checks: [millrose_land/](millrose_land/).
 
 ## What's here
 
@@ -67,6 +71,8 @@ Deeds recorded per week (homes): week of Aug 24: 142; **Aug 31: 637**; Sep 7: 13
 | [`irr/`](irr/) | 1–5 year unlevered IRRs per home and for the portfolio, with editable assumptions | [irr/README.md](irr/README.md) |
 | [`density/`](density/) | Zip-code population density vs. Lennar's communities, Invitation Homes and AMH | [density/README.md](density/README.md) |
 | [`homebuilders/`](homebuilders/) | 2026 vs. 2025 deliveries and starts for 14 public homebuilders | [homebuilders/README.md](homebuilders/README.md) |
+| [`pace/`](pace/) | Homes deeded per week and how current each county's records are: purchases appear paused since Oct 5 | [pace/README.md](pace/README.md) |
+| [`millrose_land/`](millrose_land/) | Millrose land book: vintages, builder margins and incentives, credible haircut scenarios, covenant headroom and leverage paths | [millrose_land/README.md](millrose_land/README.md) |
 
 ## Column notes: `mrp_liberty_homes.csv`
 

@@ -1,0 +1,31 @@
+item	formula	ours	check (0 = match)	what it is
+finished (Dec-24)	=inputs!$B$10*inputs!$B$11-inputs!$B$15			finished lots left after Q4-2024 takedowns, takedown value
+under development	=inputs!$B$10*inputs!$B$12			
+entitled, not started	=inputs!$B$10*inputs!$B$13			
+not entitled	=inputs!$B$10*inputs!$B$14			
+Q4-2024 additions	=inputs!$B$8-(B2+B3+B4+B5)			land Lennar added before the spin-off, treated as not started
+legacy development to fund, Dec-24	=inputs!$B$8-inputs!$B$9			takedown value - book
+development-weighted stock	=B3*(1-inputs!$B$16)+B4+B5+B6			
+development share of a legacy lot	=B7/B8			
+implied land share, legacy	=1-B9	0.426569	=ROUND(B10-C10,4)	land as % of finished-lot cost
+taken: finished	=MIN(B2,inputs!$B$17)			FIFO: most finished first
+taken: under development	=MIN(B3,inputs!$B$17-B11)			
+taken: Q4-24 additions	=MIN(B6,inputs!$B$17-B11-B12)			
+taken: entitled	=MIN(B4,inputs!$B$17-B11-B12-B13)			
+taken: not entitled	=MIN(B5,inputs!$B$17-B11-B12-B13-B14)			
+dev spent finishing lots taken down	=B9*(B12*(1-inputs!$B$16)+B13+B14+B15)			
+LEGACY held: takedown value	=B2+B3+B4+B5+B6-(B11+B12+B13+B14+B15)	6.03	=ROUND(B17-C17,4)	
+legacy held: dev needed at spin-off	=B9*((B3-B12)*(1-inputs!$B$16)+(B6-B13)+(B4-B14)+(B5-B15))			
+post-2025 development budget	=inputs!$B$4+inputs!$B$18-B7			remaining-dev identity
+POST-2025: takedown value	=inputs!$B$19+B19	10.386	=ROUND(B20-C20,4)	
+implied land share, post-2025	=inputs!$B$19/B20	0.473137	=ROUND(B21-C21,4)	
+spare dev spend (lots still held)	=inputs!$B$18-B16			
+share of spare dev to legacy	=IF(inputs!$B$20="",B18/(B18+B19),inputs!$B$20)			blank override = pro rata
+spare dev on legacy	=B22*B23			
+LEGACY held: book	=B17-(B18-B24)	3.433358	=ROUND(B25-C25,4)	
+LEGACY: development done	=1-(B18-B24)/(B17*B9)	0.249045	=ROUND(B26-C26,4)	
+POST-2025: book	=inputs!$B$19+B22-B24	6.082642	=ROUND(B27-C27,4)	
+POST-2025: development done	=(B22-B24)/B19	0.213568	=ROUND(B28-C28,4)	
+tie-out: book vs reported	=B25+B27-inputs!$B$2			should be within ~0.1 ($B)
+tie-out: takedown vs reported	=B17+B20-inputs!$B$3			should be within ~0.15 ($B)
+whole book: share developed	=(inputs!$B$2-B17*B10-inputs!$B$19)/(inputs!$B$2-B17*B10-inputs!$B$19+inputs!$B$4)			~23%, independent of the legacy/new split

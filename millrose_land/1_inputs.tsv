@@ -1,0 +1,45 @@
+input	value	unit	type	source / notes
+book_now	9.604	$B	disclosed	Homesites under option contracts, 30 Jun 2026 (Q2 10-Q) https://www.sec.gov/Archives/edgar/data/2017206/000119312526332732/ck0002017206-20260630.htm
+tk_now	16.3	$B	disclosed	Expected total takedown prices, 30 Jun 2026 (Q2 10-Q)
+dev_left_now	6.9	$B	disclosed	Total estimated (remaining) development costs, 30 Jun 2026 (Q2 10-Q)
+homesites_now	143771	homesites	disclosed	30 Jun 2026 (Q2 10-Q)
+lennar_ic	5.949365	$B	disclosed	Invested Capital, Master Program Agreement (Lennar), 30 Jun 2026 (Q2 10-Q)
+other_ic	2.849634	$B	disclosed	Invested Capital, Other Agreements, 30 Jun 2026 (Q2 10-Q)
+legacy_tk_dec24	10.914	$B	disclosed	Spin-off + Rausch land, total takedown prices, 31 Dec 2024 (FY2024 10-K) https://www.sec.gov/Archives/edgar/data/2017206/000119312525068773/d931976d10k.htm
+legacy_book_dec24	6.6	$B	disclosed	Same land, approximate aggregate value, 31 Dec 2024 (FY2024 10-K)
+tk_sep24	10.474	$B	disclosed	Spin-off + Rausch land, total takedown prices, 30 Sep 2024 (S-11/A) https://www.sec.gov/Archives/edgar/data/2017206/000119312525005370/d811267ds11a.htm
+stage_finished	0.282	share	disclosed	S-11/A pool table average value by Group: G1 11.9% + G2 16.3% (finished homesites)
+stage_underdev	0.389	share	disclosed	S-11/A: G3 land under development 38.9%
+stage_entitled	0.141	share	disclosed	S-11/A: G4 land ready for development (entitled, not started) 14.1%
+stage_unentitled	0.188	share	disclosed	S-11/A: G5 land not yet ready for development 18.8%
+q4_24_takedowns	1.6	$B	assumption	Takedown value of the ~17,600 finished homesites the S-11 expected Lennar to take down in Q4-2024 (est.)
+underdev_done	0.5	share	assumption	Lots under development in Sep-2024 were half developed
+takedowns_since_spin	4.884	$B	disclosed	Takedowns of homesites: 3.381 (Feb-Dec 2025, FY2025 10-K) + 1.503 (H1 2026, Q2 10-Q)
+dev_spent_since_spin	2.886	$B	disclosed	Development costs funded: 1.686 (Feb-Dec 2025) + 1.2 (H1 2026)
+new_land_since_spin	4.914	$B	disclosed	Land acquired: 3.914 (Feb-Dec 2025, incl. New Home 0.523) + 1.0 (H1 2026)
+legacy_dev_share_override		share	assumption	Share of spare development spending that went to legacy lots still held. Blank = pro rata to remaining need (central)
+lennar_gm	0.166	share	disclosed	Lennar gross margin on home sales excl. items, fiscal Q3 2026 https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/ex991-2026831x8kq3.htm
+lennar_incentives	0.12	share	disclosed	Lennar sales incentives, % (fiscal Q3 2026 release: average sales price reflects ~12% incentives)
+lennar_asp	372000	$	disclosed	Lennar average sales price of homes delivered, fiscal Q3 2026
+takedown_per_homesite	113000	$	derived	tk_now / homesites_now, rounded
+normal_gm	0.2	share	assumption	Normalized builder gross margin (central). Peer median excl. 2020-25 boom ~19%, Lennar ~21.4%: see margins sheet
+cost_response	0.0	x	assumption	How much construction costs move with net price in the 12-month horizon (0 = sticky; 0.43 = 2007-11 Census calibration)
+walk_cushion	0.1	share	disclosed	5% option deposit + 5% termination fee, % of takedown price (Master Option Agreement 1.6, 1.9)
+zillow_fc	0.005	share	derived	Zillow 12-month forecast, Millrose markets (Lennar community zips weighted by Millrose $ by state; forecasts based Aug-2026)
+nh_beta_all	0.66	x	derived	New-home (Census constant-quality) move per 1% Zillow move, all periods (regional annual, South/West ~0.66-0.69)
+nh_beta_down	0.5	x	derived	Same, falling markets (US 0.43-0.58; South 0.31-0.36; West 0.54-0.59): see newhome sheet
+debt_dec26	3.5	$B	derived	Senior notes 3.0 (2.0 + Oct-2026 1.0) + term loan 0.5; revolver repaid https://www.sec.gov/Archives/edgar/data/2017206/000119312526415565/d151159d8k.htm
+cash_dec26	0.65	$B	derived	Raise proceeds left after repaying the $850m revolver https://www.sec.gov/Archives/edgar/data/2017206/000119312526397284/d244618dex991.htm
+equity	5.85	$B	disclosed	Stockholders equity ~ tangible net worth, 30 Jun 2026 (held flat)
+book_dec26	9.95	$B	derived	Homesites at cost, est. 31 Dec 2026
+tnw_floor	4.392	$B	disclosed	Minimum Tangible Net Worth $4,392,196,500 (+50% of equity issued after 2025), Credit Agreement 7.27(c) https://www.sec.gov/Archives/edgar/data/2017206/000119312526127640/d68102dex101.htm
+lev_cap	0.45	share	disclosed	Maximum Leverage Ratio, Credit Agreement 7.27(a)
+lev_cap_up	0.5	share	disclosed	During an elected Leverage Ratio Increase Period (Material Acquisition >= 10% of total assets)
+dfh_amount	1.25	$B	disclosed	Dream Finders/Beazer homesite commitment, up to (Aug-2026 release)
+q_takedowns	0.85	$B/qtr	assumption	Run-rate takedowns (H1-2026 ~0.75/qtr book, ~0.9 invested capital)
+q_dev	0.6	$B/qtr	disclosed	Development spending run-rate (0.6 in each of Q1 and Q2 2026)
+q_new_land	0.5	$B/qtr	disclosed	Land acquisitions run-rate (0.5 in each of Q1 and Q2 2026)
+fee_yield	0.083	share/yr	assumption	Option fee income / homesites at cost (9.2% yield on Invested Capital)
+debt_rate	0.064	share/yr	assumption	Blended interest rate
+mgmt_fee	0.0125	share/yr	disclosed	Management fee, % of tangible assets
+dividend_q	0.128	$B/qtr	disclosed	Quarterly dividend ($0.77/share)

@@ -1,0 +1,15 @@
+week starting (Monday)	homes deeded	ours	check (0 = match)
+2026-08-03	=COUNTIFS(deeds!$D$2:$D$1108,">="&A2,deeds!$D$2:$D$1108,"<"&A2+7)	0	=B2-C2
+2026-08-10	=COUNTIFS(deeds!$D$2:$D$1108,">="&A3,deeds!$D$2:$D$1108,"<"&A3+7)	0	=B3-C3
+2026-08-17	=COUNTIFS(deeds!$D$2:$D$1108,">="&A4,deeds!$D$2:$D$1108,"<"&A4+7)	0	=B4-C4
+2026-08-24	=COUNTIFS(deeds!$D$2:$D$1108,">="&A5,deeds!$D$2:$D$1108,"<"&A5+7)	132	=B5-C5
+2026-08-31	=COUNTIFS(deeds!$D$2:$D$1108,">="&A6,deeds!$D$2:$D$1108,"<"&A6+7)	682	=B6-C6
+2026-09-07	=COUNTIFS(deeds!$D$2:$D$1108,">="&A7,deeds!$D$2:$D$1108,"<"&A7+7)	154	=B7-C7
+2026-09-14	=COUNTIFS(deeds!$D$2:$D$1108,">="&A8,deeds!$D$2:$D$1108,"<"&A8+7)	13	=B8-C8
+2026-09-21	=COUNTIFS(deeds!$D$2:$D$1108,">="&A9,deeds!$D$2:$D$1108,"<"&A9+7)	4	=B9-C9
+2026-09-28	=COUNTIFS(deeds!$D$2:$D$1108,">="&A10,deeds!$D$2:$D$1108,"<"&A10+7)	37	=B10-C10
+2026-10-05	=COUNTIFS(deeds!$D$2:$D$1108,">="&A11,deeds!$D$2:$D$1108,"<"&A11+7)	16	=B11-C11
+2026-10-12	=COUNTIFS(deeds!$D$2:$D$1108,">="&A12,deeds!$D$2:$D$1108,"<"&A12+7)	0	=B12-C12
+2026-10-19	=COUNTIFS(deeds!$D$2:$D$1108,">="&A13,deeds!$D$2:$D$1108,"<"&A13+7)	0	=B13-C13
+total with a date	=SUM(B2:B13)	1038	=B14-C14
+no date (owner of record only)	=COUNTIFS(deeds!$D$2:$D$1108,"")	68	=B15-C15
