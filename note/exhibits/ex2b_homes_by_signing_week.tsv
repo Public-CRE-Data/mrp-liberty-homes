@@ -1,0 +1,10 @@
+Week (signing or sale date)	Homes (sample)	% of sample
+Aug 1-23	1	=B2/SUM(B$2:B$10)
+Aug 24-31	376	=B3/SUM(B$2:B$10)
+Sep 1-7	44	=B4/SUM(B$2:B$10)
+Sep 8-14	0	=B5/SUM(B$2:B$10)
+Sep 15-21	1	=B6/SUM(B$2:B$10)
+Sep 22-28	4	=B7/SUM(B$2:B$10)
+Sep 29-Oct 5	7	=B8/SUM(B$2:B$10)
+Oct 6-12	0	=B9/SUM(B$2:B$10)
+Oct 13-19	0	=B10/SUM(B$2:B$10)
