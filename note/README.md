@@ -111,19 +111,26 @@ Source: Evergreen Live listings (Oct 2026), county deed records
 
 Source: County deed records, Evergreen Live listings (Oct 2026), Invitation Homes investor presentation (Nov 2025)
 
-**Returns.** We estimate the portfolio unlevered IRR under three home price scenarios (Exhibit 7), assuming a 60% NOI margin and 3% annual rent growth after year one. In a downside scenario, with home prices down 2% in year one and flat thereafter, the IRR is ~3.3% over three years and ~4.1% over five. In a middle scenario, with Zillow's 12-month zip-code forecast in year one (~+0.6% on average) and 3% a year thereafter, the IRR is ~6.0–6.7% over a 3–5 year hold. In a stretch scenario of 5% home price growth every year, the 5-year IRR reaches ~9.0%, in line with the ~9% weighted-average yield on the monthly option payments across MRP's land-banking portfolio. These IRRs assume MRP paid the deed price. If its true cost was below the deed price, returns rise meaningfully, largely because the homes would have been bought below market value: at a 10% discount, the 5-year IRR is ~9.2% in our middle scenario and ~6.6% in the downside scenario (Exhibit 7b). The main risk is the home-price outlook. On our zip-code-weighted index of Millrose's markets (new-home community zip codes, weighted by Millrose's land dollars by state), home values have been flat since mid-2022 and are ~2% below their February 2025 peak, while the US index has kept rising (Exhibit 8).
+**Returns.** We estimate the portfolio unlevered IRR under three home price scenarios (Exhibit 7), assuming a 60% NOI margin and 3% annual rent growth after year one. In a downside scenario, with home prices down 2% in year one and flat thereafter, the IRR is ~3.3% over three years and ~4.1% over five. In a middle scenario, with Zillow's 12-month zip-code forecast in year one (~+0.6% on average) and 3% a year thereafter, the IRR is ~6.0–6.7% over a 3–5 year hold. In a stretch scenario of 5% home price growth every year, the 5-year IRR reaches ~9.0%, in line with the ~9% weighted-average yield on the monthly option payments across MRP's land-banking portfolio. These IRRs assume MRP paid the deed price. If its true cost was below the deed price, and assuming retail buyers receive similar discounts (so the homes are worth what MRP paid, with no gain on purchase), returns rise modestly through the higher yield on cost: at a 10% discount, the 5-year IRR is ~7.3% in our middle scenario and ~4.7% in the downside scenario (Exhibit 7c), and at a 20% discount, ~5.4–10.2% across our three scenarios (Exhibit 7b). The main risk is the home-price outlook. On our zip-code-weighted index of Millrose's markets (new-home community zip codes, weighted by Millrose's land dollars by state), home values have been flat since mid-2022 and are ~2% below their February 2025 peak, while the US index has kept rising (Exhibit 8).
 
-**Exhibit 7: Unlevered IRR of ~4-9% over five years depending on home prices; ~6.7% in our middle scenario**
-*Portfolio unlevered IRR by hold period for 528 homes with a recorded price, asking rent and Zillow zip forecast; 60% NOI margin, 3% rent growth after year 1. Home price scenarios as labeled.*
+**Exhibit 7: Unlevered IRR of ~4-9% over five years at deed prices depending on home prices; ~6.7% in our middle scenario**
+*Portfolio unlevered IRR by hold period for 528 homes with a recorded price, asking rent and Zillow zip forecast; cost = deed price; 60% NOI margin, 3% rent growth after year 1, 3% selling costs. Home price scenarios as labeled.*
 
 ![Exhibit 7](exhibits/ex7.png)
 
 Source: County deed records, Evergreen Live listings, Zillow
 
-**Exhibit 7b: At a 10-15% discount to deed prices, MRP would need only ~1-2% annual home price growth to reach a 9% IRR**
-*Left: constant annual home price growth (from year 1) needed for a 9% portfolio 5-year unlevered IRR. Right: 5-year IRR in our middle and downside scenarios (Exhibit 7). By discount of MRP's cost to the recorded deed price; home values start at the deed price; 528 homes; 60% NOI margin, 3% rent growth, 3% selling costs.*
+**Exhibit 7b: At a 20% discount to deed prices, 5-year unlevered IRRs rise to ~5-10%; ~8.0% in our middle scenario**
+*Same as Exhibit 7, but with MRP's cost 20% below the deed price and home values starting at that cost (retail buyers assumed to receive similar discounts, so no gain on purchase).*
 
 ![Exhibit 7b](exhibits/ex7b.png)
+
+Source: County deed records, Evergreen Live listings, Zillow, Invitation Homes investor presentation (Nov 2025)
+
+**Exhibit 7c: Even at a 20% discount to deed prices, MRP would need ~3.7% annual home price growth to reach a 9% IRR**
+*Left: constant annual home price growth (from year 1) needed for a 9% portfolio 5-year unlevered IRR. Right: 5-year IRR in our middle and downside scenarios (Exhibits 7 and 7b). By discount of MRP's cost to the recorded deed price; home values start at MRP's cost (retail buyers assumed to receive similar discounts); 528 homes; 60% NOI margin, 3% rent growth, 3% selling costs.*
+
+![Exhibit 7c](exhibits/ex7c.png)
 
 Source: County deed records, Evergreen Live listings, Zillow, Invitation Homes investor presentation (Nov 2025)
 
@@ -134,9 +141,9 @@ Source: County deed records, Evergreen Live listings, Zillow, Invitation Homes i
 
 Source: Zillow, Millrose filings, company websites
 
-Put differently, on deed prices the homes would need home price appreciation of ~5% a year to match the ~9% weighted-average yield MRP earns on monthly option payments across its land-banking portfolio, versus a ~6.7% 5-year IRR in our middle scenario. At a 5% discount to deed prices, the required appreciation falls to ~3.7% a year; at 10%, ~2.3%; at 15%, under 1%; and at 20%, the homes would reach a 9% IRR even with slightly falling home prices (Exhibit 7b). Average gross yields of ~8.2% vary by state, with the Southeast highest.
+Put differently, on deed prices the homes would need home price appreciation of ~5% a year to match the ~9% weighted-average yield MRP earns on monthly option payments across its land-banking portfolio, versus a ~6.7% 5-year IRR in our middle scenario. Assuming retail buyers receive similar discounts, the required appreciation falls only modestly with a discount to deed prices: to ~4.7% a year at 5%, ~4.4% at 10%, ~4.1% at 15% and ~3.7% at 20% (Exhibit 7c). Average gross yields of ~8.2% vary by state, with the Southeast highest.
 
-**Bottom line on rental homes: a small pilot that appears to be paused.** We estimate Millrose has spent ~$310mn on ~1,100 homes, ~3% of its homesite book, bought at a median ~3% below the last asking price, mostly in the final week of August. The homes are being leased up rather than acquired tenanted, at gross yields of ~8% and NOI yields of ~4–5.5% on deed prices (~5.5–5.8% if MRP bought at 10–15% discounts like those Invitation Homes has disclosed on builder product), and 5-year unlevered IRRs of ~4–9% on deed prices depending on home prices (~6.5–13% at a 10–15% discount). The program appears to have paused, and even assuming this pilot goes badly, the impact is small: in an extreme scenario in which home prices fall 5% a year for five years (~23% cumulatively), we estimate the hit to MRP's book value would be about $70mn, ~1% of book value, or less than $0.50 per share, before any rental income. If the scale of investments in rental homes is limited to what has already been invested, we do not see this pilot rental home investments as a material risk to book value.
+**Bottom line on rental homes: a small pilot that appears to be paused.** We estimate Millrose has spent ~$310mn on ~1,100 homes, ~3% of its homesite book, bought at a median ~3% below the last asking price, mostly in the final week of August. The homes are being leased up rather than acquired tenanted, at gross yields of ~8% and NOI yields of ~4–5.5% on deed prices (~5.5–5.8% if MRP bought at 10–15% discounts like those Invitation Homes has disclosed on builder product), and 5-year unlevered IRRs of ~4–9% on deed prices depending on home prices (~5–10% at a 10–15% discount). The program appears to have paused, and even assuming this pilot goes badly, the impact is small: in an extreme scenario in which home prices fall 5% a year for five years (~23% cumulatively), we estimate the hit to MRP's book value would be about $70mn, ~1% of book value, or less than $0.50 per share, before any rental income. If the scale of investments in rental homes is limited to what has already been invested, we do not see this pilot rental home investments as a material risk to book value.
 
 ---
 
@@ -156,8 +163,9 @@ Each exhibit has a data file in [`exhibits/`](exhibits/) and the chart image use
 | 5c | Asking rents vs. AMH and Invitation Homes, same metros | [`ex5c_rents_vs_peers.tsv`](exhibits/ex5c_rents_vs_peers.tsv) | Clustered column (Metro; Millrose, AMH and Invitation Homes rents); columns H–I give Millrose's gap (formulas) |
 | 6 | Gross yield and estimated NOI yield by state | [`ex6_yields_by_state.tsv`](exhibits/ex6_yields_by_state.tsv) | Combo: gross yield as columns, NOI yield (formula = gross × 60%) as markers only |
 | 6b | Gross and NOI yield by discount to deed price | [`ex6b_yields_by_discount.tsv`](exhibits/ex6b_yields_by_discount.tsv) | Clustered column (discount; gross and NOI yield, both formulas) |
-| 7 | Unlevered IRR by hold period, three scenarios | [`ex7_irr_scenarios.tsv`](exhibits/ex7_irr_scenarios.tsv) | Line with markers; format the "9% core option-book yield" series as a red dashed line with no markers |
-| 7b | Home price growth needed for a 9% IRR, and 5-yr IRR, by discount to deed price | [`ex7b_irr_by_discount.tsv`](exhibits/ex7b_irr_by_discount.tsv) | Two charts: clustered column (column B) and line with markers (columns C–D); add a 9% horizontal line to the second |
+| 7 | Unlevered IRR by hold period, three scenarios, at deed prices | [`ex7_irr_scenarios.tsv`](exhibits/ex7_irr_scenarios.tsv) | Line with markers; format the "9% core option-book yield" series as a red dashed line with no markers |
+| 7b | Same, at a 20% discount to deed prices | [`ex7b_irr_20pct_discount.tsv`](exhibits/ex7b_irr_20pct_discount.tsv) | As for Exhibit 7 |
+| 7c | Home price growth needed for a 9% IRR, and 5-yr IRR, by discount to deed price | [`ex7c_irr_by_discount.tsv`](exhibits/ex7c_irr_by_discount.tsv) | Two charts: clustered column (column B) and line with markers (columns C–D); add a 9% horizontal line to the second |
 | 8 | Zillow home value index, Millrose markets vs. US | [`ex8_home_value_index.tsv`](exhibits/ex8_home_value_index.tsv) | Line (Month on the horizontal axis) |
 | 9 | Rental-home spend vs. homesite book | [`ex9_rental_vs_book.tsv`](exhibits/ex9_rental_vs_book.tsv) | Clustered bar ($ billions) |
 
@@ -169,7 +177,7 @@ Each exhibit has a data file in [`exhibits/`](exhibits/) and the chart image use
 4. Select the filled cells and choose **Insert → Recommended Charts**, then pick the chart type listed above.
 5. Format percentage columns as **%** if they show decimals (e.g. 0.0866 = 8.66%).
 6. **Exhibit 6 only:** right-click the chart → **Change Chart Type → Combo**. Set the NOI yield series to **Line with Markers**, then set its line to **No line**.
-7. **Exhibit 7 only:** right-click the 9% series → **Format Data Series**. Set the line to red and dashed, and set markers to **None**.
+7. **Exhibits 7 and 7b:** right-click the 9% series → **Format Data Series**. Set the line to red and dashed, and set markers to **None**.
 
 **Where the numbers come from:** home-level data for Exhibits 1–6 is in [`../mrp_liberty_homes.csv`](../mrp_liberty_homes.csv), and the density data and its Excel checks are in [`../density/`](../density/). Weekly pace and county record checks are in [`../pace/`](../pace/). Return inputs are in [`../irr/`](../irr/), and the Zillow index and forecasts are in [`../zillow/`](../zillow/).
 
