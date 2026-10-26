@@ -55,10 +55,6 @@ Recorded documents in Forsyth County, NC show a second way MRP Liberty buys home
 
 Homes deeded per week, from county deed records: week of Aug 24: 132; **Aug 31: 682**; Sep 7: 154; Sep 14: 13; Sep 21: 4; Sep 28: 37; Oct 5: 16 (the last Lennar deeds on Oct 5, plus a 6-home build-to-rent closing on Oct 7); **Oct 12 and Oct 19: none**. About 93% were dated in the three weeks around Lennar's Aug 31 fiscal quarter-end, with a smaller burst around Sep 30. A re-check on Oct 19 of about 190 searchable counties found no Lennar-to-MRP Liberty deed recorded after Oct 5, although most county records were current to Oct 12–19 (e.g. Collin TX and Travis TX to Oct 19, Marion FL to Oct 18, Wake NC to Oct 16). Detail, county-by-county record currency and Excel checks: [pace/](pace/).
 
-### Research note (added 2026-10-23)
-
-Our note on the rental-home program, with every exhibit and a guide to rebuilding each chart in Excel: [note/](note/).
-
 ### Millrose's land book (added 2026-10-22)
 
 A separate, illustrative sensitivity of Millrose's $9.6B land book: how much of a price cut builders could credibly demand as margins and incentives move, and what that could mean for Millrose's credit-facility covenants. On our estimates and stated assumptions, no cut appears credible at today's conditions. If Lennar's incentives returned to ~15% of price, or new-home prices fell moderately, we estimate the credible cut could reach ~$1–2.5B, against roughly $0.8–1.5B of covenant room. Details and Excel checks: [millrose_land/](millrose_land/).
@@ -75,7 +71,7 @@ A separate, illustrative sensitivity of Millrose's $9.6B land book: how much of 
 | [`irr/`](irr/) | 1–5 year unlevered IRRs per home and for the portfolio, with editable assumptions | [irr/README.md](irr/README.md) |
 | [`density/`](density/) | Zip-code population density vs. Lennar's communities, Invitation Homes and AMH | [density/README.md](density/README.md) |
 | [`homebuilders/`](homebuilders/) | 2026 vs. 2025 deliveries and starts for 14 public homebuilders | [homebuilders/README.md](homebuilders/README.md) |
-| [`note/`](note/) | Research note on the rental-home program (Buy reiterated), with Exhibits 1–9 and an exhibit guide | [note/README.md](note/README.md) |
+| [`chart_data/`](chart_data/) | Excel-ready data for charts of the rental-home analysis (purchase timing, prices, density, rents vs. peers, yields, IRRs, including sensitivity to discounts vs. deed prices) | [chart_data/README.md](chart_data/README.md) |
 | [`pace/`](pace/) | Homes deeded per week and how current each county's records are: purchases appear paused since Oct 5 | [pace/README.md](pace/README.md) |
 | [`millrose_land/`](millrose_land/) | Millrose land book: vintages, builder margins and incentives, credible haircut scenarios, covenant headroom and leverage paths | [millrose_land/README.md](millrose_land/README.md) |
 
